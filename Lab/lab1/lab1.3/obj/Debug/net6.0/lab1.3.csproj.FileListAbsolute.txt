@@ -1,0 +1,15 @@
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.csproj.AssemblyReference.cache
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.GeneratedMSBuildEditorConfig.editorconfig
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.AssemblyInfoInputs.cache
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.AssemblyInfo.cs
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.csproj.CoreCompileInputs.cache
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\bin\Debug\net6.0\lab1.3.exe
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\bin\Debug\net6.0\lab1.3.deps.json
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\bin\Debug\net6.0\lab1.3.runtimeconfig.json
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\bin\Debug\net6.0\lab1.3.dll
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\bin\Debug\net6.0\lab1.3.pdb
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.dll
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\refint\lab1.3.dll
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.pdb
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\lab1.3.genruntimeconfig.cache
+D:\knit44\pelekh\rep\Repository_KNIT43\Lab\lab1\lab1.3\obj\Debug\net6.0\ref\lab1.3.dll
