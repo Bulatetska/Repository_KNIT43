@@ -1,0 +1,8 @@
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\bin\Debug\lab1.exe.config
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\bin\Debug\lab1.exe
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\bin\Debug\lab1.pdb
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\obj\Debug\lab1.exe
+D:\KNIT-43\Slobodiuk\Rep\Repository_KNIT43\Lab\Slobodiuk\lab1\lab1\lab1\obj\Debug\lab1.pdb
