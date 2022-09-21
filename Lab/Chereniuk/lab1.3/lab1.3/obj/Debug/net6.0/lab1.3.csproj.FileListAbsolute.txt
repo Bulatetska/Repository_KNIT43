@@ -1,0 +1,15 @@
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\bin\Debug\net6.0\lab1.3.exe
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\bin\Debug\net6.0\lab1.3.deps.json
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\bin\Debug\net6.0\lab1.3.runtimeconfig.json
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\bin\Debug\net6.0\lab1.3.dll
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\bin\Debug\net6.0\lab1.3.pdb
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.csproj.AssemblyReference.cache
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.GeneratedMSBuildEditorConfig.editorconfig
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.AssemblyInfoInputs.cache
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.AssemblyInfo.cs
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.csproj.CoreCompileInputs.cache
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.dll
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\refint\lab1.3.dll
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.pdb
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\lab1.3.genruntimeconfig.cache
+D:\група\Черенюк\Repository_KNIT43\Lab\Chereniuk\lab1.3\lab1.3\obj\Debug\net6.0\ref\lab1.3.dll
