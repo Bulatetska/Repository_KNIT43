@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int n = 4;
+int[][] arr = new int[n][n];
+for(int i = 0; i < n; i++)
+{
+    for(int j = 0; j < n; j++)
+    {
+
+    }
+}
