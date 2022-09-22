@@ -50,38 +50,63 @@ namespace lab1._2
 
 
 
-      
-  
-            Console.Write("a = ");
-            var a = double.Parse(Console.ReadLine());
-            Console.Write("b = ");
-            var b = double.Parse(Console.ReadLine());
-            Console.Write("c = ");
-            var c = double.Parse(Console.ReadLine());
 
-            double x1, x2;
-            var discriminant = Math.Pow(b, 2) - 4 * a * c;
-            if (discriminant < 0)
             {
-                Console.WriteLine("rozv9zkiv nema");
+                Console.Write("a = ");
+                var a = double.Parse(Console.ReadLine());
+                Console.Write("b = ");
+                var b = double.Parse(Console.ReadLine());
+                Console.Write("c = ");
+                var c = double.Parse(Console.ReadLine());
+
+                double x1, x2;
+                var discriminant = Math.Pow(b, 2) - 4 * a * c;
+                if (discriminant < 0)
+                {
+                    Console.WriteLine("rozv9zkiv nema");
+                }
+                else
+                {
+                    if (discriminant == 0)
+                    {
+                        x1 = -b / (2 * a);
+                        x2 = x1;
+                    }
+                    else
+                    {
+                        x1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
+                        x2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
+                    }
+
+                    Console.WriteLine($"x1 = {x1}; x2 = {x2}");
+                }
+
+                Console.ReadKey(true);
             }
-            else
+
+
+
+
+
+
             {
-                if (discriminant == 0) 
-                {
-                    x1 = -b / (2 * a);
-                    x2 = x1;
-                }
-                else 
-                {
-                    x1 = (-b + Math.Sqrt(discriminant)) / (2 * a);
-                    x2 = (-b - Math.Sqrt(discriminant)) / (2 * a);
-                }
+                Console.Write("a = ");
+                var a = double.Parse(Console.ReadLine());
+                Console.Write("b = ");
+                var b = double.Parse(Console.ReadLine());
+                Console.Write("c = ");
+                var c = double.Parse(Console.ReadLine());
+
+                double s, p, d;
+                p = (a + b + c) / 2.0f;
+                d = p * (p - a) * (p - b) * (p - c);
+                s = (double)Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+                Console.WriteLine(s);
+                Console.ReadKey(true);
+            }
+
             
-                Console.WriteLine($"x1 = {x1}; x2 = {x2}");
-            }
 
-            Console.ReadKey(true);
 
         }
     }
