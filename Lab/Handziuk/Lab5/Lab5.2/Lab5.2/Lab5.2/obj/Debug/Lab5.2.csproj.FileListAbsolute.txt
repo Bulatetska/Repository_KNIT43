@@ -1,0 +1,8 @@
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\bin\Debug\Lab5.2.exe.config
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\bin\Debug\Lab5.2.exe
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\bin\Debug\Lab5.2.pdb
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\obj\Debug\Lab5.2.csproj.AssemblyReference.cache
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\obj\Debug\Lab5.2.csproj.SuggestedBindingRedirects.cache
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\obj\Debug\Lab5.2.csproj.CoreCompileInputs.cache
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\obj\Debug\Lab5.2.exe
+D:\КНІТ-43\Гандзюк\Repository_KNIT43\Lab\Handziuk\Lab5\Lab5.2\Lab5.2\Lab5.2\obj\Debug\Lab5.2.pdb
