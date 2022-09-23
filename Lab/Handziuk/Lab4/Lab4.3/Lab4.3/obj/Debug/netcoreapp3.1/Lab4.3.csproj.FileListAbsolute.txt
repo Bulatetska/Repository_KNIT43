@@ -1,0 +1,13 @@
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.exe
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.deps.json
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.runtimeconfig.json
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.runtimeconfig.dev.json
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.dll
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\bin\Debug\netcoreapp3.1\Lab4.3.pdb
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.AssemblyInfoInputs.cache
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.AssemblyInfo.cs
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.csproj.CoreCompileInputs.cache
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.dll
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.pdb
+D:\ПКІС\Repository_KNIT43\Lab\Handziuk\Lab4\Lab4.3\Lab4.3\obj\Debug\netcoreapp3.1\Lab4.3.genruntimeconfig.cache
