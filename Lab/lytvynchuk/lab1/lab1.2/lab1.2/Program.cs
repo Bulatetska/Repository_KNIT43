@@ -96,7 +96,12 @@ namespace lab1._2
                 var b = double.Parse(Console.ReadLine());
                 Console.Write("c = ");
                 var c = double.Parse(Console.ReadLine());
-
+                if (a > b + c) ;
+                else if (b > a + c) ;
+                else if (c > a + b) ;
+                { }
+                Console.WriteLine("trykutnyk ne isnuye");
+                Console.ReadKey(true);
                 double s, p, d;
                 p = (a + b + c) / 2.0f;
                 d = p * (p - a) * (p - b) * (p - c);
