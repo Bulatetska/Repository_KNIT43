@@ -11,7 +11,7 @@ namespace ConsoleApp1
         public Cat(string name, int strong) : base(name, strong)
         { }
         public Cat(string name) : base(name)
-        { this.strong = random.Next(1, 6); }
+        { this.strong = random.Next(1, 5); }
 
         
     }
