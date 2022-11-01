@@ -208,10 +208,10 @@ public class Quadrangle {
 	}
 	public static void parameters(double Ax, double Ay, double Bx, double By, double Cx, double Cy, double Dx, double Dy, double AB, double BC, double CD, double AD, double A, double B, double C, double D, string aspect) {
 		if ((Math.Abs((Ay - By) / (Ax - Bx)) == Math.Abs((Cy - Dy) / (Cx - Dx))) && (Math.Abs((Ay - Dy) / (Ax - Dx)) == Math.Abs((By - Cy) / (Bx - Cx))) && aspect != "випуклий") {
-			Console.Write("У чотирикутника двi пари паралельних сторiн, ");
+			Console.Write("У чотирикутника двi пари паралельних сторiн");
 		}
 		else if (((Math.Abs((Ay - By) / (Ax - Bx)) == Math.Abs((Cy - Dy) / (Cx - Dx))) || (Math.Abs((Ay - Dy) / (Ax - Dx)) == Math.Abs((By - Cy) / (Bx - Cx)))) && aspect != "випуклий") {
-			Console.Write("У чотирикутника одна пара паралельних сторiн, ");
+			Console.Write("У чотирикутника одна пара паралельних сторiн");
 		}
 		else {
 			Console.Write("У чотирикутника немає паралельних сторiн, вiн неправильний");
