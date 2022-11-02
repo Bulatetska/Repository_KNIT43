@@ -1,0 +1,14 @@
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.exe
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.deps.json
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.runtimeconfig.json
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.runtimeconfig.dev.json
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.dll
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\bin\Debug\netcoreapp3.1\Chat.pdb
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.csproj.AssemblyReference.cache
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.AssemblyInfoInputs.cache
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.AssemblyInfo.cs
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.csproj.CoreCompileInputs.cache
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.dll
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.pdb
+D:\Filnar\Дистанційне навчання\4_1\C#\Chat\Chat\obj\Debug\netcoreapp3.1\Chat.genruntimeconfig.cache
