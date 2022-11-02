@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Lesya\\.nuget\\packages\\",
-        "outputPath": "D:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\obj\\",
+        "outputPath": "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\Lab\\TEam2\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lesya\\AppData\\Roaming\\NuGet\\NuGet.Config",
