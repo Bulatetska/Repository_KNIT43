@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Filnar\\Дистанційне навчання\\4_1\\C#\\Chat\\Chat\\Chat.csproj",
+      "projectUniqueName": "D:\\Filnar\\Дистанційне навчання\\4_1\\github\\Repository_KNIT43\\Lab\\pelekh\\project\\Chat\\Chat\\Chat.csproj",
       "projectName": "Chat",
-      "projectPath": "D:\\Filnar\\Дистанційне навчання\\4_1\\C#\\Chat\\Chat\\Chat.csproj",
+      "projectPath": "D:\\Filnar\\Дистанційне навчання\\4_1\\github\\Repository_KNIT43\\Lab\\pelekh\\project\\Chat\\Chat\\Chat.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Filnar\\Дистанційне навчання\\4_1\\C#\\Chat\\Chat\\obj\\",
+      "outputPath": "D:\\Filnar\\Дистанційне навчання\\4_1\\github\\Repository_KNIT43\\Lab\\pelekh\\project\\Chat\\Chat\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
