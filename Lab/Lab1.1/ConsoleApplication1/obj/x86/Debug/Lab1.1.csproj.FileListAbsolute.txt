@@ -1,0 +1,6 @@
+D:\ПКІС\Lab1.1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+D:\ПКІС\Lab1.1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+D:\ПКІС\Lab1.1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\ПКІС\Lab1.1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\ПКІС\Lab1.1\ConsoleApplication1\obj\x86\Debug\Lab1.1.csproj.AssemblyReference.cache
+D:\ПКІС\Lab1.1\ConsoleApplication1\obj\x86\Debug\Lab1.1.csproj.CoreCompileInputs.cache

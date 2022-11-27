@@ -1,0 +1,4 @@
+D:\ПКІС\Lab2\Lab2\bin\Debug\Lab2.exe
+D:\ПКІС\Lab2\Lab2\bin\Debug\Lab2.pdb
+D:\ПКІС\Lab2\Lab2\obj\x86\Debug\Lab2.exe
+D:\ПКІС\Lab2\Lab2\obj\x86\Debug\Lab2.pdb
