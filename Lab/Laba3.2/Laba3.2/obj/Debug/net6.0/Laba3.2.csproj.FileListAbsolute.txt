@@ -1,0 +1,15 @@
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\bin\Debug\net6.0\Laba3.2.exe
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\bin\Debug\net6.0\Laba3.2.deps.json
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\bin\Debug\net6.0\Laba3.2.runtimeconfig.json
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\bin\Debug\net6.0\Laba3.2.dll
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\bin\Debug\net6.0\Laba3.2.pdb
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.csproj.AssemblyReference.cache
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.AssemblyInfoInputs.cache
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.AssemblyInfo.cs
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.csproj.CoreCompileInputs.cache
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.dll
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\refint\Laba3.2.dll
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.pdb
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\Laba3.2.genruntimeconfig.cache
+C:\Users\Yarmolsky\Documents\C#\Laba3.2\Laba3.2\obj\Debug\net6.0\ref\Laba3.2.dll

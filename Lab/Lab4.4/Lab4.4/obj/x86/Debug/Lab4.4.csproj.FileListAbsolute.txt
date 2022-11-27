@@ -1,0 +1,5 @@
+D:\ПКІС\Lab4.4\Lab4.4\bin\Debug\Lab4.4.exe
+D:\ПКІС\Lab4.4\Lab4.4\bin\Debug\Lab4.4.pdb
+D:\ПКІС\Lab4.4\Lab4.4\obj\x86\Debug\Lab4.4.csprojResolveAssemblyReference.cache
+D:\ПКІС\Lab4.4\Lab4.4\obj\x86\Debug\Lab4.4.exe
+D:\ПКІС\Lab4.4\Lab4.4\obj\x86\Debug\Lab4.4.pdb
