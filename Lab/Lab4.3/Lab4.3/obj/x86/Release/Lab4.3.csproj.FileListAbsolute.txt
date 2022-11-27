@@ -1,0 +1,4 @@
+D:\ПКІС\Lab4.3\Lab4.3\bin\Release\Lab4.3.exe
+D:\ПКІС\Lab4.3\Lab4.3\bin\Release\Lab4.3.pdb
+D:\ПКІС\Lab4.3\Lab4.3\obj\x86\Release\Lab4.3.exe
+D:\ПКІС\Lab4.3\Lab4.3\obj\x86\Release\Lab4.3.pdb

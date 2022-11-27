@@ -1,0 +1,5 @@
+D:\ПКІС\Lab4.2\Lab4.2\bin\Debug\Lab4.2.exe
+D:\ПКІС\Lab4.2\Lab4.2\bin\Debug\Lab4.2.pdb
+D:\ПКІС\Lab4.2\Lab4.2\obj\x86\Debug\Lab4.2.exe
+D:\ПКІС\Lab4.2\Lab4.2\obj\x86\Debug\Lab4.2.pdb
+C:\Users\Yarmolsky\Documents\C#\Lab4.2\Lab4.2\obj\x86\Debug\Lab4.2.exe
