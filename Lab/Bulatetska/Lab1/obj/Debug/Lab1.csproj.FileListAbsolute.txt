@@ -1,7 +1,0 @@
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\bin\Debug\Lab1.exe.config
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\bin\Debug\Lab1.exe
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\bin\Debug\Lab1.pdb
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\obj\Debug\Lab1.exe
-d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\Lab\Bulatetska\Lab1\obj\Debug\Lab1.pdb
