@@ -1,0 +1,21 @@
+Name: Billy Herrington
+Email: earthwecan@gmail.com
+Phone: 123-456-1488
+Age: 30
+Sex: Male
+Birthday: 3/15/1992
+
+Name: Ms Arghworth
+Email: gparty@gmail.com
+Phone: 228-654-1337
+Age: 28
+Sex: Female
+Birthday: 7/22/1994
+
+Name: Bill Parker
+Email: billanderson@gmail.com
+Phone: 420958832
+Age: 31
+Sex: Male
+Birthday: 4/21/1991
+
