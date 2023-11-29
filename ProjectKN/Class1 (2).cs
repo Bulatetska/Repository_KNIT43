@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectKN
+namespace ProjectKN2
 {
-    internal class Class1
+    internal class Class2
     {
-        public int Add(int a, int b)
-        { return a + b; }
+        public int Subtract(int a, int b)
+        { return a - b; }
     }
 }
