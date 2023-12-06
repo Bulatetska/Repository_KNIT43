@@ -1,0 +1,14 @@
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+d:\Databank\Profile\Documents\TestKNIT\Repository_KNIT43\1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
