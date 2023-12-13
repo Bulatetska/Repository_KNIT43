@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Нова папка\\Repository_KNIT43\\222\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\КНІТ-43\\Repository_KNIT43\\222\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "D:\\Нова папка\\Repository_KNIT43\\222\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "D:\\КНІТ-43\\Repository_KNIT43\\222\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "D:\\Нова папка\\Repository_KNIT43\\222\\ConsoleApp1\\obj\\",
+      "outputPath": "D:\\КНІТ-43\\Repository_KNIT43\\222\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
