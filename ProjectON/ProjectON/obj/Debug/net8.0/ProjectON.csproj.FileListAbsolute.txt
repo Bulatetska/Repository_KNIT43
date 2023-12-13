@@ -1,0 +1,15 @@
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\bin\Debug\net8.0\ProjectON.exe
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\bin\Debug\net8.0\ProjectON.deps.json
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\bin\Debug\net8.0\ProjectON.runtimeconfig.json
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\bin\Debug\net8.0\ProjectON.dll
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\bin\Debug\net8.0\ProjectON.pdb
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.GeneratedMSBuildEditorConfig.editorconfig
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.AssemblyInfoInputs.cache
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.AssemblyInfo.cs
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.csproj.CoreCompileInputs.cache
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.sourcelink.json
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.dll
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\refint\ProjectON.dll
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.pdb
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ProjectON.genruntimeconfig.cache
+D:\Нова папка\Repository_KNIT43\ProjectON\ProjectON\obj\Debug\net8.0\ref\ProjectON.dll
