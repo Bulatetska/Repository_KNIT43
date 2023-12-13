@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KqYsiepdFqbAjamffKomfoqRCFr+bHzgGQkIZCMmRV5db823Ks3iHLch0oWhirsSfV6qn9u9cjoVnR3SiSf6Pg==",
+  "dgSpecHash": "8OpNs8JxkPEsanN3N/HKauHhLNbr6o9gl6pZ772iEl2+xK2pjpN/EjoStIw74/HpkOVKDVICBhAkZUePdGXtew==",
   "success": true,
-  "projectFilePath": "d:\\Databank\\Profile\\Documents\\TestKNIT\\Repository_KNIT43\\1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Нова папка\\Repository_KNIT43\\1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\student\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
   "logs": []
 }
