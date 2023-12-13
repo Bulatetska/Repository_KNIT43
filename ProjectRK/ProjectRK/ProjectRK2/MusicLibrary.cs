@@ -9,7 +9,7 @@ namespace ProjectRK2
     public class MusicLibrary
     {
         public List <Song> AllSongs { get; set; } = new List<Song>();
-        public List<Playlist> Playlists { get; set; } = new List<Playlist>();
+        public List <Playlist> Playlists { get; set; } = new List<Playlist>();
 
         public void AddSongToLibrary(Song song)
         {
