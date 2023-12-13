@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Lesya\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Lesya\\.nuget\\packages"
+    ]
+  }
+}
