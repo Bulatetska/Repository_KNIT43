@@ -36,6 +36,7 @@ namespace ConsoleApp1
             }
         }
 
+
         public void Stop()
         {
             if (waveOut.PlaybackState == NAudio.Wave.PlaybackState.Playing)
@@ -58,6 +59,7 @@ namespace ConsoleApp1
             if (audioFile != null)
             {
                 audioFile.CurrentTime += TimeSpan.FromSeconds(secondsToSkip);
+           
             }
         }
 
