@@ -1,0 +1,17 @@
+Solution 1:
+
+The last 'i' is at position 34
+
+Solution 2:
+
+Square side before increment: 5
+Square side after increment: 9
+Cube side before increment: 7
+Cube side after increment: 12
+
+Solution 3:
+
+Array before change:
+3 1 -2 0 5 7
+Array after change:
+3 1 7 0 5 -2
