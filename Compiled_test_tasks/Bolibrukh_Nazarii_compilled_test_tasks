@@ -1,0 +1,15 @@
+String with spaces:
+Van    Darkholme   my full master
+Result:
+Van Darkholme my full master
+-------------------------
+S of square: 25
+S of one plane of cube: 25
+S of cube: 150
+-------------------------
+Enter x to 3rd task:
+4
+Sum of the string: 11,715873015873015
+
+C:\Users\Nazarii Bolibrukh\All of me\VNU\4 kurs\C#\1\Test Bolibrukh\Test Bolibrukh\bin\Debug\net6.0\Test Bolibrukh.exe (процесс 33408) завершил работу с кодом 0.
+Нажмите любую клавишу, чтобы закрыть это окно:
