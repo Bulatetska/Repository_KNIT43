@@ -1,0 +1,14 @@
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\bin\Debug\net9.0\Лаб_1.exe
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\bin\Debug\net9.0\Лаб_1.deps.json
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\bin\Debug\net9.0\Лаб_1.runtimeconfig.json
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\bin\Debug\net9.0\Лаб_1.dll
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\bin\Debug\net9.0\Лаб_1.pdb
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.AssemblyInfoInputs.cache
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.AssemblyInfo.cs
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.csproj.CoreCompileInputs.cache
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.dll
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\refint\Лаб_1.dll
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.pdb
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\Лаб_1.genruntimeconfig.cache
+C:\Users\Користувач\OneDrive\Desktop\Технології .NET\Лаб_1\obj\Debug\net9.0\ref\Лаб_1.dll
