@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\bin\Debug\net9.0\Lab2.exe
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\bin\Debug\net9.0\Lab2.deps.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\bin\Debug\net9.0\Lab2.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\bin\Debug\net9.0\Lab2.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\bin\Debug\net9.0\Lab2.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.sourcelink.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\refint\Lab2.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\Lab2.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\Lab2\obj\Debug\net9.0\ref\Lab2.dll
