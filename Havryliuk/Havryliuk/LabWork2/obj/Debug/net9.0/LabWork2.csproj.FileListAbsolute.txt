@@ -1,0 +1,28 @@
+C:\Users\Катерина\Desktop\LabWork2\bin\Debug\net9.0\LabWork2.exe
+C:\Users\Катерина\Desktop\LabWork2\bin\Debug\net9.0\LabWork2.deps.json
+C:\Users\Катерина\Desktop\LabWork2\bin\Debug\net9.0\LabWork2.runtimeconfig.json
+C:\Users\Катерина\Desktop\LabWork2\bin\Debug\net9.0\LabWork2.dll
+C:\Users\Катерина\Desktop\LabWork2\bin\Debug\net9.0\LabWork2.pdb
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.AssemblyInfoInputs.cache
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.AssemblyInfo.cs
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.csproj.CoreCompileInputs.cache
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.dll
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\refint\LabWork2.dll
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.pdb
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\LabWork2.genruntimeconfig.cache
+C:\Users\Катерина\Desktop\LabWork2\obj\Debug\net9.0\ref\LabWork2.dll
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\bin\Debug\net9.0\LabWork2.exe
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\bin\Debug\net9.0\LabWork2.deps.json
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\bin\Debug\net9.0\LabWork2.runtimeconfig.json
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\bin\Debug\net9.0\LabWork2.dll
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\bin\Debug\net9.0\LabWork2.pdb
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.AssemblyInfoInputs.cache
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.AssemblyInfo.cs
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.csproj.CoreCompileInputs.cache
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.dll
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\refint\LabWork2.dll
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.pdb
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\LabWork2.genruntimeconfig.cache
+C:\Users\Катерина\Desktop\University\4 курс\LabWork2\obj\Debug\net9.0\ref\LabWork2.dll
