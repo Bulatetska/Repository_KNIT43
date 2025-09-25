@@ -1,0 +1,8 @@
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\bin\Debug\lab1.exe.config
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\bin\Debug\lab1.exe
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\bin\Debug\lab1.pdb
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\obj\Debug\lab1.exe
+D:\КНІТ44\Dylba\Repository_KNIT43\Duleba\lab1\lab1\obj\Debug\lab1.pdb
