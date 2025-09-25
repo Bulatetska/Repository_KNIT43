@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/antongoncaruk/Контрольна робота/TaskManager/TaskManager.csproj": {}
+  },
+  "projects": {
+    "/Users/antongoncaruk/Контрольна робота/TaskManager/TaskManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/antongoncaruk/Контрольна робота/TaskManager/TaskManager.csproj",
+        "projectName": "TaskManager",
+        "projectPath": "/Users/antongoncaruk/Контрольна робота/TaskManager/TaskManager.csproj",
+        "packagesPath": "/Users/antongoncaruk/.nuget/packages/",
+        "outputPath": "/Users/antongoncaruk/Контрольна робота/TaskManager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/antongoncaruk/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
