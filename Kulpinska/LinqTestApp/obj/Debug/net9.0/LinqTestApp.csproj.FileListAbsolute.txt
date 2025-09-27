@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\bin\Debug\net9.0\LinqTestApp.exe
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\bin\Debug\net9.0\LinqTestApp.deps.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\bin\Debug\net9.0\LinqTestApp.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\bin\Debug\net9.0\LinqTestApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\bin\Debug\net9.0\LinqTestApp.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.sourcelink.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\refint\LinqTestApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\LinqTestApp.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\LinqTestApp\obj\Debug\net9.0\ref\LinqTestApp.dll
