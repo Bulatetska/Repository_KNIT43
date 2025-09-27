@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 
 class Program
@@ -19,23 +20,19 @@ class Program
         new Hero { Name = "Spiderman", YearOfBirth = 1963, Comics = "Amazing Fantasy" }
     };
 
+
+
     static void Main(string[] args)
     {
-        var heroNames = new List<string>();
+        var heroNames =
+            from hero in _heroes
+            where hero.Name.Contains("man")
+            orderby hero.Name
+            select hero.Name;
 
-        foreach (var hero in _heroes)
+        foreach (var name in heroNames)
         {
-            if (hero.Name.Contains("man"))
-            {
-                heroNames.Add(hero.Name);
-            }
-        }
-
-        heroNames.Sort();
-
-        foreach (var heroName in heroNames)
-        {
-            Console.WriteLine(heroName);
+            Console.WriteLine(name);
         }
     }
 }
