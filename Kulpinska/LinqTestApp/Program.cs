@@ -20,19 +20,72 @@ class Program
         new Hero { Name = "Spiderman", YearOfBirth = 1963, Comics = "Amazing Fantasy" }
     };
 
-
-
     static void Main(string[] args)
     {
-        var heroNames =
-            from hero in _heroes
-            where hero.Name.Contains("man")
-            orderby hero.Name
-            select hero.Name;
+        Console.WriteLine("=== Імперативний підхід ===");
+        ImperativeTasks();
 
-        foreach (var name in heroNames)
+        Console.WriteLine("\n=== Декларативний (LINQ) підхід ===");
+        DeclarativeTasks();
+    }
+
+    static void ImperativeTasks()
+    {
+        Console.WriteLine("1. Герої 1941 р.:");
+        foreach (var hero in _heroes)
+        {
+            if (hero.YearOfBirth == 1941)
+                Console.WriteLine(hero.Name);
+        }
+
+        Console.WriteLine("\n2. Комікси (сортування):");
+        var comicsList = new List<string>();
+        foreach (var hero in _heroes)
+        {
+            comicsList.Add(hero.Comics);
+        }
+        comicsList.Sort();
+        foreach (var comics in comicsList)
+        {
+            Console.WriteLine(comics);
+        }
+
+        Console.WriteLine("\n3. Герої за роком народження (спадання):");
+        var heroesSorted = new List<Hero>(_heroes);
+        heroesSorted.Sort((h1, h2) => h2.YearOfBirth.CompareTo(h1.YearOfBirth));
+        foreach (var hero in heroesSorted)
+        {
+            Console.WriteLine($"{hero.Name} - {hero.YearOfBirth}");
+        }
+    }
+
+    static void DeclarativeTasks()
+    {
+        Console.WriteLine("1. Герої 1941 р.:");
+        var heroes1941 = from hero in _heroes
+                         where hero.YearOfBirth == 1941
+                         select hero.Name;
+        foreach (var name in heroes1941)
         {
             Console.WriteLine(name);
+        }
+
+        Console.WriteLine("\n2. Комікси (сортування):");
+        var comicsSorted = from hero in _heroes
+                           orderby hero.Comics
+                           select hero.Comics;
+        foreach (var comics in comicsSorted)
+        {
+            Console.WriteLine(comics);
+        }
+
+        Console.WriteLine("\n3. Герої за роком народження (спадання):");
+        var heroesByYear = from hero in _heroes
+                           orderby hero.YearOfBirth descending
+                           select new { hero.Name, hero.YearOfBirth };
+        foreach (var hero in heroesByYear)
+        {
+            Console.WriteLine($"{hero.Name} - {hero.YearOfBirth}");
         }
     }
 }
