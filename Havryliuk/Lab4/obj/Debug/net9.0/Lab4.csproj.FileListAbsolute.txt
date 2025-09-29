@@ -1,0 +1,15 @@
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\bin\Debug\net9.0\Lab4.exe
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\bin\Debug\net9.0\Lab4.deps.json
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\bin\Debug\net9.0\Lab4.runtimeconfig.json
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\bin\Debug\net9.0\Lab4.dll
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\bin\Debug\net9.0\Lab4.pdb
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.AssemblyInfoInputs.cache
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.AssemblyInfo.cs
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.sourcelink.json
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.dll
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\refint\Lab4.dll
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.pdb
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\Lab4.genruntimeconfig.cache
+C:\Users\Катерина\Desktop\Repository_KNIT43\Havryliuk\Lab4\obj\Debug\net9.0\ref\Lab4.dll

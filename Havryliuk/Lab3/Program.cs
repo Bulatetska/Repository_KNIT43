@@ -14,7 +14,6 @@ namespace LingLabWork
             public string Comics { get; set; }
         }
 
-        // Тестові дані
         private static readonly List<Hero> _heroes = new List<Hero>
         {
             new Hero { Name = "Superman", YearOfBirth = 1938, Comics = "Action Comics" },
@@ -93,7 +92,7 @@ namespace LingLabWork
             // Завдання 3: Імена та дати в порядку спадання
             Console.WriteLine("\n--- Завдання 3: Імена та дати народження в порядку спадання ---");
             
-            // Імперативний підхід
+            // Імперативний підхід (описує як виконати задачу, тобто послідовність дій)
             Console.WriteLine("\nІмперативний підхід:");
             var heroInfo = new List<(string Name, int Year)>();
             foreach (var hero in _heroes)
@@ -106,7 +105,7 @@ namespace LingLabWork
                 Console.WriteLine($"{info.Name} - {info.Year}");
             }
 
-            // Декларативний підхід
+            // Декларативний підхід (описує що потрібно зробити, а не як)
             Console.WriteLine("\nДекларативний підхід (LINQ):");
             var heroInfoLinq = from hero in _heroes
                               orderby hero.YearOfBirth descending
