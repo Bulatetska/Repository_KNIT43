@@ -1,0 +1,15 @@
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/Lab1App.deps.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/Lab1App.runtimeconfig.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/Lab1App.runtimeconfig.dev.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/Lab1App.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/ref/Lab1App.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/bin/Debug/net5.0/Lab1App.pdb
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.csproj.AssemblyReference.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.AssemblyInfo.cs
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/ref/Lab1App.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.pdb
+/Users/macbookpro/Desktop/HilitukhaNET/Lab1/Lab1App/obj/Debug/net5.0/Lab1App.genruntimeconfig.cache
