@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\uni\\NET\\rep\\Repository_KNIT43\\Pavliuk\\lab1\\Lab1_Pavliuk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04089CFD-2D03-42CC-88D0-8D76A51B266A}|Lab1_Pavliuk\\Lab1_Pavliuk.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab1\\lab1_pavliuk\\lab1_pavliuk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04089CFD-2D03-42CC-88D0-8D76A51B266A}|Lab1_Pavliuk\\Lab1_Pavliuk.csproj|solutionrelative:lab1_pavliuk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\uni\\NET\\rep\\Repository_KNIT43\\Pavliuk\\lab1\\Lab1_Pavliuk\\Lab1_Pavliuk\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1_Pavliuk\\Program.cs",
+              "ToolTip": "E:\\uni\\NET\\rep\\Repository_KNIT43\\Pavliuk\\lab1\\Lab1_Pavliuk\\Lab1_Pavliuk\\Program.cs*",
+              "RelativeToolTip": "Lab1_Pavliuk\\Program.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T11:20:03.35Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
