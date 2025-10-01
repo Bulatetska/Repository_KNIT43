@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\bin\Debug\net9.0\MyApp.exe
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\bin\Debug\net9.0\MyApp.deps.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\bin\Debug\net9.0\MyApp.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\bin\Debug\net9.0\MyApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\bin\Debug\net9.0\MyApp.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.sourcelink.json
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\refint\MyApp.dll
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.pdb
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\MyApp.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\Repository_KNIT43\Kulpinska\lab4\obj\Debug\net9.0\ref\MyApp.dll
