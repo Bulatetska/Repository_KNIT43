@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Лаб-4/1.0.0": {
+        "runtime": {
+          "Лаб-4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Лаб-4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
