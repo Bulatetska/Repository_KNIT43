@@ -1,0 +1,15 @@
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\bin\Debug\net8.0\Lab4.exe
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\bin\Debug\net8.0\Lab4.deps.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\bin\Debug\net8.0\Lab4.runtimeconfig.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\bin\Debug\net8.0\Lab4.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\bin\Debug\net8.0\Lab4.pdb
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfoInputs.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.AssemblyInfo.cs
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.sourcelink.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\refint\Lab4.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.pdb
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\Lab4.genruntimeconfig.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Lab4\Lab4\obj\Debug\net8.0\ref\Lab4.dll
