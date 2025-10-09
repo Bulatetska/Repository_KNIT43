@@ -1,0 +1,15 @@
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.GeneratedMSBuildEditorConfig.editorconfig
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.AssemblyInfoInputs.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.AssemblyInfo.cs
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.csproj.CoreCompileInputs.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.sourcelink.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\bin\Debug\net8.0\Lab6.exe
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\bin\Debug\net8.0\Lab6.deps.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\bin\Debug\net8.0\Lab6.runtimeconfig.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\bin\Debug\net8.0\Lab6.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\bin\Debug\net8.0\Lab6.pdb
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\refint\Lab6.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.pdb
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\Lab6.genruntimeconfig.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\Lab6\Lab6\obj\Debug\net8.0\ref\Lab6.dll
