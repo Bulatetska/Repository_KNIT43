@@ -125,13 +125,15 @@ namespace ConsoleApplication1
             //Figure objFg = new Figure("Figure");
             TriangleColor Tr = new TriangleColor("Red", "Triangle", 2, 3, 2);
             refFg = Tr;
+            Console.WriteLine("----Виведення інформації про фігуру-----");
             refFg.Print();
             refFg = Tr;
+            Console.WriteLine("\n---- Обчислення площі (метод Area)----");
             refFg.Area();
             refFg = Tr;
+            Console.WriteLine("\n---- Обчислення площі (властивість Area2)----");
             double area = refFg.Area2;
             Console.WriteLine("area = {0:f3}", area);
-            Console.ReadKey();
         }
     }
 }

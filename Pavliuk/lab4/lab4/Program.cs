@@ -106,7 +106,7 @@ namespace PersonApp
         }
         public virtual void Print()
         {
-            Console.WriteLine("----Book---- \n Book title: " + title + "\n Author: " + surname_name + "\n Book price: " + price);
+            Console.WriteLine("\n ----Book---- \n Book title: " + title + "\n Author: " + surname_name + "\n Book price: " + price);
 
         }
     }
@@ -207,7 +207,6 @@ namespace PersonApp
             p.Print();
 
             //Zadanie 2
-
             Student s = new Student();
             s.Print();
             s.SetSurname("Pavliuk");
