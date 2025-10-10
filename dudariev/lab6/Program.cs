@@ -3,10 +3,10 @@
 
 // Задача:
 // Створити клас Vector, який представляє вектор на площині з координатами (x, y).
-class Vector
+public class Vector
 {
-    double x;
-    double y;
+    public double x { get; set; }
+    public double y { get; set; }
 
     // Реалізувати конструктор, який ініціалізує координати вектора.
     public Vector(double x, double y)

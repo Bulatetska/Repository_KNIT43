@@ -1,21 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.0.11018.127 d18.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab1", "lab1\lab1.csproj", "{9CC680DA-A9E7-4AAE-AC87-5BF4B5223AF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab2", "lab2\lab2.csproj", "{33D282E3-883A-4924-B8E6-97ADE8A0F150}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab2", "lab2\lab2.csproj", "{33D282E3-883A-4924-B8E6-97ADE8A0F150}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3", "lab3\lab3.csproj", "{87824454-4828-47B0-9DCE-7DEE20AD0096}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab3", "lab3\lab3.csproj", "{87824454-4828-47B0-9DCE-7DEE20AD0096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab4", "lab4\lab4.csproj", "{FE5D6DC0-785F-4E58-B954-C594FA0DEE99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab4", "lab4\lab4.csproj", "{FE5D6DC0-785F-4E58-B954-C594FA0DEE99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab5", "lab5\lab5.csproj", "{3DED4B58-50BD-4416-B8E0-CB1D1D4A279B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab5", "lab5\lab5.csproj", "{3DED4B58-50BD-4416-B8E0-CB1D1D4A279B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab6", "lab6\lab6.csproj", "{D6884778-C821-4D76-8A43-6328F1FBD373}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab6", "lab6\lab6.csproj", "{D6884778-C821-4D76-8A43-6328F1FBD373}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7", "lab7\lab7.csproj", "{D95356ED-552B-4CEE-9BBD-642D7CFDDAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab7", "lab7\lab7.csproj", "{D95356ED-552B-4CEE-9BBD-642D7CFDDAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab8", "lab8\lab8.csproj", "{45114DB3-1A41-4796-A64A-61C0419684DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D95356ED-552B-4CEE-9BBD-642D7CFDDAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95356ED-552B-4CEE-9BBD-642D7CFDDAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95356ED-552B-4CEE-9BBD-642D7CFDDAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45114DB3-1A41-4796-A64A-61C0419684DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45114DB3-1A41-4796-A64A-61C0419684DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45114DB3-1A41-4796-A64A-61C0419684DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45114DB3-1A41-4796-A64A-61C0419684DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

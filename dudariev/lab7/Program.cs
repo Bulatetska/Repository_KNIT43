@@ -3,7 +3,7 @@
 
 // Задача:
 // Створити клас MathOperations, який включає наступні методи:
-class MathOperations
+public class MathOperations
 {
     // Add(double a, double b) – додає два числа.
     public double Add(double a, double b)
