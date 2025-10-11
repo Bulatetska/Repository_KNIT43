@@ -1,0 +1,15 @@
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\bin\Debug\net8.0\lab7.exe
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\bin\Debug\net8.0\lab7.deps.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\bin\Debug\net8.0\lab7.runtimeconfig.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\bin\Debug\net8.0\lab7.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\bin\Debug\net8.0\lab7.pdb
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.AssemblyInfoInputs.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.AssemblyInfo.cs
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.csproj.CoreCompileInputs.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.sourcelink.json
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\refint\lab7.dll
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.pdb
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\lab7.genruntimeconfig.cache
+E:\uni\NET\rep\Repository_KNIT43\Pavliuk\lab7\lab7\obj\Debug\net8.0\ref\lab7.dll
