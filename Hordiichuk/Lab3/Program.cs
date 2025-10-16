@@ -16,7 +16,7 @@ class Program
         var heroes = new List<Hero>
         {
             new Hero { Name = "Superman", YearOfBirth = 1938, Comics = "Action Comics" },
-            new Hero { Name = "Batman", YearOfBirth = 1939, Comics = "Detective Comics" },
+            new Hero { Name = "Batman", YearOfBirth = 1939, Comics = "Detective Comics" }!,
             new Hero { Name = "Captain America", YearOfBirth = 1941, Comics = "Captain America Comics" },
             new Hero { Name = "Wonder Woman", YearOfBirth = 1941, Comics = "All Star Comics" },
             new Hero { Name = "Iron Man", YearOfBirth = 1963, Comics = "Tales of Suspense" },
