@@ -1,0 +1,51 @@
+﻿<Window x:Class="lab10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab10"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=local:BookViewModel}"
+        Title="lab10" Height="450" Width="800"
+        PreviewMouseDown="Window_PreviewMouseDown">
+    <Grid Name="grid" Focusable="True">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        
+        <ListBox Grid.Row="0" Grid.Column="0" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock FontSize="16" FontWeight="Bold" Text="{Binding Title}"></TextBlock>
+                        <TextBlock Text="{Binding Author}"></TextBlock>
+                        <TextBlock Text="{Binding Year}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="4,0" Visibility="{Binding SelectedBook, Converter={StaticResource NullableToVisibilityConverter}}">
+            <TextBlock FontSize="14">Title</TextBlock>
+            <TextBox Name="title" Text="{Binding SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}" />
+            
+            <TextBlock Margin="0,4,0,0" FontSize="14">Author</TextBlock>
+            <TextBox Text="{Binding SelectedBook.Author, UpdateSourceTrigger=PropertyChanged}" />
+
+            <TextBlock Margin="0,4,0,0" FontSize="14">Year</TextBlock>
+            <TextBox Text="{Binding SelectedBook.Year, UpdateSourceTrigger=PropertyChanged}" />
+        </StackPanel>
+        
+        <Button Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="4" Padding="8 4" Command="{Binding AddBookCommand}">
+            Add a Book
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="4" Padding="8 4" Command="{Binding RemoveBookCommand}">
+            Remove Book
+        </Button>
+    </Grid>
+</Window>
