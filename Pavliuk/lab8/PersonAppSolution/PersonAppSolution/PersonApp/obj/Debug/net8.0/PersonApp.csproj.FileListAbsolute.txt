@@ -1,0 +1,15 @@
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\bin\Debug\net8.0\PersonApp.exe
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\bin\Debug\net8.0\PersonApp.deps.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\bin\Debug\net8.0\PersonApp.runtimeconfig.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\bin\Debug\net8.0\PersonApp.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\bin\Debug\net8.0\PersonApp.pdb
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.AssemblyInfoInputs.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.AssemblyInfo.cs
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.csproj.CoreCompileInputs.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.sourcelink.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\refint\PersonApp.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.pdb
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\PersonApp.genruntimeconfig.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\lab8\PersonAppSolution\PersonAppSolution\PersonApp\obj\Debug\net8.0\ref\PersonApp.dll
