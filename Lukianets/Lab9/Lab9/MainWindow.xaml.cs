@@ -20,7 +20,7 @@ namespace WpfAppGreeting
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this; // Прив'язка даних
+            DataContext = this;
         }
 
         private void ConfirmButton_Click(object sender, RoutedEventArgs e)

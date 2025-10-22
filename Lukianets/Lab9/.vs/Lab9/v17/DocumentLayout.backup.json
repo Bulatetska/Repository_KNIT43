@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab9\\lab9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|solutionrelative:lab9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab9\\lab9\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|solutionrelative:lab9\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab9\\lab9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|solutionrelative:lab9\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab9\\lab9\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|solutionrelative:lab9\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab9\\lab9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EEFE060-0A11-42E7-BDE9-829EE1B82021}|Lab9\\Lab9.csproj|solutionrelative:lab9\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\App.xaml",
-              "RelativeDocumentMoniker": "Lab9\\App.xaml",
-              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\App.xaml",
-              "RelativeToolTip": "Lab9\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-22T11:38:33.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Lab9\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\AssemblyInfo.cs",
-              "RelativeToolTip": "Lab9\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T11:38:06.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Lab9\\MainWindow.xaml",
@@ -67,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Lab9\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab9\\Lab9\\MainWindow.xaml.cs",
               "RelativeToolTip": "Lab9\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T11:37:56.836Z",
               "EditorCaption": ""
