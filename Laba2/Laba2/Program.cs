@@ -250,6 +250,7 @@ class Program
          sumofmaxline(matrix);
         void arraysum(int[] array)
         {   Console.WriteLine("Задати одновимірний масив цілих чисел A[і], де і =1,2,…,n. Знайти суму всіх елементів масиву.");
+
             int suma = 0;
             for(int i=0; i<array.Length ; i++)
             {
