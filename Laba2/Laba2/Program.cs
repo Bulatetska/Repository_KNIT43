@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
+        ConsoleColor originalColor = Console.ForegroundColor;
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n");
+        Console.WriteLine("Матриця окрім 6*6, для всіх завдань, так само і масив\n");
+        Console.ForegroundColor = originalColor;
+
+
         // Матриця 6x6
         int[,] sixsix = {
             {95, 23, 42, 18, 56, 33},
@@ -61,41 +68,43 @@ class Program
         {
             Console.Write(array[i] + "  ");
         }
+        Console.WriteLine();
 
-        /*static void AmountofMaxandfirstmax(int[] array)
+        static void AmountofMaxandfirstmax(int[] array)
         {
             int max = array[0];
             int count = 0;
             int position = 0;
-  
+
             for (int i = 0; i < array.GetLength(0); i++)
             {
-               
-                    if (array[i] > max)
-                    {
-                        max = array[i];
-                        count = 1;
-                        position = i;
-                       
-                    }
-                    else if (array[i] == max)
-                    {
-                        count++;
-                    }
-                
+
+                if (array[i] > max)
+                {
+                    max = array[i];
+                    count = 1;
+                    position = i;
+
+                }
+                else if (array[i] == max)
+                {
+                    count++;
+                }
+
             }
-            Console.WriteLine($"\n Maximum : {max}");
+            Console.WriteLine("Задати одновимірний масив цілих чисел A[і], де і =1,2,…,n. Визначити та вивести на екран, скільки разів максимальний елемент зустрічається у даному масиві та порядковий номер першого найбільшого елементу. ");
+            Console.WriteLine($"Maximum : {max}");
             Console.WriteLine($"Amout of maximum elements: {count}");
             Console.WriteLine($"Positon of first maximum element: ({position})");
+            Console.WriteLine();
         }
-        AmountofMaxandfirstmax(array); */
+            AmountofMaxandfirstmax(array); 
 
-        /*static void MaxEqualZero(int[,] sixsix)
+        static void MaxEqualZero(int[,] sixsix)
         {
             int[,] new_matrix = new int[sixsix.GetLength(0), sixsix.GetLength(1)];
             int max = sixsix[0, 0];
 
-            // Знаходимо максимальне значення
             for (int i = 0; i < sixsix.GetLength(0); i++)
             {
                 for (int j = 0; j < sixsix.GetLength(1); j++)
@@ -106,7 +115,7 @@ class Program
                     }
                 }
             }
-
+                Console.WriteLine("Задати квадратну дійсну матрицю порядку n. Усі максимальні елементи матриці замінити нулями. Задану матрицю та результуючу вивести на екран. ");
             // Заповнюємо нову матрицю
             for (int i = 0; i < sixsix.GetLength(0); i++)
             {
@@ -123,7 +132,7 @@ class Program
                 }
             }
 
-            Console.WriteLine("\nMatrix 6*6 where maximum number changed to 0:");
+            Console.WriteLine("Matrix 6*6 where maximum number changed to 0:");
             for (int i = 0; i < new_matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < new_matrix.GetLength(1); j++)
@@ -133,24 +142,41 @@ class Program
                 Console.WriteLine();
             }
 
-       
-            Console.WriteLine($"\nMaximum value found: {max}");
-            }
-            MaxEqualZero(sixsix);*/
-       /* static void neighbors(int[] array)
+            
+            Console.WriteLine($"Maximum value found: {max}");
+            Console.WriteLine();
+        }
+            MaxEqualZero(sixsix);
+        static void neighbors(int[] array)
         {
-            for(int i=0; i < array.Length; i++)
+            int nullneighbors = 0;
+            int positivebors = 0;
+
+            for(int i=0; i < array.Length-1; i++)
             {
-
+                if (array[i]>0 && array[i+1]>0)
+                    positivebors++;
+                if (array[i] == 0 && array[i + 1] == 0)
+                    nullneighbors++;
             }
-        }*/
-        /*static void avrgchanges(int[,] matrix)
+            Console.WriteLine("Задати одновимірний масив цілих чисел A[і], де і =1,2,…,n. Визначити та вивести на екран кількість пар сусідніх елементів," +
+                " у яких обидва елементи більше нуля, а також кількість пар сусідніх елементів, �� яких обидва елементи дорівнюють нулю. ");
+            Console.Write($"Amout neighbors that more then 0: {positivebors} amout of pairs that equal to 0: {nullneighbors}");
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+        neighbors(array);
+
+        static void avrgchanges(int[,] matrix)
 
         {
-            //int i,j = 0;
+            
             int[,] new_matrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
             int sum = 0;
             int count = 0;
+            Console.WriteLine("Задати дійсну матрицю розмірності m x n. Знайти середнє арифметичне всіх елементів матриці. Утворити нову матрицю того самого розміру," +
+                " елементи якої приймають значення -1, якщо відповідний елемент початкової матриці менший за середнє арифметичне, і 1 - якщо більший або дорівнює середньому арифметичному. " +
+                "Вивести на екран початкову та утворену матриці. ");
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
@@ -184,9 +210,15 @@ class Program
                 Console.WriteLine();
 
             }
+            Console.WriteLine();
         }
-        avrgchanges(matrix);*/
-        /*static void sumofmaxline(int[,] matrix) {
+        avrgchanges(matrix);
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Навіть якщо в двох або більше рядках буде максимум, буде обрано перший для підрахунку суми рядка тому що наступні максимуми будуть ігноруватися наприклад:" +
+            "Перший і друший рядок має 3 максимуми але другий не рахується тому що він не може стати новим максимумом 3!> max, тому рахується перший рядок ");
+        Console.ForegroundColor = originalColor;
+
+        static void sumofmaxline(int[,] matrix) {
              int sum = 0;
              int max = matrix[0, 0];
              int maxline = 0;
@@ -207,21 +239,23 @@ class Program
                  sum += matrix[maxline, j];
              }
 
-             // Descriptive output
-             Console.WriteLine($"\nSum of elements in row {maxline} (the row containing the first maximum element): {sum}");
+             Console.WriteLine("Задати матрицю розмірністю 6 х 9 та знайти суму елементів рядка, що містить найбільший елемент. Вважається, що такий елемент в матриці єдиний.");
+            Console.WriteLine($"Sum of elements in row {maxline} (the row containing the first maximum element): {sum}");
              Console.WriteLine($"Maximum element value found in the matrix: {max}");
              Console.WriteLine($"Row index of the first maximum element: {maxline}");
+            Console.WriteLine();
          }
 
-         sumofmaxline(matrix);*/
+         sumofmaxline(matrix);
         void arraysum(int[] array)
-        {
+        {   Console.WriteLine("Задати одновимірний масив цілих чисел A[і], де і =1,2,…,n. Знайти суму всіх елементів масиву.");
             int suma = 0;
             for(int i=0; i<array.Length ; i++)
             {
                 suma += array[i];
             }
             Console.Write($"Sum of array: {suma}");
+            Console.WriteLine();
         }
         arraysum(array);
 
