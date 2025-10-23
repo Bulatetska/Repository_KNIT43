@@ -211,7 +211,7 @@ class Program
 
             }
             Console.WriteLine();
-        }
+        }     
         avrgchanges(matrix);
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("Навіть якщо в двох або більше рядках буде максимум, буде обрано перший для підрахунку суми рядка тому що наступні максимуми будуть ігноруватися наприклад:" +
@@ -239,7 +239,7 @@ class Program
                  sum += matrix[maxline, j];
              }
 
-             Console.WriteLine("Задати матрицю розмірністю 6 х 9 та знайти суму елементів рядка, що містить найбільший елемент. Вважається, що такий елемент в матриці єдиний.");
+             Console.WriteLine("Задати матрицю розмірністю 6 х 9 та знайти суму елементів рядка, який містить найбільший елемент. Вважається, що такий елемент в матриці єдиний.");
             Console.WriteLine($"Sum of elements in row {maxline} (the row containing the first maximum element): {sum}");
              Console.WriteLine($"Maximum element value found in the matrix: {max}");
              Console.WriteLine($"Row index of the first maximum element: {maxline}");
