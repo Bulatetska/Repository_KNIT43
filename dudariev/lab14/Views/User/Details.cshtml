@@ -1,0 +1,24 @@
+﻿@model User
+@{
+	ViewData["Title"] = "User Detail";
+}
+
+<h2>User</h2>
+<table class="table">
+	<tbody>
+		<tr>
+			<th scope="row">Name</th>
+			<td>@Model.Name</td>
+		</tr>
+		@if (User.IsInRole("Admin"))
+		{
+			<tr>
+				<th scope="row">IsAdmin</th>
+				<td>@Model.IsAdmin</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<h2>Замовлення</h2>
+@await Html.PartialAsync("_OrderList", Model.Orders)

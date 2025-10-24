@@ -1,0 +1,21 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "Login";
+}
+
+<h2>Вхід</h2>
+<form asp-action="Login">
+	@Html.ValidationSummary()
+	<input type="hidden" asp-for="ReturnUrl" />
+	<div class="mb-3">
+		<label class="form-label">Ім'я</label>
+		<input class="form-control" asp-for="Name" />
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Пароль</label>
+		<input class="form-control" asp-for="Password" />
+	</div>
+	<div>
+		<input type="submit" value="Вхід" class="btn btn-primary" />
+	</div>
+</form>

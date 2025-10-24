@@ -1,0 +1,7 @@
+﻿@model List<Order>
+@{
+	ViewData["Title"] = "Products";
+}
+
+<h2>Ваші Замовлення</h2>
+@await Html.PartialAsync("_OrderList", Model)

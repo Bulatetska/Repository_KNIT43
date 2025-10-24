@@ -1,0 +1,25 @@
+﻿@model Product
+@{
+	ViewData["Title"] = "Create Product";
+}
+
+<h2>Додавання товару</h2>
+<form asp-action="ProductCreate">
+	@Html.ValidationSummary()
+	<div class="mb-3">
+		<label class="form-label">Назва</label>
+		<input class="form-control" asp-for="Title" name="title" />
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Опис</label>
+		<textarea class="form-control"  asp-for="Description" name="description"></textarea>
+	</div>
+	<div class="mb-3">
+		<label class="form-label">Ціна</label>
+		<input class="form-control" asp-for="Price" />
+	</div>
+	<div>
+		<input type="submit" value="Зберегти" class="btn btn-primary" />
+		<a asp-action="List" asp-controller="Product">Назад</a>
+	</div>
+</form>

@@ -1,0 +1,29 @@
+﻿@model List<Product>
+@{
+	ViewData["Title"] = "Products";
+}
+
+<h2>Товари</h2>
+@if (User.IsInRole("Admin"))
+{
+	<a asp-action="ProductCreate" asp-controller="Admin">Створити</a>
+}
+<div>
+	@foreach (var product in Model)
+	{
+		<hr class="mb-4 mt-4" />
+		<div>
+			<h3>@product.Title</h3>
+			<div>@product.Description</div>
+			<div>@product.Price ₴</div>
+			<div>
+				<a asp-action="PlaceOrder" asp-controller="Order" asp-route-id="@product.Id">Замовити</a>
+				@if (User.IsInRole("Admin"))
+				{
+					<a asp-action="ProductEdit" asp-controller="Admin" asp-route-id="@product.Id">Редагувати</a>
+					<a asp-action="ProductDelete" asp-controller="Admin" asp-route-id="@product.Id">Видалити</a>
+				}
+			</div>
+		</div>
+	}
+</div>

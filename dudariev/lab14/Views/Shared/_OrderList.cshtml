@@ -1,0 +1,23 @@
+﻿@model List<Order>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Дата</th>
+			<th scope="col">Товар</th>
+			<th scope="col">Кількість</th>
+			<th scope="col">Вартість</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var order in Model.OrderBy(o => o.CreatedAt))
+		{
+			<tr>
+				<td>@order.CreatedAt</td>
+				<td>@order.Product.Title</td>
+				<td>@order.Count</td>
+				<td>@(order.Product.Price* order.Count) ₴</td>
+			</tr>
+		}
+	</tbody>
+</table>

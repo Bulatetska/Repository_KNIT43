@@ -1,0 +1,15 @@
+﻿@model List<User>
+@{
+	ViewData["Title"] = "Users";
+}
+
+<h2>Користувачі</h2>
+@foreach (var user in Model)
+{
+	<hr class="mb-4 mt-4" />
+	<div>
+		<h4>@user.Name</h4>
+		<a asp-action="Details" asp-controller="User" asp-route-id="@user.Id">Details</a>
+		<a asp-action="UserDelete" asp-controller="Admin" asp-route-id="@user.Id">Delete</a>
+	</div>
+}

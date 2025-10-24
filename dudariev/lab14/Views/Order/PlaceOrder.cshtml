@@ -1,0 +1,24 @@
+﻿@model PlaceOrderViewModel
+@{
+	ViewData["Title"] = "Place Order";
+}
+
+<h2>Розміщення замовлення</h2>
+<hr />
+<div>
+	<h3>@Model.Product.Title</h3>
+	<div>@Model.Product.Description</div>
+	<div>@Model.Product.Price ₴</div>
+</div>
+<hr />
+<form asp-action="PlaceOrder">
+	@Html.ValidationSummary()
+	<input type="hidden" asp-for="Product.Id" />
+	<div class="mb-3">
+		<label class="form-label">Кількість</label>
+		<input class="form-control" asp-for="Count" />
+	</div>
+	<div>
+		<input type="submit" value="Зберегти" class="btn btn-primary" />
+	</div>
+</form>

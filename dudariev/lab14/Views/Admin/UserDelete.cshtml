@@ -1,0 +1,11 @@
+﻿@model User
+@{
+	ViewData["Title"] = "Delete User";
+}
+
+<h2>Видалити користувача @Model.Name?</h2>
+<form asp-action="UserDelete">
+	<input type="hidden" asp-for="Id" />
+	<input type="submit" value="Видалити" class="btn btn-danger" />
+	<a asp-action="UserList">Назад</a>
+</form>
