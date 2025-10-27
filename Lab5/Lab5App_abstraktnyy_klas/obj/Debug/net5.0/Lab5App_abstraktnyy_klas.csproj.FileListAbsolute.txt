@@ -1,0 +1,15 @@
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.csproj.AssemblyReference.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.AssemblyInfoInputs.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.AssemblyInfo.cs
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/Lab5App_abstraktnyy_klas.deps.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/Lab5App_abstraktnyy_klas.runtimeconfig.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/Lab5App_abstraktnyy_klas.runtimeconfig.dev.json
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/Lab5App_abstraktnyy_klas.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/ref/Lab5App_abstraktnyy_klas.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/bin/Debug/net5.0/Lab5App_abstraktnyy_klas.pdb
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/ref/Lab5App_abstraktnyy_klas.dll
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.pdb
+/Users/macbookpro/Desktop/HilitukhaNET/Lab5/Lab5App_abstraktnyy_klas/obj/Debug/net5.0/Lab5App_abstraktnyy_klas.genruntimeconfig.cache
