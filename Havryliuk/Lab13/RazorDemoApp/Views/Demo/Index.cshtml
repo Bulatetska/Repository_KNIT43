@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "Головна сторінка Demo";
+}
+
+<h1>@ViewData["Message"]</h1>
+
+<!-- Цикл для виведення чисел -->
+<ul>
+    @for (var i = 1; i <= 5; i++)
+    {
+        <li>Число: @i</li>
+    }
+</ul>
+
+<!-- Умовна конструкція -->
+@{
+    bool showWelcome = true;
+}
+
+@if (showWelcome)
+{
+    <p style="color: green;">Ласкаво просимо до нашого додатку!</p>
+}
+else
+{
+    <p style="color: red;">До побачення!</p>
+}
+
+<!-- Вставка часткового подання -->
+@await Html.PartialAsync("_PartialView")

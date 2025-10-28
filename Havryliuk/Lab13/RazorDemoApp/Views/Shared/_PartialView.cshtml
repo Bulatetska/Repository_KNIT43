@@ -1,0 +1,11 @@
+<div style="border: 2px solid blue; padding: 10px; margin: 10px 0;">
+    <h3>Це часткове подання</h3>
+    <p>Поточна дата: @DateTime.Now.ToString("dd.MM.yyyy HH:mm")</p>
+    
+    <!-- Простий приклад з Razor -->
+    @{
+        var random = new Random();
+        var randomNumber = random.Next(1, 100);
+    }
+    <p>Випадкове число: <strong>@randomNumber</strong></p>
+</div>
