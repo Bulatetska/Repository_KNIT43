@@ -1,0 +1,30 @@
+﻿<Window x:Class="Lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <StackPanel>
+                <Grid Margin="0 0 0 15">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <TextBlock Grid.Column="0" Text="Enter name:" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" Margin="0 0 10 0"></TextBlock>
+                    <TextBox x:Name="myTextBox" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" Grid.Column="1" VerticalAlignment="Center" Width="200" Height="20" MaxLength="100" />
+                
+                </Grid>
+                
+                <Button Click="Button_Click" Width="150" Height="30" Content="Confirm" HorizontalAlignment="Center"  Margin="0 0 0 15"></Button>
+                <TextBlock x:Name="output" HorizontalAlignment="Center" FontSize="18" FontWeight="Bold" TextWrapping="Wrap">ds</TextBlock>
+            
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Window>
