@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab10\\lab10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|solutionrelative:lab10\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab10\\lab10\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|solutionrelative:lab10\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab10\\lab10\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|solutionrelative:lab10\\bookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab10\\lab10\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|solutionrelative:lab10\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab10\\lab10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B682848F-0D1F-4356-A177-DE4C3555521C}|Lab10\\Lab10.csproj|solutionrelative:lab10\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab10\\MainWindow.xaml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\MainWindow.xaml",
+              "RelativeToolTip": "Lab10\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-30T13:45:42.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Lab10\\RelayCommand.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\RelayCommand.cs",
+              "RelativeToolTip": "Lab10\\RelayCommand.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T15:12:53.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookViewModel.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\BookViewModel.cs",
+              "RelativeDocumentMoniker": "Lab10\\BookViewModel.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\BookViewModel.cs",
+              "RelativeToolTip": "Lab10\\BookViewModel.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAxwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T14:03:19.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\Book.cs",
+              "RelativeDocumentMoniker": "Lab10\\Book.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\Book.cs",
+              "RelativeToolTip": "Lab10\\Book.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:50:09.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab10\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab10\\Lab10\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab10\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:45:37.75Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
