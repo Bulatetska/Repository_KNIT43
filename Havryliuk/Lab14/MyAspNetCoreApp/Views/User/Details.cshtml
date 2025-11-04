@@ -1,0 +1,47 @@
+@model MyAspNetCoreApp.Models.User
+
+@{
+    ViewData["Title"] = "Деталі користувача";
+}
+
+<h2>Деталі користувача</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            ID:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Id
+        </dd>
+        <dt class="col-sm-2">
+            Ім'я:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.FirstName
+        </dd>
+        <dt class="col-sm-2">
+            Прізвище:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.LastName
+        </dd>
+        <dt class="col-sm-2">
+            Email:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Email
+        </dd>
+        <dt class="col-sm-2">
+            Дата реєстрації:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.RegistrationDate.ToString("dd.MM.yyyy HH:mm")
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Створити нового користувача</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">На головну</a>
+</div>

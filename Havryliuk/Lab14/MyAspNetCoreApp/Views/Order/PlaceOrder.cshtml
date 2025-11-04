@@ -1,0 +1,36 @@
+@model MyAspNetCoreApp.Models.Order
+
+@{
+    ViewData["Title"] = "Розміщення замовлення";
+}
+
+<h2>Розміщення замовлення</h2>
+
+<form asp-action="PlaceOrder">
+    <div class="form-group">
+        <label asp-for="CustomerName" class="control-label"></label>
+        <input asp-for="CustomerName" class="form-control" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CustomerEmail" class="control-label"></label>
+        <input asp-for="CustomerEmail" class="form-control" />
+        <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductId" class="control-label">Продукт</label>
+        <select asp-for="ProductId" class="form-control" asp-items="@(new SelectList(ViewBag.Products, "Id", "Name"))">
+            <option value="">-- Оберіть продукт --</option>
+        </select>
+        <span asp-validation-for="ProductId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label"></label>
+        <input asp-for="Quantity" class="form-control" min="1" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Розмістити замовлення" class="btn btn-primary" />
+        <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Скасувати</a>
+    </div>
+</form>

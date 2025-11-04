@@ -1,0 +1,49 @@
+@model List<MyAspNetCoreApp.Models.User>
+
+@{
+    ViewData["Title"] = "Список користувачів";
+}
+
+<h2>Список користувачів</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ім'я</th>
+                <th>Прізвище</th>
+                <th>Email</th>
+                <th>Дата реєстрації</th>
+                <th>Дії</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.LastName</td>
+                    <td>@user.Email</td>
+                    <td>@user.RegistrationDate.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@user.Id" class="btn btn-info btn-sm">Деталі</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">
+        <p>Користувачів ще не додано.</p>
+    </div>
+}
+
+<div>
+    <a asp-action="Create" class="btn btn-success">Додати нового користувача</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">На головну</a>
+</div>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Головна сторінка";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ласкаво просимо!</h1>
+    <p>Це головна сторінка нашого ASP.NET Core додатку</p>
+    
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Продукти</h5>
+                        <p class="card-text">Керування списком продуктів</p>
+                        <a href="@Url.Action("List", "Product")" class="btn btn-primary">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Користувачі</h5>
+                        <p class="card-text">Реєстрація користувачів</p>
+                        <a href="@Url.Action("Create", "User")" class="btn btn-success">Перейти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Замовлення</h5>
+                        <p class="card-text">Створення замовлень</p>
+                        <a href="@Url.Action("PlaceOrder", "Order")" class="btn btn-warning">Перейти</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
