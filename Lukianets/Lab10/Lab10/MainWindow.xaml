@@ -1,0 +1,187 @@
+﻿<Window x:Class="Lab10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewmodel="clr-namespace:Lab10.ViewModel"
+        Title="Книжковий менеджер"
+        Height="550" Width="838"
+        Background="#f4f6f8"
+        WindowStartupLocation="CenterScreen">
+
+
+    <!-- 
+     🔹 Прив’язка контексту даних (DataContext) до ViewModel.
+     Це означає, що всі {Binding ...} у цьому вікні будуть працювати
+     з властивостями і командами класу BookViewModel.
+    -->
+    
+    <Window.DataContext>
+        <viewmodel:BookViewModel/>
+    </Window.DataContext>
+
+
+        <!-- 
+        🔹 Основна сітка (Grid) ділить вікно на 2 частини:
+        - Ліва колонка (2*) — список книг
+        - Права колонка (3*) — редагування або додавання книги
+        -->
+        <Grid Margin="25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- 
+            ЛІВА ЧАСТИНА — Список усіх книг
+            -->
+            <Border Grid.Column="0"
+                Background="White"
+                CornerRadius="12"
+                Padding="20"
+                Margin="0 0 20 0"
+                BorderBrush="#cfd8dc"
+                BorderThickness="1">
+
+                <!-- StackPanel — розташовує елементи вертикально -->
+                <StackPanel>
+                    <!-- Заголовок секції -->
+                    <TextBlock Text="Список книг"
+                           FontWeight="Bold"
+                           FontSize="24"
+                           Margin="0 0 0 20"
+                           Foreground="#37474f"/>
+
+                    <!-- 
+                    ListBox — відображає колекцію книг.
+                    ItemsSource — зв’язується з ObservableCollection<Book> (Books) у ViewModel.
+                    SelectedItem — зв’язується з SelectedBook у ViewModel.
+                    DisplayMemberPath="Title" — показує тільки назву книги.
+                    -->
+                    <ListBox ItemsSource="{Binding Books}" 
+                         SelectedItem="{Binding SelectedBook}"
+                         DisplayMemberPath="Title"
+                         FontSize="18"
+                         BorderThickness="0"
+                         Background="White"
+                         Foreground="#263238"
+                         ScrollViewer.VerticalScrollBarVisibility="Auto"
+                         Padding="5"/>
+                </StackPanel>
+            </Border>
+
+
+            <!-- 
+            ПРАВА ЧАСТИНА — редагування або додавання книги.
+            Тут користувач вводить дані (назву, автора, рік).
+            -->
+            <Border Grid.Column="1"
+                Background="White"
+                CornerRadius="12"
+                Padding="25"
+                BorderBrush="#cfd8dc"
+                BorderThickness="1">
+
+                <StackPanel VerticalAlignment="Center">
+                    <!-- Заголовок секції -->
+                    <TextBlock Text="Інформація про книгу"
+                           FontWeight="Bold"
+                           FontSize="24"
+                           Margin="0 0 0 30"
+                           Foreground="#37474f"/>
+
+                    <!-- 
+                    Поле для введення назви книги.
+                    TextBox прив’язується до InputTitle (властивість ViewModel).
+                    UpdateSourceTrigger=PropertyChanged — оновлює дані одразу при зміні тексту.
+                    -->
+                    <StackPanel Orientation="Horizontal" Margin="0 10">
+                        <TextBlock Text="Назва:" Width="70"
+                               VerticalAlignment="Center"
+                               FontSize="18"
+                               Foreground="#37474f"/>
+                        <TextBox Text="{Binding InputTitle, UpdateSourceTrigger=PropertyChanged}"
+                             Width="320"
+                             FontSize="18"
+                             Padding="5"
+                             Margin="5 0"
+                             BorderBrush="#b0bec5"
+                             BorderThickness="1"
+                             Background="#fafafa"/>
+                    </StackPanel>
+
+                    <!-- Поле для автора -->
+                    <StackPanel Orientation="Horizontal" Margin="0 10">
+                        <TextBlock Text="Автор:" Width="70"
+                               VerticalAlignment="Center"
+                               FontSize="18"
+                               Foreground="#37474f"/>
+                        <TextBox Text="{Binding InputAuthor, UpdateSourceTrigger=PropertyChanged}"
+                             Width="320"
+                             FontSize="18"
+                             Padding="5"
+                             Margin="5 0"
+                             BorderBrush="#b0bec5"
+                             BorderThickness="1"
+                             Background="#fafafa"/>
+                    </StackPanel>
+
+                    <!-- Поле для року видання -->
+                    <StackPanel Orientation="Horizontal" Margin="0 10 0 30">
+                        <TextBlock Text="Рік:" Width="70"
+                               VerticalAlignment="Center"
+                               FontSize="18"
+                               Foreground="#37474f"/>
+                        <TextBox Text="{Binding InputYear, UpdateSourceTrigger=PropertyChanged}"
+                             Width="320"
+                             FontSize="18"
+                             Padding="5"
+                             Margin="5 0"
+                             BorderBrush="#b0bec5"
+                             BorderThickness="1"
+                             Background="#fafafa"/>
+                    </StackPanel>
+
+                    <!-- 
+                    Кнопки керування.
+                    Всі команди підключаються до ICommand у ViewModel.
+                    Коли користувач натискає кнопку — викликається метод у ViewModel.
+                    -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <!-- Кнопка додавання -->
+                        <Button Content="Додати"
+                            Width="120"
+                            Height="45"
+                            FontSize="18"
+                            Margin="0 0 15 0"
+                            Command="{Binding AddBookCommand}"
+                            Background="#43a047"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"/>
+
+                        <!-- Кнопка оновлення -->
+                        <Button Content="Оновити"
+                            Width="120"
+                            Height="45"
+                            FontSize="18"
+                            Margin="0 0 15 0"
+                            Command="{Binding UpdateBookCommand}"
+                            Background="#1e88e5"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"/>
+
+                        <!-- Кнопка видалення -->
+                        <Button Content="Видалити"
+                            Width="120"
+                            Height="45"
+                            FontSize="18"
+                            Command="{Binding DeleteBookCommand}"
+                            Background="#e53935"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Cursor="Hand"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Window>

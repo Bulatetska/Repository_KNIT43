@@ -1,0 +1,230 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0-android": {},
+    "net9.0-ios": {},
+    "net9.0-maccatalyst": {},
+    "net9.0-windows10.0.19041": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0-android": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.5",
+      "Microsoft.Maui.Controls"
+    ],
+    "net9.0-ios": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.5",
+      "Microsoft.Maui.Controls"
+    ],
+    "net9.0-maccatalyst": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.5",
+      "Microsoft.Maui.Controls"
+    ],
+    "net9.0-windows10.0.19041": [
+      "Microsoft.Extensions.Logging.Debug >= 9.0.5",
+      "Microsoft.Maui.Controls"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lukan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab11\\Lab11\\Lab11.csproj",
+      "projectName": "Lab11",
+      "projectPath": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab11\\Lab11\\Lab11.csproj",
+      "packagesPath": "C:\\Users\\lukan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab11\\Lab11\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lukan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0-android",
+        "net9.0-ios",
+        "net9.0-maccatalyst",
+        "net9.0-windows10.0.19041.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0-android": {
+          "targetAlias": "net9.0-android",
+          "projectReferences": {}
+        },
+        "net9.0-ios": {
+          "targetAlias": "net9.0-ios",
+          "projectReferences": {}
+        },
+        "net9.0-maccatalyst": {
+          "targetAlias": "net9.0-maccatalyst",
+          "projectReferences": {}
+        },
+        "net9.0-windows10.0.19041": {
+          "targetAlias": "net9.0-windows10.0.19041.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0-android": {
+        "targetAlias": "net9.0-android",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-ios": {
+        "targetAlias": "net9.0-ios",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-maccatalyst": {
+        "targetAlias": "net9.0-maccatalyst",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      },
+      "net9.0-windows10.0.19041": {
+        "targetAlias": "net9.0-windows10.0.19041.0",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Windows.SDK.NET.Ref",
+            "version": "[10.0.19041.57, 10.0.19041.57]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.Windows.SDK.NET.Ref.Windows": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "Platform version is not present for one or more target frameworks, even though they have specified a platform: net9.0-android, net9.0-ios, net9.0-maccatalyst"
+    }
+  ]
+}
