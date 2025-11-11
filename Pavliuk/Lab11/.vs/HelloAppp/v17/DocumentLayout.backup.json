@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\helloappp\\helloappp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D6B1A05-6A41-4D58-B9FE-FC80628628AC}|HelloAppp\\HelloAppp.csproj|solutionrelative:helloappp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "HelloAppp\\Platforms\\iOS\\AppDelegate.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeToolTip": "HelloAppp\\Platforms\\iOS\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:51:20.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "HelloAppp\\MainPage.xaml.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MainPage.xaml.cs",
+              "RelativeToolTip": "HelloAppp\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:33:01.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "HelloAppp\\MainPage.xaml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MainPage.xaml",
+              "RelativeToolTip": "HelloAppp\\MainPage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-10T15:29:30.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "HelloAppp\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "HelloAppp\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:33:59.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "HelloAppp\\AppShell.xaml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\AppShell.xaml",
+              "RelativeToolTip": "HelloAppp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-10T15:26:52.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\App.xaml",
+              "RelativeDocumentMoniker": "HelloAppp\\App.xaml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\App.xaml",
+              "RelativeToolTip": "HelloAppp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-10T15:26:44.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "HelloAppp\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "HelloAppp\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:34:01.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "HelloAppp\\MauiProgram.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\HelloAppp\\HelloAppp\\MauiProgram.cs",
+              "RelativeToolTip": "HelloAppp\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T15:25:01.591Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
