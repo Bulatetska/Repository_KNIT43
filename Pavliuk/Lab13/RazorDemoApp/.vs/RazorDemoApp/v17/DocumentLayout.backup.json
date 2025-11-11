@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\demo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\demo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab13\\razordemoapp\\razordemoapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9750219-7A81-47A1-9039-EA3E9C41C755}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:52:28.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:02:22.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_PartialView.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:09:14.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Controllers\\DemoController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "RazorDemoApp\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:50:51.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RazorDemoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:49:23.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T14:06:04.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Program.cs",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Program.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Program.cs",
+              "RelativeToolTip": "RazorDemoApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:53:17.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "RazorDemoApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T13:49:17.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:49:13.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab13\\RazorDemoApp\\RazorDemoApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:49:09.658Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
