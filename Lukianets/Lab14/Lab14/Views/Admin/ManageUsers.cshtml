@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MvcStoreLab.Models.User>
+
+@{
+    ViewData["Title"] = "Керування Користувачами (Адмін)";
+}
+
+<h1 class="text-danger">🔐 @ViewData["Title"]</h1>
+<p class="text-warning">Ця сторінка також захищена атрибутом авторизації (`AuthorizeUserAttribute`) та має застосований кастомний атрибут дії (`LogActionAttribute`).</p>
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ім'я Користувача</th>
+            <th>Email</th>
+            <th>Дії Адміна</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Username)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>
+                    <a asp-controller="User" asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">Деталі</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+</div>

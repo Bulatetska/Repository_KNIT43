@@ -1,0 +1,27 @@
+﻿@model MvcStoreLab.Models.User
+
+@{
+    ViewData["Title"] = "Дані Користувача";
+}
+
+<h1>@ViewData["Title"]</h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-3">ID</dt>
+        <dd class = "col-sm-9">@Html.DisplayFor(model => model.Id)</dd>
+        
+        <dt class = "col-sm-3">@Html.DisplayNameFor(model => model.Username)</dt>
+        <dd class = "col-sm-9">@Html.DisplayFor(model => model.Username)</dd>
+
+        <dt class = "col-sm-3">@Html.DisplayNameFor(model => model.Email)</dt>
+        <dd class = "col-sm-9">@Html.DisplayFor(model => model.Email)</dd>
+        
+        <dt class = "col-sm-3">Пароль (Приховано)</dt>
+        <dd class = "col-sm-9">@Html.DisplayFor(model => model.Password)</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+</div>

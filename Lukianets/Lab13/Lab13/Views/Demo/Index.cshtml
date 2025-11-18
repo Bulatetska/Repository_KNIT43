@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Razor Demo";
+}
+
+<h1>@ViewData["Message"]</h1>
+
+<!-- Виведення чисел за допомогою циклу for -->
+<ul>
+    @for (var i = 1; i <= 5; i++)
+    {
+        <li>Число: @i</li>
+    }
+</ul>
+
+<!-- Підключення часткового подання -->
+@await Html.PartialAsync("_PartialView")

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MvcStoreLab.Models.Product>
+
+@{
+    ViewData["Title"] = "Керування Продуктами (Адмін)";
+}
+
+<h1 class="text-danger">🔐 @ViewData["Title"]</h1>
+<p class="text-warning">Ця сторінка захищена атрибутом авторизації (`AuthorizeUserAttribute`).</p>
+<hr />
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Назва</th>
+            <th>Ціна</th>
+            <th>Опис</th>
+            <th>Дії Адміна</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-info">Редагувати</a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+</div>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Головна Сторінка Магазину";
+}
+
+
+
+<h2>Основні Розділи</h2>
+<ul>
+    <li>
+        <a asp-controller="Product" asp-action="List">Переглянути Список Продуктів</a>
+    </li>
+    <li>
+        <a asp-controller="User" asp-action="Create">Створити Нового Користувача</a>
+    </li>
+    <li>
+        <a asp-controller="Order" asp-action="PlaceOrder">Розмістити Нове Замовлення</a>
+    </li>
+    <li>
+        <a asp-controller="Order" asp-action="ListOrders">Показати Всі Замовлення</a>
+    </li>
+    <li>
+        <a asp-controller="Admin" asp-action="ManageProducts">Адмін-панель (Керування Продуктами)</a>
+    </li>
+    <li>
+        <a asp-controller="Admin" asp-action="ManageUsers">Адмін-панель (Керування Користувачами)</a>
+    </li>
+</ul>
+

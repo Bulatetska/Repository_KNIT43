@@ -1,0 +1,35 @@
+﻿@model IEnumerable<MvcStoreLab.Models.Product>
+
+@{
+    ViewData["Title"] = "Список Продуктів";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id" asp-route-name="@item.Name" class="btn btn-sm btn-info">Редагувати</a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+</div>

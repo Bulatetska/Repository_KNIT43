@@ -1,0 +1,37 @@
+﻿@using MvcStoreLab.Models
+@{
+    ViewData["Title"] = "Розмістити Замовлення";
+    var products = ViewBag.AvailableProducts as List<Product>;
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="PlaceOrder" method="post">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            
+            <div class="form-group">
+                <label for="customerName" class="control-label">Ваше Ім'я</label>
+                <input id="customerName" name="customerName" class="form-control" required />
+            </div>
+            
+            <div class="form-group mt-3">
+                <label for="selectedProducts" class="control-label">Оберіть Продукти</label>
+                <select id="selectedProducts" name="selectedProducts" class="form-control" multiple required> 
+                    @foreach (var p in products)
+                    {
+                        <option value="@p.Name">@p.Name (@p.Price.ToString("C"))</option>
+                    }
+                </select>
+                <small class="text-muted">Для вибору кількох утримуйте Ctrl/Cmd.</small>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Оформити Замовлення" class="btn btn-success" />
+                <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+            </div>
+        </form>
+    </div>
+</div>

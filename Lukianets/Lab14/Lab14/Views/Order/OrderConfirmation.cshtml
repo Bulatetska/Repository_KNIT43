@@ -1,0 +1,31 @@
+﻿@model MvcStoreLab.Models.Order
+
+@{
+    ViewData["Title"] = "Підтвердження Замовлення";
+}
+
+<h1>@ViewData["Title"]</h1>
+<h3>Ваше замовлення успішно розміщено!</h3>
+<hr />
+
+@if (Model != null)
+{
+    <dl class="row">
+        <dt class = "col-sm-4">Номер Замовлення:</dt>
+        <dd class = "col-sm-8">@Html.DisplayFor(model => model.Id)</dd>
+
+        <dt class = "col-sm-4">Замовник:</dt>
+        <dd class = "col-sm-8">@Html.DisplayFor(model => model.Username)</dd>
+        
+        <dt class = "col-sm-4">Продукти:</dt>
+        <dd class= "col-sm-8">@Html.DisplayFor(model => model.ProductNames)</dd>
+
+        <dt class = "col-sm-4">Загальна Сума:</dt>
+        <dd class = "col-sm-8">@Model.TotalAmount.ToString("C")</dd>
+        
+        <dt class = "col-sm-4">Дата Замовлення:</dt>
+        <dd class = "col-sm-8">@Html.DisplayFor(model => model.OrderDate)</dd>
+    </dl>
+}
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-info">На головну</a>

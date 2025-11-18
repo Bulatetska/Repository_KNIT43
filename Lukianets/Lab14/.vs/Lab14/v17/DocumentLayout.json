@@ -1,0 +1,421 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\order\\listorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\order\\listorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\order\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\order\\orderconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\admin\\manageproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\admin\\manageproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\admin\\manageusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\filters\\authorizeuserattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\filters\\authorizeuserattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\models\\datastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\filters\\logactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\filters\\logactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\lab14\\lab14\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6001B7D8-E7F1-487F-9E5D-070CE5DB1700}|Lab14\\Lab14.csproj|solutionrelative:lab14\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\OrderConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Order\\OrderConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\OrderConfirmation.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Order\\OrderConfirmation.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwB4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:42:28.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:40:18.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:39:15.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:38:39.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\ListOrders.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Order\\ListOrders.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\ListOrders.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Order\\ListOrders.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T12:53:49.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Order\\PlaceOrder.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Order\\PlaceOrder.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:41:55.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Home\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Home\\AccessDenied.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Home\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:43:57.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Program.cs",
+              "RelativeDocumentMoniker": "Lab14\\Program.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Program.cs",
+              "RelativeToolTip": "Lab14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:30:47.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Product\\List.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T10:32:53.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManageProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Admin\\ManageProducts.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Admin\\ManageProducts.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Admin\\ManageProducts.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Admin\\ManageProducts.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T10:00:20.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ManageUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Admin\\ManageUsers.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Admin\\ManageUsers.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Admin\\ManageUsers.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T10:00:52.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T09:41:04.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthorizeUserAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Filters\\AuthorizeUserAttribute.cs",
+              "RelativeDocumentMoniker": "Lab14\\Filters\\AuthorizeUserAttribute.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Filters\\AuthorizeUserAttribute.cs",
+              "RelativeToolTip": "Lab14\\Filters\\AuthorizeUserAttribute.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:30:28.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Lab14\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Lab14\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:24:56.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Lab14\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\User.cs",
+              "RelativeToolTip": "Lab14\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:23:20.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Lab14\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Lab14\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAmwEwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:27:33.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Lab14\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\Product.cs",
+              "RelativeToolTip": "Lab14\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:22:21.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lab14\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lab14\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:26:16.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Lab14\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Lab14\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:26:50.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Lab14\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\Order.cs",
+              "RelativeToolTip": "Lab14\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:24:05.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab14\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Lab14\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T10:31:20.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataStore.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\DataStore.cs",
+              "RelativeDocumentMoniker": "Lab14\\Models\\DataStore.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\DataStore.cs",
+              "RelativeToolTip": "Lab14\\Models\\DataStore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:30:01.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Lab14\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Lab14\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:21:55.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LogActionAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Filters\\LogActionAttribute.cs",
+              "RelativeDocumentMoniker": "Lab14\\Filters\\LogActionAttribute.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Filters\\LogActionAttribute.cs",
+              "RelativeToolTip": "Lab14\\Filters\\LogActionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:35:30.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Lab14\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\Lab14\\Lab14\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Lab14\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T10:28:14.261Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

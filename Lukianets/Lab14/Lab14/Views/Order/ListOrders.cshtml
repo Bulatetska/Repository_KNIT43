@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MvcStoreLab.Models.Order>
+
+@{
+    ViewData["Title"] = "Список Розміщених Замовлень";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info" role="alert">
+        Жодне замовлення ще не було розміщено.
+    </div>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Ім'я Клієнта</th>
+                <th>Продукти</th>
+                <th>Загальна Сума</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.Username</td>
+                    <td>@order.ProductNames</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">На головну</a>
+</div>
