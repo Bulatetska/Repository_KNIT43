@@ -1,0 +1,23 @@
+@model List<MvcApp.Models.Order>
+
+<h2>Перегляд замовлень</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Продукт</th>
+            <th>Кількість</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var o in Model)
+        {
+            <tr>
+                <td>@o.Id</td>
+                <td>@o.ProductName</td>
+                <td>@o.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>

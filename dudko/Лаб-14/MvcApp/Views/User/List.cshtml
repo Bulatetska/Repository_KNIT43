@@ -1,0 +1,21 @@
+@model List<MvcApp.Models.User>
+
+<h2>Список користувачів</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Ім'я</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

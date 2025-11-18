@@ -1,0 +1,28 @@
+@model List<MvcApp.Models.Product>
+
+<h2>Управління продуктами</h2>
+<a class="btn btn-primary mb-2" href="/Product/Create">Додати продукт</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Назва</th>
+            <th>Ціна</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Name</td>
+                <td>@p.Price</td>
+                <td>
+                    <a class="btn btn-danger btn-sm" href="/Admin/DeleteProduct?id=@p.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
