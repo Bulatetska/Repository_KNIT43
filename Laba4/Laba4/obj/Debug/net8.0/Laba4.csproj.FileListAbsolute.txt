@@ -1,0 +1,15 @@
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.AssemblyInfoInputs.cache
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.AssemblyInfo.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.csproj.CoreCompileInputs.cache
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.sourcelink.json
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\bin\Debug\net8.0\Laba4.exe
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\bin\Debug\net8.0\Laba4.deps.json
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\bin\Debug\net8.0\Laba4.runtimeconfig.json
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\bin\Debug\net8.0\Laba4.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\bin\Debug\net8.0\Laba4.pdb
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\refint\Laba4.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.pdb
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\Laba4.genruntimeconfig.cache
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Laba4\Laba4\obj\Debug\net8.0\ref\Laba4.dll
