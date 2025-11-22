@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\bin\Debug\net9.0\Lab5.exe
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\bin\Debug\net9.0\Lab5.deps.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\bin\Debug\net9.0\Lab5.runtimeconfig.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\bin\Debug\net9.0\Lab5.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\bin\Debug\net9.0\Lab5.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.AssemblyInfo.cs
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.sourcelink.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\refint\Lab5.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\Lab5.genruntimeconfig.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab5\obj\Debug\net9.0\ref\Lab5.dll

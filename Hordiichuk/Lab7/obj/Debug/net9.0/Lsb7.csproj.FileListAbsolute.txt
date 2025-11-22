@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\bin\Debug\net9.0\Lsb7.exe
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\bin\Debug\net9.0\Lsb7.deps.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\bin\Debug\net9.0\Lsb7.runtimeconfig.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\bin\Debug\net9.0\Lsb7.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\bin\Debug\net9.0\Lsb7.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.AssemblyInfo.cs
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.sourcelink.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\refint\Lsb7.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\Lsb7.genruntimeconfig.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab7\obj\Debug\net9.0\ref\Lsb7.dll
