@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\bin\Debug\net9.0\Lab4ForT.exe
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\bin\Debug\net9.0\Lab4ForT.deps.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\bin\Debug\net9.0\Lab4ForT.runtimeconfig.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\bin\Debug\net9.0\Lab4ForT.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\bin\Debug\net9.0\Lab4ForT.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.AssemblyInfo.cs
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.sourcelink.json
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\refint\Lab4ForT.dll
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.pdb
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\Lab4ForT.genruntimeconfig.cache
+C:\Users\user\Desktop\NET\Repository_KNIT43\Hordiichuk\Lab4ForT\obj\Debug\net9.0\ref\Lab4ForT.dll
