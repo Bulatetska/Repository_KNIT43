@@ -181,7 +181,7 @@ namespace ConsoleApplication8
             Console.WriteLine("The solution from the lecture fits all the requirements.");
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("I just copied everything from lecture all coments and code are the same, exept Console.... mesages, because it is dont need to be changed");
+            Console.WriteLine("I just copied everything from lecture all coments and code are the same, exept Console.... mesages and other small chenges, because it is dont need to be changed");
             Console.ResetColor();
             Console.WriteLine("The 'color' declared as private and kind of hiding under that name and in the future needs to be incapsulated");
             Console.WriteLine("The lecture contained the exact five-parameter constructor required and with base class:\r\n(string name, double a, double b, double c, int color) :\r\n        base(name, a, b, c)");
