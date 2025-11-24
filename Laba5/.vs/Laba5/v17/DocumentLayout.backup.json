@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Laba5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F755A58-5BF5-4054-AD3B-04255CF16D6B}|Laba5\\Laba5.csproj|c:\\users\\irina\\onedrive\\desktop\\\u0432\u043D\u0443\\4 year\\4yearfirstsemestr\\texhnologynet\\repository_knit43\\laba5\\laba5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F755A58-5BF5-4054-AD3B-04255CF16D6B}|Laba5\\Laba5.csproj|solutionrelative:laba5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Laba5\\Laba5\\Program.cs",
+              "RelativeDocumentMoniker": "Laba5\\Program.cs",
+              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Laba5\\Laba5\\Program.cs*",
+              "RelativeToolTip": "Laba5\\Program.cs*",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAqwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:42:27.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
