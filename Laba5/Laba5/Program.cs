@@ -111,16 +111,18 @@ namespace ConsoleApplication8
         }
     }
     // Клас, що визначає трикутник з кольором
+
     class TriangleColor : Triangle
     {
         // 1. Приховане поле color
         private int color;
-       
+        
         // 2. Конструктор з 5 параметрами
         public TriangleColor(string name, double a, double b, double c, int
        color) :
         base(name, a, b, c)
         {
+            
             // Перевірка на коректність задавання значення color
             if ((color >= 0) && (color <= 255))
                 this.color = color;
@@ -130,15 +132,18 @@ namespace ConsoleApplication8
         // 3. Властивість доступу до поля color
         public int Color
         {
+           
             get { return color; }
             set
             {
+                
                 // Перевірка на коректність задавання значення color
                 if ((color >= 0) && (color <= 255))
                     color = value;
                 else
                     color = 0;
             }
+            
         }
         // 4. Властивість Area2 - викликає однойменну
         // властивість базового класу.
@@ -170,7 +175,19 @@ namespace ConsoleApplication8
     class Program
     {
         static void Main(string[] args)
+
         {
+              Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("The solution from the lecture fits all the requirements.");
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("I just copied everything from lecture all coments and code are the same, exept Console.... mesages, because it is dont need to be changed");
+            Console.ResetColor();
+            Console.WriteLine("The 'color' declared as private and kind of hiding under that name and in the future needs to be incapsulated");
+            Console.WriteLine("The lecture contained the exact five-parameter constructor required and with base class:\r\n(string name, double a, double b, double c, int color) :\r\n        base(name, a, b, c)");
+            Console.WriteLine("The 'Color' wrote as property and have GET/SET methods, which is designed to access the internal 'color' field");
+            Console.WriteLine("The 'Area2' property and 'Area()','Print()' method both 'override' the base class implementations and call them using base.Area2 and base.Area(), base.Print");
+
             // Демонстрація поліморфізму з використанням
             // абстрактного класу.
             // 1. Оголосити посилання на базовий клас
@@ -180,6 +197,7 @@ namespace ConsoleApplication8
             // Figure objFg = new Figure("Figure"); - помилка!
             // 2.2. Оголосити екземпляри класів Triangle, TriangleColor
             Triangle Tr = new Triangle("Triangle", 2, 3, 2);
+            /*Екземпляр класу TriangleColor з 5 параметрами */
             TriangleColor TrCol = new TriangleColor("TriangleColor", 1, 3, 3, 0);
             // 3. Демонстрація поліморфізму на прикладі методу Print()
             refFg = Tr;
