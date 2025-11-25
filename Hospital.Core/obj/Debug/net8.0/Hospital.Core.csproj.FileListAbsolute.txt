@@ -1,0 +1,12 @@
+/workspaces/Repository_KNIT43/Hospital.Core/bin/Debug/net8.0/Hospital.Core.deps.json
+/workspaces/Repository_KNIT43/Hospital.Core/bin/Debug/net8.0/Hospital.Core.dll
+/workspaces/Repository_KNIT43/Hospital.Core/bin/Debug/net8.0/Hospital.Core.pdb
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.AssemblyInfoInputs.cache
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.AssemblyInfo.cs
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.csproj.CoreCompileInputs.cache
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.sourcelink.json
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.dll
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/refint/Hospital.Core.dll
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/Hospital.Core.pdb
+/workspaces/Repository_KNIT43/Hospital.Core/obj/Debug/net8.0/ref/Hospital.Core.dll
