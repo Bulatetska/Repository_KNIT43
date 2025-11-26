@@ -1,0 +1,12 @@
+﻿@model ProductApp.Models.Product
+@{
+    var id = ViewBag.Id;
+}
+<form method="post">
+    <input asp-for="Id"></input>
+    <label>Product name</label>
+    <input asp-for="Name"></input>
+    <label>Product price</label>
+    <input asp-for="Price"></input>
+    <button type="submit">Edit</button>
+</form>

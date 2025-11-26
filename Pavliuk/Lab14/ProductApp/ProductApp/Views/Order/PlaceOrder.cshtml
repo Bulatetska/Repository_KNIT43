@@ -1,0 +1,14 @@
+﻿@model ProductApp.Models.Order
+@{
+}
+<h2>Create new order</h2>
+<form method="post">
+    <input asp-for="Id"></input>
+    <label>User Name: </label>
+    <input asp-for="CustomerName"></input>
+    <label>Product: </label>
+    <input asp-for="Product"></input>
+    <label>How much of this product: </label>
+    <input asp-for="Product_num"></input>
+    <button type="submit">Send</button>
+</form>
