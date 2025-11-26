@@ -1,0 +1,60 @@
+<UserControl x:Class="Hospital.WPF.Views.PatientView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="Auto" Width="Auto">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Форма додавання пацієнта -->
+        <GroupBox Grid.Row="0" Header="Додати нового пацієнта" Margin="0,0,0,15" FontSize="14">
+            <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Center">
+                <StackPanel>
+                    <TextBlock Text="Ім'я:" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBox Text="{Binding FirstName}" Width="150" Padding="8" FontSize="14" 
+                             ToolTip="Введіть ім'я пацієнта"/>
+                </StackPanel>
+                
+                <StackPanel Margin="15,0,0,0">
+                    <TextBlock Text="Прізвище:" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBox Text="{Binding LastName}" Width="150" Padding="8" FontSize="14"
+                             ToolTip="Введіть прізвище пацієнта"/>
+                </StackPanel>
+                
+                <StackPanel Margin="15,0,0,0">
+                    <TextBlock Text="Телефон:" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBox Text="{Binding Phone}" Width="150" Padding="8" FontSize="14"
+                             ToolTip="Формат: +380XXXXXXXXX"/>
+                </StackPanel>
+                
+                <StackPanel Margin="15,0,0,0">
+                    <TextBlock Text="Email:" FontWeight="Bold" Margin="0,0,0,5"/>
+                    <TextBox Text="{Binding Email}" Width="200" Padding="8" FontSize="14"
+                             ToolTip="email@example.com"/>
+                </StackPanel>
+                
+                <Button Content="➕ Додати пацієнта" Command="{Binding AddPatientCommand}" 
+                        Margin="25,0,0,0" Padding="15,10" FontSize="13" 
+                        Background="#27ae60" Foreground="White" FontWeight="Bold"/>
+            </StackPanel>
+        </GroupBox>
+        
+        <!-- Список пацієнтів -->
+        <GroupBox Grid.Row="1" Header="Зареєстровані пацієнти" FontSize="14">
+            <ListView ItemsSource="{Binding Patients}" Margin="10">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
+                        <GridViewColumn Header="Повне ім'я" DisplayMemberBinding="{Binding FullName}" Width="200"/>
+                        <GridViewColumn Header="Медична картка" DisplayMemberBinding="{Binding MedicalCardNumber}" Width="150"/>
+                        <GridViewColumn Header="Телефон" DisplayMemberBinding="{Binding Phone}" Width="150"/>
+                        <GridViewColumn Header="Email" DisplayMemberBinding="{Binding Email}" Width="250"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </GroupBox>
+    </Grid>
+</UserControl>

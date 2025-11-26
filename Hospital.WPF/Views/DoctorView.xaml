@@ -1,0 +1,24 @@
+<UserControl x:Class="Hospital.WPF.Views.DoctorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <GroupBox Header="Лікарі" FontSize="14">
+        <ListView ItemsSource="{Binding Doctors}" Margin="10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
+                    <GridViewColumn Header="Повне ім'я" DisplayMemberBinding="{Binding FullName}" Width="200"/>
+                    <GridViewColumn Header="Спеціалізація" DisplayMemberBinding="{Binding Specialization}" Width="150"/>
+                    <GridViewColumn Header="Досвід" DisplayMemberBinding="{Binding YearsOfExperience}" Width="80">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="Досвід (років)" ToolTip="Роки досвіду"/>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Ліцензія" DisplayMemberBinding="{Binding LicenseNumber}" Width="120"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </GroupBox>
+</UserControl>

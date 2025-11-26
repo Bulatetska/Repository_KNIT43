@@ -1,0 +1,15 @@
+<UserControl x:Class="Hospital.WPF.Views.AppointmentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="📅 Система записів на прийом" 
+                       FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+            <TextBlock Text="Функціонал записів на прийом знаходиться в розробці" 
+                       FontSize="14" HorizontalAlignment="Center" Foreground="#7f8c8d"/>
+            <TextBlock Text="👨‍💻 Незабаром буде доступно!" 
+                       FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0" Foreground="#3498db"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

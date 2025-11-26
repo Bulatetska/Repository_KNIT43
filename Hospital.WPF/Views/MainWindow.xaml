@@ -1,0 +1,76 @@
+<Window x:Class="Hospital.WPF.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModels="clr-namespace:Hospital.WPF.ViewModels"
+        xmlns:views="clr-namespace:Hospital.WPF.Views"
+        Title="Система управління лікарнею" Height="600" Width="900"
+        WindowStartupLocation="CenterScreen">
+    
+    <Window.DataContext>
+        <viewModels:MainViewModel/>
+    </Window.DataContext>
+    
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModels:PatientViewModel}">
+            <views:PatientView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:DoctorViewModel}">
+            <views:DoctorView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:HospitalOverviewViewModel}">
+            <views:HospitalOverviewView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModels:AppointmentViewModel}">
+            <views:AppointmentView/>
+        </DataTemplate>
+
+        <!-- Стиль для кнопок навігації -->
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="15,8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#2c3e50"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <!-- Стиль для текстових полів з підказками -->
+        <Style x:Key="TextBoxWithHint" TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Style.Triggers>
+                <Trigger Property="Text" Value="">
+                    <Setter Property="Foreground" Value="Gray"/>
+                    <Setter Property="Text" Value="{Binding Tag}"/>
+                </Trigger>
+                <Trigger Property="Text" Value="{Binding Tag}">
+                    <Setter Property="Foreground" Value="Gray"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Панель навігації -->
+        <Border Grid.Row="0" Background="#34495e" Padding="15">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="🏥 Огляд лікарні" Command="{Binding ShowHospitalOverviewCommand}" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="👥 Пацієнти" Command="{Binding ShowPatientsCommand}" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="👨‍⚕️ Лікарі" Command="{Binding ShowDoctorsCommand}" 
+                        Style="{StaticResource NavButtonStyle}"/>
+                <Button Content="📅 Записи на прийом" Command="{Binding ShowAppointmentsCommand}" 
+                        Style="{StaticResource NavButtonStyle}"/>
+            </StackPanel>
+        </Border>
+        
+        <!-- Основний вміст -->
+        <ContentControl Grid.Row="1" Content="{Binding CurrentView}" Margin="15"/>
+    </Grid>
+</Window>

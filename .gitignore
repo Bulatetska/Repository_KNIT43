@@ -1,0 +1,16 @@
+**/bin/
+**/obj/
+*.user
+*.suo
+*.csproj.user
+*.cache
+*.orig
+*.pdb
+*.dll
+*.exe
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+.vscode/
