@@ -1,0 +1,62 @@
+﻿<Window x:Class="Lab10.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:Lab10.ViewModels"
+        Title="Book Manager"
+        Height="350"
+        Width="600">
+
+    <Window.DataContext>
+        <vm:BookViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Список книг -->
+        <ListBox Grid.Column="0"
+                 ItemsSource="{Binding Books}"
+                 SelectedItem="{Binding SelectedBook}"
+                 Margin="0 0 10 0">
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Title}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+
+        </ListBox>
+
+        <!-- Форма створення / редагування -->
+        <StackPanel Grid.Column="1">
+
+            <TextBlock Text="Назва:"/>
+            <TextBox Text="{Binding TitleField, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock Text="Автор:"
+                    Margin="0 10 0 0"/>
+            <TextBox Text="{Binding AuthorField, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <TextBlock Text="Рік:"
+                    Margin="0 10 0 0"/>
+            <TextBox Text="{Binding YearField, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <StackPanel Orientation="Horizontal"
+                    Margin="0 20 0 0">
+                <Button Content="Додати книгу"
+                        Command="{Binding AddCommand}"
+                        Width="120"/>
+
+                <Button Content="Видалити книгу"
+                        Command="{Binding DeleteCommand}"
+                        Width="120"
+                        Margin="15 0 0 0"/>
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
