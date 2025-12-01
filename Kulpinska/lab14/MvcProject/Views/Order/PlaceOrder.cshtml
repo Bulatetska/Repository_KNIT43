@@ -1,0 +1,19 @@
+@model MvcLab.Models.Order
+
+<h2>Нове замовлення</h2>
+
+<form method="post">
+    <div>
+        <label>Ім'я клієнта:</label>
+        <input name="CustomerName" />
+    </div>
+    <div>
+        <label>Назва продукту:</label>
+        <input name="ProductName" />
+    </div>
+    <div>
+        <label>Кількість:</label>
+        <input name="Quantity" type="number" />
+    </div>
+    <button type="submit">Оформити</button>
+</form>

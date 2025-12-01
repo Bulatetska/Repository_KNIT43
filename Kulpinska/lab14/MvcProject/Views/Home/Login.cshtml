@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Логін";
+}
+
+<h2>Вхід</h2>
+
+<form method="post">
+    <div>
+        <label>Ім'я користувача:</label>
+        <input name="username" />
+    </div>
+    <div>
+        <label>Пароль:</label>
+        <input name="password" type="password" />
+    </div>
+    <button type="submit">Увійти</button>
+</form>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}

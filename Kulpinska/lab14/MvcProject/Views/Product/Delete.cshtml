@@ -1,0 +1,10 @@
+@model MvcLab.Models.Product
+
+<h2>Підтвердження видалення</h2>
+
+<p>Ви впевнені, що хочете видалити "@Model.Name"?</p>
+
+<form method="post" action="/Product/DeleteConfirmed/@Model.Id">
+    <button type="submit">Так, видалити</button>
+    <a href="/Product/List">Відмінити</a>
+</form>

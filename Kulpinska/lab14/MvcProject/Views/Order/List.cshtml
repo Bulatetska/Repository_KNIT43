@@ -1,0 +1,21 @@
+@model List<MvcLab.Models.Order>
+
+<h2>Список замовлень</h2>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>ID</th>
+        <th>Клієнт</th>
+        <th>Продукт</th>
+        <th>Кількість</th>
+    </tr>
+    @foreach (var o in Model)
+    {
+        <tr>
+            <td>@o.Id</td>
+            <td>@o.CustomerName</td>
+            <td>@o.ProductName</td>
+            <td>@o.Quantity</td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,19 @@
+@model List<MvcLab.Models.AppUser>
+
+<h2>Список користувачів</h2>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>ID</th>
+        <th>Ім'я</th>
+        <th>Email</th>
+    </tr>
+    @foreach (var u in Model)
+    {
+        <tr>
+            <td>@u.Id</td>
+            <td>@u.Name</td>
+            <td>@u.Email</td>
+        </tr>
+    }
+</table>

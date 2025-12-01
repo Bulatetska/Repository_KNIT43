@@ -1,0 +1,19 @@
+@model List<MvcLab.Models.Product>
+
+<h2>Продукти</h2>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>ID</th>
+        <th>Назва</th>
+        <th>Ціна</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+        </tr>
+    }
+</table>

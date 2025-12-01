@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Головна";
+}
+
+<h2>Головна сторінка</h2>
+
+<ul>
+    <li><a href="/Product/List">Список продуктів</a></li>
+    <li><a href="/User/Create">Створити користувача</a></li>
+    <li><a href="/Order/PlaceOrder">Оформити замовлення</a></li>
+    <li><a href="/Order/List">Переглянути замовлення</a></li>
+    <li><a href="/Admin/Dashboard">Адмінка</a></li>
+</ul>
+
+@if (Context.Session.GetString("IsAdmin") == "true")
+{
+    <p>Ви увійшли як адміністратор. <a href="/Home/Logout">Вийти</a></p>
+}
+else
+{
+    <p><a href="/Home/Login">Увійти як адмін</a></p>
+}

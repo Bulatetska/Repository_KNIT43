@@ -1,0 +1,22 @@
+﻿<Window x:Class="LastIPosition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Знайти останню букву 'і'"
+        Height="200"
+        Width="400">
+    <Grid Margin="10">
+        <TextBox x:Name="InputTextBox"
+                Height="25"
+                Margin="0,0,0,0"
+                VerticalAlignment="Top"/>
+        <Button Content="Обробити"
+                Height="30"
+                Margin="0,40,0,0"
+                VerticalAlignment="Top"
+                Click="ProcessButton_Click"/>
+        <TextBlock x:Name="ResultTextBlock"
+                Margin="0,90,0,0"
+                VerticalAlignment="Top"
+                FontSize="14"/>
+    </Grid>
+</Window>

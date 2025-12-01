@@ -1,0 +1,28 @@
+@model List<MvcLab.Models.Product>
+
+<h2>Список продуктів</h2>
+
+<p><a href="/Product/Create">Створити новий продукт</a></p>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>ID</th>
+        <th>Назва</th>
+        <th>Ціна</th>
+        <th>Дії</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+        var slug = p.Name.Replace(" ", "-").ToLower();
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td>
+                <a href="/catalog/@p.Id/@slug">Details</a> |
+                <a href="/Product/Edit/@p.Id">Edit</a> |
+                <a href="/Product/Delete/@p.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
