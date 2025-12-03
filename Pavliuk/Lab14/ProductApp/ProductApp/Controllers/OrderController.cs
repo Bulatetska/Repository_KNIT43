@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//OrderController.cs
+using Microsoft.AspNetCore.Mvc;
 using ProductApp.Models;
 
 namespace ProductApp.Controllers
 {
     public class OrderController : Controller
     {
+        
         private static List<Order> orders = new List<Order>();
         private static List<Product> products = new List<Product> {
             new Product {Id = 1, Name = "Bread", Price = 25},
@@ -25,7 +27,9 @@ namespace ProductApp.Controllers
         }
         [HttpPost]
         public IActionResult PlaceOrder(Order order)
-        {
+        {   
+            order.Id = orders.Count + 1;
+            order.DateOrder = DateTime.Now;
             orders.Add(order);
             return View("OrderDetails", order);
         }

@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//UserController.cs
+using Microsoft.AspNetCore.Mvc;
 using ProductApp.Models;
 namespace ProductApp.Controllers
 {
     public class UserController : Controller
     {
         private static List<User> users = new List<User>();
+        private static int nextId = 1;
         public IActionResult Index()
         {
             return View();
@@ -17,11 +19,17 @@ namespace ProductApp.Controllers
         [HttpPost] 
         public IActionResult Create(User user)
         {
-            return View("Details", user);
+            user.Id = nextId++;
+            users.Add(user);
+            HttpContext.Session.SetString("user", user.Name);
+            HttpContext.Session.SetString("role", user.Role ?? "User");
+            return RedirectToAction(nameof(Details), new {id = user.Id});
         }
-        public IActionResult Details(User user)
+        public IActionResult Details(int id)
         {
-            return View(user);
+            var u = users.SingleOrDefault(x => x.Id == id);
+             
+            return View(u);
         }
     }
 }

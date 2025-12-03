@@ -1,0 +1,20 @@
+﻿@model ProductApp.Models.Product
+
+<h2>Product Details</h2>
+
+@if (Model != null)
+{
+    <p>Product ID: @Model.Id</p>
+    <p>Name: @Model.Name</p>
+    <p>Price: @Model.Price грн</p>
+
+    <p>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a> |
+        <a asp-action="List">Back to List</a>
+    </p>
+}
+else
+{
+    <p>Product not found.</p>
+}

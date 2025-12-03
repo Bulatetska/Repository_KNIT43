@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,24 +11,88 @@
       "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\filters\\requireauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\filters\\requireauthenticationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\filters\\logactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\filters\\logactionattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\filters\\requireroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\filters\\requireroleattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\order\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\product\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|e:\\uni\\net\\rep\\repository_knit43\\pavliuk\\lab14\\productapp\\productapp\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93B71B6F-0AF7-4D11-9C88-93610385516E}|ProductApp\\ProductApp.csproj|solutionrelative:productapp\\views\\order\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,167 +102,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ProductApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:06:30.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "ProductApp\\Controllers\\OrderController.cs",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "ProductApp\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:10:16.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ProductApp\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ProductApp\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:07:31.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ProductApp\\Models\\User.cs",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\User.cs",
-              "RelativeToolTip": "ProductApp\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:26:48.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "ProductApp\\Controllers\\UserController.cs",
               "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\UserController.cs",
               "RelativeToolTip": "ProductApp\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwBgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T16:21:40.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlaceOrder.cshtml",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\PlaceOrder.cshtml",
-              "RelativeDocumentMoniker": "ProductApp\\Views\\Order\\PlaceOrder.cshtml",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\PlaceOrder.cshtml",
-              "RelativeToolTip": "ProductApp\\Views\\Order\\PlaceOrder.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T17:11:25.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderDetails.cshtml",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\OrderDetails.cshtml",
-              "RelativeDocumentMoniker": "ProductApp\\Views\\Order\\OrderDetails.cshtml",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\OrderDetails.cshtml",
-              "RelativeToolTip": "ProductApp\\Views\\Order\\OrderDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T17:26:42.25Z",
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Models\\User.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\User.cs",
+              "RelativeToolTip": "ProductApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:26:48.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\List.cshtml",
-              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\List.cshtml",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\List.cshtml",
-              "RelativeToolTip": "ProductApp\\Views\\Product\\List.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\Details.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T17:42:39.04Z",
+              "WhenOpened": "2025-12-03T23:13:47.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Controllers\\OrderController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ProductApp\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T17:10:16.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ProductApp\\Models\\Order.cs",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Order.cs",
-              "RelativeToolTip": "ProductApp\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProductApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:10:49.773Z",
+              "WhenOpened": "2025-12-03T22:37:26.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RequireAuthenticationAttribute.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\RequireAuthenticationAttribute.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Filters\\RequireAuthenticationAttribute.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\RequireAuthenticationAttribute.cs",
+              "RelativeToolTip": "ProductApp\\Filters\\RequireAuthenticationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:04:15.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Controllers\\ProductController.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T16:07:31.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "ProductApp\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-11T18:13:53.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Program.cs",
               "RelativeDocumentMoniker": "ProductApp\\Program.cs",
               "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Program.cs",
               "RelativeToolTip": "ProductApp\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T17:04:59.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "ProductApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "ProductApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:18:28.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "ProductApp\\Models\\Product.cs",
               "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Product.cs",
               "RelativeToolTip": "ProductApp\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T17:44:13.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T23:07:00.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "LogActionAttribute.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\LogActionAttribute.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Filters\\LogActionAttribute.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\LogActionAttribute.cs",
+              "RelativeToolTip": "ProductApp\\Filters\\LogActionAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:07:17.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RequireRoleAttribute.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\RequireRoleAttribute.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Filters\\RequireRoleAttribute.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Filters\\RequireRoleAttribute.cs",
+              "RelativeToolTip": "ProductApp\\Filters\\RequireRoleAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T23:04:45.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T22:38:18.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\User\\Details.cshtml",
               "RelativeDocumentMoniker": "ProductApp\\Views\\User\\Details.cshtml",
@@ -231,6 +297,110 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-11T17:30:54.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Models\\Order.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\Order.cs",
+              "RelativeToolTip": "ProductApp\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T17:10:49.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ProductApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ProductApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:18:28.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetails.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\OrderDetails.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Order\\OrderDetails.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\OrderDetails.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Order\\OrderDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T17:26:42.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T18:13:53.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T17:56:06.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\List.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Product\\List.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Product\\List.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Product\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T17:42:39.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\User\\Create.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-03T22:31:11.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "ProductApp\\Views\\Order\\PlaceOrder.cshtml",
+              "ToolTip": "E:\\UNI\\NET\\rep\\Repository_KNIT43\\Pavliuk\\Lab14\\ProductApp\\ProductApp\\Views\\Order\\PlaceOrder.cshtml",
+              "RelativeToolTip": "ProductApp\\Views\\Order\\PlaceOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T17:11:25.109Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿//Product.cs
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace ProductApp.Models
 {
