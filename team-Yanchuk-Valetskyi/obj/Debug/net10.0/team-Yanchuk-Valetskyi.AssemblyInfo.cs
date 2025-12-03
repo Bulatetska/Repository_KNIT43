@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("team-Yanchuk-Valetskyi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be3bf2fc0103dac2549ff84312c15192803fb3d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+586af42f51573c1dccea4335f644c00c3828e44e")]
 [assembly: System.Reflection.AssemblyProductAttribute("team-Yanchuk-Valetskyi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("team-Yanchuk-Valetskyi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
