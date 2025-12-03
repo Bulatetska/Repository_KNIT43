@@ -86,5 +86,15 @@ namespace RestaurantSystem.Models
         {
             return ActiveOrders.ToList();
         }
+
+        public void ShowMenu()
+{
+    Console.WriteLine("\n--- Меню ресторану ---");
+    foreach (var product in Menu)
+    {
+        Console.WriteLine(product.GetInfo());
+    }
+}
+
     }
 }
