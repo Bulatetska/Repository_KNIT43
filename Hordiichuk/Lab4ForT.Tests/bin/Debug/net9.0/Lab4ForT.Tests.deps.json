@@ -10,16 +10,12 @@
         "dependencies": {
           "Lab4ForT": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.12.0",
-          "NUnit": "4.2.2",
-          "NUnit.Analyzers": "4.4.0",
-          "NUnit3TestAdapter": "4.6.0",
-          "coverlet.collector": "6.0.2"
+          "NUnit": "4.2.2"
         },
         "runtime": {
           "Lab4ForT.Tests.dll": {}
         }
       },
-      "coverlet.collector/6.0.2": {},
       "Microsoft.CodeCoverage/17.12.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -35,9 +31,6 @@
         }
       },
       "Microsoft.TestPlatform.ObjectModel/17.12.0": {
-        "dependencies": {
-          "System.Reflection.Metadata": "1.6.0"
-        },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.TestPlatform.CoreUtilities.dll": {
             "assemblyVersion": "15.0.0.0",
@@ -300,9 +293,6 @@
           }
         }
       },
-      "NUnit.Analyzers/4.4.0": {},
-      "NUnit3TestAdapter/4.6.0": {},
-      "System.Reflection.Metadata/1.6.0": {},
       "Lab4ForT/1.0.0": {
         "runtime": {
           "Lab4ForT.dll": {
@@ -318,13 +308,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "coverlet.collector/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-bJShQ6uWRTQ100ZeyiMqcFlhP7WJ+bCuabUs885dJiBEzMsJMSFr7BOyeCw4rgvQokteGi5rKQTlkhfQPUXg2A==",
-      "path": "coverlet.collector/6.0.2",
-      "hashPath": "coverlet.collector.6.0.2.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.12.0": {
       "type": "package",
@@ -367,27 +350,6 @@
       "sha512": "sha512-mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
       "path": "nunit/4.2.2",
       "hashPath": "nunit.4.2.2.nupkg.sha512"
-    },
-    "NUnit.Analyzers/4.4.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VVl1CuQttXRZh52HRw5SIOut3qXw4pmuiTYk02jTELVWZ9uYRY8IVl2qF9Zs7W0ElPiLDUrAglFBzNLBCPzEcw==",
-      "path": "nunit.analyzers/4.4.0",
-      "hashPath": "nunit.analyzers.4.4.0.nupkg.sha512"
-    },
-    "NUnit3TestAdapter/4.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-R7e1+a4vuV/YS+ItfL7f//rG+JBvVeVLX4mHzFEZo4W1qEKl8Zz27AqvQSAqo+BtIzUCo4aAJMYa56VXS4hudw==",
-      "path": "nunit3testadapter/4.6.0",
-      "hashPath": "nunit3testadapter.4.6.0.nupkg.sha512"
-    },
-    "System.Reflection.Metadata/1.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
-      "path": "system.reflection.metadata/1.6.0",
-      "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
     "Lab4ForT/1.0.0": {
       "type": "project",
