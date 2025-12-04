@@ -147,6 +147,7 @@ namespace ConsoleApplicationTriangle
             }
         }
 
+
         // 5. Метод Area(), який повертає площу трикутника (через базовий метод)
         public override double Area()
         {
