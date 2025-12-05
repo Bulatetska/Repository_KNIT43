@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\razordemoapp\\razordemoapp\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\shared\\_partialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\razordemoapp\\razordemoapp\\views\\demo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\demo\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\razordemoapp\\razordemoapp\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\views\\demo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\razordemoapp\\razordemoapp\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69EA02E-3552-44E1-8E86-FF40A6934BD8}|RazorDemoApp\\RazorDemoApp.csproj|solutionrelative:razordemoapp\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_PartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Shared\\_PartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T13:38:02.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Demo\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T13:34:54.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "RelativeToolTip": "RazorDemoApp\\Views\\Demo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T13:34:28.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "RazorDemoApp\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\RazorDemoApp\\RazorDemoApp\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "RazorDemoApp\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T13:26:03.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
