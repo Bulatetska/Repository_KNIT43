@@ -10,7 +10,6 @@ namespace Hospital.Core.Interfaces
         void CancelAppointment(int appointmentId);
         List<Appointment> GetUpcomingAppointments(Patient patient);
 
-        // ➕ ДОДАТКОВІ:
         void CompleteAppointment(int appointmentId, string diagnosis, string treatment);
         Appointment? GetAppointmentById(int id);
     }
