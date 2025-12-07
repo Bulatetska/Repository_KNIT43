@@ -1,0 +1,15 @@
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\bin\Debug\net8.0\Kontrolna_robota.exe
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\bin\Debug\net8.0\Kontrolna_robota.deps.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\bin\Debug\net8.0\Kontrolna_robota.runtimeconfig.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\bin\Debug\net8.0\Kontrolna_robota.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\bin\Debug\net8.0\Kontrolna_robota.pdb
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.GeneratedMSBuildEditorConfig.editorconfig
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.AssemblyInfoInputs.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.AssemblyInfo.cs
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.csproj.CoreCompileInputs.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.sourcelink.json
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\refint\Kontrolna_robota.dll
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.pdb
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\Kontrolna_robota.genruntimeconfig.cache
+E:\UNI\NET\rep\Repository_KNIT43\Pavliuk\Kontrolna_robota\Kontrolna_robota\obj\Debug\net8.0\ref\Kontrolna_robota.dll
