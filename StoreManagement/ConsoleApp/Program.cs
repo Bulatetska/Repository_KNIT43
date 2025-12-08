@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+
+using StoreManagement.Models;
+
+namespace StoreManagement.ConsoleApp
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            ConsoleUI ui = new ConsoleUI();
+            ui.Start();
+        }
+    }
+}
