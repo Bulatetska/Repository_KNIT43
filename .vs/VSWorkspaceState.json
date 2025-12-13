@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Cinema",
+    "\\Cinema\\Cinema_classes",
+    "\\Cinema\\Cinema_console"
   ],
-  "SelectedNode": "\\Laba 1",
+  "SelectedNode": "\\Cinema\\Cinema_classes\\CinemaService.cs",
   "PreviewInSolutionExplorer": false
 }

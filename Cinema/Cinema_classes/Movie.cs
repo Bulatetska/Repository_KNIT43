@@ -15,6 +15,8 @@ namespace Cinema_classes
             Description = description;
         }
 
+        public Movie() { }
+
         public override string ToString()
         {
             return $"{Title} ({Genre}) - {DurationMinutes} хв.";

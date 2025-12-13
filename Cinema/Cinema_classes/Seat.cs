@@ -5,27 +5,17 @@ namespace Cinema_classes
         public int Row { get; set; }
         public int Number { get; set; }
         public SeatType Type { get; set; }
-        public bool IsBooked { get; private set; } 
+        public bool IsBooked { get; private set; } = false;
 
         public Seat(int row, int number, SeatType type)
         {
             Row = row;
             Number = number;
             Type = type;
-            IsBooked = false;
         }
 
-       
-        public void Lock()
-        {
-            IsBooked = true;
-        }
-
-        
-        public void Unlock()
-        {
-            IsBooked = false;
-        }
+        public void Lock() => IsBooked = true;
+        public void Unlock() => IsBooked = false;
 
         public override string ToString()
         {
