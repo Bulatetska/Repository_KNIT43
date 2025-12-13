@@ -10,7 +10,7 @@ namespace Cinema_classes
         private List<Hall> Halls { get; } = new List<Hall>();
         public List<Session> Sessions { get; } = new List<Session>();
 
-        public User CurrentUser { get; private set; }
+        public User CurrentUser { get; private set; } = null!;
 
         public void Initialize()
         {

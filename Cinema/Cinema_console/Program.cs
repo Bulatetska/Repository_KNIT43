@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Cinema_classes;
 
 namespace Cinema_console
 {
@@ -15,10 +16,10 @@ namespace Cinema_console
             var selectedSession = sessions[0];
             Console.WriteLine($"\n--- Поточний користувач: {user.Name} ---");
             Console.WriteLine($"Обраний сеанс: {selectedSession}");
-            cinemaService.ProcessBooking(user, selectedSession, row: 1, seat: 5);
-            cinemaService.ProcessBooking(user, selectedSession, row: 5, seat: 1);
-            cinemaService.ProcessBooking(user, selectedSession, row: 1, seat: 5);
-            user.DisplayHistory();
+            cinemaService.ProcessBooking(user, selectedSession, row: 1, seatNum: 5);
+            cinemaService.ProcessBooking(user, selectedSession, row: 5, seatNum: 1);
+            cinemaService.ProcessBooking(user, selectedSession, row: 1, seatNum: 5);
+            //user.DisplayHistory();
         }
     }
 }

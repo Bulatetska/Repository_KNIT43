@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-Cinema_console",
+      "appliesTo": "Cinema/Cinema_console/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-Program",
+      "appliesTo": "Cinema/Cinema_console/Program.cs",
+      "type": "launch"
+    }
+  ]
+}

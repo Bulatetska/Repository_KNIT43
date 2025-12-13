@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System;
 
 namespace Cinema_classes
 {
@@ -18,5 +19,22 @@ namespace Cinema_classes
         {
             PurchaseHistory.Add(ticket);
         }
-    }
-}
+
+        public void DisplayHistory()
+        {
+            Console.WriteLine($"\n--- ²ÑÒÎĞ²ß ÏÎÊÓÏÎÊ ÊÎĞÈÑÒÓÂÀ×À {Name} ---");
+            if (PurchaseHistory.Any())
+            {
+                foreach (var ticket in PurchaseHistory)
+                {
+                    Console.WriteLine(ticket.PrintTicket());
+                    Console.WriteLine("---");
+                }
+            }
+            else
+            {
+                Console.WriteLine("²ñòîğ³ÿ ïîğîæíÿ.");
+            }
+        }
+    } 
+} 
