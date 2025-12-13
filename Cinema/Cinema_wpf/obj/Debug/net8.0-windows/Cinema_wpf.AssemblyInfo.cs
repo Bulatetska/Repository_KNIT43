@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cinema_wpf")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adeb0157f8611ea5b79ba1b3af7c3e4ae7b8bf96")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cacf3c7e527eeba057595a6abc9602838d42ec5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cinema_wpf")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cinema_wpf")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

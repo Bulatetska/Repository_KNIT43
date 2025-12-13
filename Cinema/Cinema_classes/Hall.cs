@@ -17,7 +17,7 @@ namespace Cinema_classes
             Seats = GenerateSeats();
         }
 
-        private List<Seat> GenerateSeats()
+        public List<Seat> GenerateSeats()
         {
             var seats = new List<Seat>();
 
