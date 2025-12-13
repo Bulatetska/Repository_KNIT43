@@ -2,17 +2,18 @@ namespace Cinema_classes
 {
     public class Movie
     {
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
         public int DurationMinutes { get; set; }
-        public string Genre { get; set; }
-        public string Description { get; set; }
+        public string Genre { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
 
         public Movie(string title, int durationMinutes, string genre, string description)
         {
-            Title = title;
+            
             DurationMinutes = durationMinutes;
-            Genre = genre;
-            Description = description;
+            Title = string.Empty;
+            Genre = string.Empty; 
+            Description = string.Empty; 
         }
 
         public Movie() { }

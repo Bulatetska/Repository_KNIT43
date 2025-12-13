@@ -1,0 +1,6 @@
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.csproj.AssemblyReference.cache
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.sourcelink.json

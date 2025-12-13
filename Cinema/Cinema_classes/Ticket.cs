@@ -5,8 +5,8 @@ namespace Cinema_classes
     public abstract class Ticket
     {
         public Guid Id { get; set; } = Guid.NewGuid();
-        public string MovieTitle { get; set; }
-        public string HallName { get; set; }
+        public string MovieTitle { get; set; } = string.Empty;
+        public string HallName { get; set; } = string.Empty;
         public DateTime SessionDate { get; set; }
         public int Row { get; set; }
         public int SeatNumber { get; set; }
