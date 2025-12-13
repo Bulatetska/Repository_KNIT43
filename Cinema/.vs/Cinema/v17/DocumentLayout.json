@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|solutionrelative:cinema_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|solutionrelative:cinema_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}|Cinema_console\\Cinema_console.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}|Cinema_console\\Cinema_console.csproj|solutionrelative:cinema_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Cinema_wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
+              "RelativeToolTip": "Cinema_wpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-13T15:11:48.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Cinema_wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Cinema_wpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:11:48.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
+              "RelativeDocumentMoniker": "Cinema_console\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
+              "RelativeToolTip": "Cinema_console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:11:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
+              "RelativeDocumentMoniker": "Cinema_classes\\Class1.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
+              "RelativeToolTip": "Cinema_classes\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:10:50.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
