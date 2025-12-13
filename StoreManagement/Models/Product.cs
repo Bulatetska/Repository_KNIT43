@@ -1,12 +1,24 @@
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
 namespace StoreManagement.Models
 {
-    public class Product
+    public class Product : INotifyPropertyChanged
     {
+        private int quantity;
+
         public string Name { get; set; }
         public decimal Price { get; set; }
-        public int Quantity { get; set; }
 
-        public Product() { }
+        public int Quantity
+        {
+            get => quantity;
+            set
+            {
+                quantity = value;
+                OnPropertyChanged();
+            }
+        }
 
         public Product(string name, decimal price, int quantity)
         {
@@ -15,9 +27,10 @@ namespace StoreManagement.Models
             Quantity = quantity;
         }
 
-        public override string ToString()
+        public event PropertyChangedEventHandler? PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string prop = "")
         {
-            return $"{Name} — {Price} грн, кількість: {Quantity}";
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
         }
     }
 }
