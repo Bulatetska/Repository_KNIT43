@@ -1,68 +1,22 @@
-using System;
 using System.Collections.Generic;
 
-public abstract class Ticket
+namespace Cinema_classes
 {
-    public string MovieTitle { get; protected set; }
-    public string SeatInfo { get; protected set; }
-    public decimal Price { get; protected set; }
-
-    protected Ticket(string title, string info, decimal price)
+    public class User
     {
-        MovieTitle = title;
-        SeatInfo = info;
-        Price = price;
-    }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public List<Ticket> PurchaseHistory { get; } = new List<Ticket>();
 
-    public abstract string PrintTicket();
-}
-
-public abstract class Ticket
-{
-    public string MovieTitle { get; protected set; }
-    public string SeatInfo { get; protected set; }
-    public decimal Price { get; protected set; }
-
-    protected Ticket(string title, string info, decimal price)
-    {
-        MovieTitle = title;
-        SeatInfo = info;
-        Price = price;
-    }
-
-    public abstract string PrintTicket();
-}
-
-public class User
-{
-    public string Name { get; }
-    public string Email { get; }
-    public List<Ticket> PurchaseHistory { get; } = new List<Ticket>();
-
-    public User(string name, string email)
-    {
-        Name = name;
-        Email = email;
-    }
-
-    public void BuyTicket(Ticket ticket)
-    {
-        PurchaseHistory.Add(ticket);
-        Console.WriteLine($"\n[Повідомлення для {Name}]: Квиток успішно додано до історії.");
-    }
-
-    public void DisplayHistory()
-    {
-        Console.WriteLine($"\n--- Історія покупок {Name} ---");
-        if (PurchaseHistory.Count == 0)
+        public User(string name, string email)
         {
-            Console.WriteLine("Історія порожня.");
-            return;
+            Name = name;
+            Email = email;
         }
-        foreach (var ticket in PurchaseHistory)
+
+        public void BuyTicket(Ticket ticket)
         {
-            Console.WriteLine(ticket.PrintTicket());
+            PurchaseHistory.Add(ticket);
         }
-        Console.WriteLine("--------------------------------");
     }
 }

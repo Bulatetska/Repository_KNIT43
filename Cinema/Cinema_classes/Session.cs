@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cinema_classes
 {
@@ -13,24 +11,21 @@ namespace Cinema_classes
         public Hall Hall { get; set; }
         public DateTime StartTime { get; set; }
         public decimal price { get; set; }
-
         public List<Seat> Seats { get; set; }
-
 
         public Session(Movie movie, Hall hall, DateTime startTime, decimal price)
         {
             Movie = movie;
             Hall = hall;
             StartTime = startTime;
-            price = price;
+            this.price = price;
             Seats = hall.GenerateSeats();
         }
 
         public bool BookSeat(int row, int number)
         {
-            var seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number);
-
-            if (seat != null && !seat.IsBooked)
+            var seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number && !s.IsBooked);
+            if (seat != null)
             {
                 seat.Lock();
                 return true;
@@ -40,36 +35,26 @@ namespace Cinema_classes
 
         public void CancelBooking(int row, int number)
         {
-            var seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number);
-            if (seat != null && seat.IsBooked)
-            {
-                seat.Unlock();
-            }
+            var seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number && s.IsBooked);
+            seat?.Unlock();
         }
 
         public bool IsSeatAvailable(int row, int number)
         {
-            var seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number);
-            return seat != null && !seat.IsBooked;
+            return Seats.Any(s => s.Row == row && s.Number == number && !s.IsBooked);
         }
-
 
         public Ticket CreateTicket(int row, int number)
         {
             Seat seat = Seats.FirstOrDefault(s => s.Row == row && s.Number == number);
+            if (seat == null) return null;
 
+            // Фабрика квитків: визначаємо тип квитка
+            Ticket ticket = (seat.Type == SeatType.VIP)
+                ? new VipTicket(this.price)
+                : new StandartTicket(this.price);
 
-            Ticket ticket;
-
-            if (seat.Type == SeatType.VIP)
-            {
-                ticket = new VipTicket(price);
-            }
-            else
-            {
-                ticket = new StandartTicket(price);
-            }
-
+            // Заповнення полів квитка
             ticket.MovieTitle = Movie.Title;
             ticket.HallName = Hall.Name;
             ticket.SessionDate = StartTime;
@@ -78,5 +63,7 @@ namespace Cinema_classes
 
             return ticket;
         }
+
+        public override string ToString() => $"{Movie.Title} | Зал: {Hall.Name} | {StartTime:dd.MM HH:mm} | Ціна: {price:C}";
     }
 }

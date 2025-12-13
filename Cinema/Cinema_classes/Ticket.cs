@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cinema_classes
 {
@@ -21,7 +17,6 @@ namespace Cinema_classes
 
     public class StandartTicket : Ticket
     {
-
         public StandartTicket(decimal price)
         {
             Price = price;
@@ -29,13 +24,7 @@ namespace Cinema_classes
 
         public override string PrintTicket()
         {
-            return $"STANDART  {MovieTitle}" +
-                $" \n ID: {Id}" +
-                $" \n Hall name: {HallName}" +
-                $" \n SessionDate: {SessionDate}" +
-                $" \n Row: {Row}" +
-                $" \n Seat: {SeatNumber}" +
-                $" \n Price: {Price}";
+            return $"STANDART {MovieTitle} | ID: {Id} | Ряд: {Row}, Місце: {SeatNumber} | Ціна: {Price}";
         }
     }
 
@@ -47,13 +36,7 @@ namespace Cinema_classes
         }
         public override string PrintTicket()
         {
-            return $"VIP {MovieTitle}" +
-                $" \n ID: {Id}" +
-                $" \n Hall name: {HallName}" +
-                $" \n SessionDate: {SessionDate}" +
-                $" \n Row: {Row}" +
-                $" \n Seat: {SeatNumber}" +
-                $" \n Price: {Price}";
+            return $"VIP {MovieTitle} | ID: {Id} | Ряд: {Row}, Місце: {SeatNumber} | Ціна: {Price}";
         }
     }
 }
