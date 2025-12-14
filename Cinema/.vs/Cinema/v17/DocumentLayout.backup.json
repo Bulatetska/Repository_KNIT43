@@ -1,38 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\",
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_classes\\Hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\SeatType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_classes\\SeatType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_classes\\Seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\hall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_classes\\Movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_classes\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\seattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\seattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_wpf\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_wpf\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_classes\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B36452EC-D12F-412D-898B-7C9F92D72C98}|Cinema_classes\\Cinema_classes.csproj|solutionrelative:cinema_classes\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Cinema_console\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|solutionrelative:cinema_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78DB2C2C-6228-435A-A934-1041F93253B9}|Cinema_wpf\\Cinema_wpf.csproj|solutionrelative:cinema_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}|Cinema_console\\Cinema_console.csproj|c:\\users\\asus\\onedrive\\dokumente\\github\\repository_knit43\\cinema\\cinema_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}|Cinema_console\\Cinema_console.csproj|solutionrelative:cinema_console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +49,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Session.cs",
+              "RelativeDocumentMoniker": "Cinema_classes\\Session.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Session.cs",
+              "RelativeToolTip": "Cinema_classes\\Session.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwv0IAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:26:04.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Ticket.cs",
+              "RelativeDocumentMoniker": "Cinema_classes\\Ticket.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Ticket.cs",
+              "RelativeToolTip": "Cinema_classes\\Ticket.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:25:00.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -62,26 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SeatType.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\SeatType.cs",
-              "RelativeDocumentMoniker": "Cinema_classes\\SeatType.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\SeatType.cs",
-              "RelativeToolTip": "Cinema_classes\\SeatType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T16:10:38.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Hall.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Hall.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Hall.cs",
               "RelativeDocumentMoniker": "Cinema_classes\\Hall.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Hall.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Hall.cs",
               "RelativeToolTip": "Cinema_classes\\Hall.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T16:08:54.409Z",
               "EditorCaption": ""
@@ -89,36 +109,48 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Movie.cs",
-              "RelativeDocumentMoniker": "Cinema_classes\\Movie.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Movie.cs",
-              "RelativeToolTip": "Cinema_classes\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T15:55:31.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Seat.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Seat.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Seat.cs",
               "RelativeDocumentMoniker": "Cinema_classes\\Seat.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Seat.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Seat.cs",
               "RelativeToolTip": "Cinema_classes\\Seat.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T15:47:26.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "SeatType.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\SeatType.cs",
+              "RelativeDocumentMoniker": "Cinema_classes\\SeatType.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\SeatType.cs",
+              "RelativeToolTip": "Cinema_classes\\SeatType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T16:10:38.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Movie.cs",
+              "RelativeDocumentMoniker": "Cinema_classes\\Movie.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Movie.cs",
+              "RelativeToolTip": "Cinema_classes\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T15:55:31.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Cinema_wpf\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml",
               "RelativeToolTip": "Cinema_wpf\\MainWindow.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -126,11 +158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Cinema_wpf\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\MainWindow.xaml.cs",
               "RelativeToolTip": "Cinema_wpf\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +170,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
               "RelativeDocumentMoniker": "Cinema_console\\Program.cs",
-              "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Program.cs",
               "RelativeToolTip": "Cinema_console\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,12 +182,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
-              "RelativeDocumentMoniker": "Cinema_classes\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
               "ToolTip": "C:\\Users\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
-              "RelativeToolTip": "Cinema_classes\\Class1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\irina\\OneDrive\\Desktop\\\u0412\u041D\u0423\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-13T15:10:50.457Z"
