@@ -3,8 +3,10 @@
     "",
     "\\Cinema_classes",
     "\\Cinema_console",
-    "\\Cinema_wpf"
+    "\\Cinema_wpf",
+    "\\Cinema_wpf\\obj",
+    "\\Cinema_wpf\\obj\\Debug"
   ],
-  "SelectedNode": "\\Cinema_classes\\Hall.cs",
+  "SelectedNode": "\\Cinema_wpf\\View",
   "PreviewInSolutionExplorer": false
 }
