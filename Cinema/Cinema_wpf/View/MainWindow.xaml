@@ -1,0 +1,61 @@
+<Window x:Class="Cinema_wpf.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:Cinema_wpf.ViewModel" 
+        mc:Ignorable="d"
+        Title="Cinema Booking System" Height="500" Width="800"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid Background="#F0F0F0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="20" HorizontalAlignment="Center">
+            <TextBlock Text="{Binding CurrentMovie.Title}" 
+                       FontSize="24" FontWeight="Bold" Foreground="#333" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding CurrentMovie.Description}" 
+                       FontSize="14" Foreground="Gray" HorizontalAlignment="Center" TextWrapping="Wrap" MaxWidth="600"/>
+
+            <TextBlock Text="Text" Background="Black" Foreground="White" 
+            Padding="100,5" Margin="0,15,0,0" HorizontalAlignment="Center" FontWeight="Bold"/>
+        </StackPanel>
+
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Seats}" Margin="20">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="{Binding RowsCount}" Columns="{Binding ColumnsCount}"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="3" CornerRadius="4" Width="35" Height="35" Cursor="Hand">
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Setter Property="Background" Value="#4A90E2"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding Type}" Value="VIP">
+                                        <Setter Property="Background" Value="#FFD700"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsBooked}" Value="True">
+                                        <Setter Property="Background" Value="#E74C3C"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+
+                        <TextBlock Text="{Binding Number}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"/>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </Grid>
+</Window>
