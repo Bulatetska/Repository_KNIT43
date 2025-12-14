@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_classes", "Cinema_classes\Cinema_classes.csproj", "{B36452EC-D12F-412D-898B-7C9F92D72C98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_console", "Cinema_console\Cinema_console.csproj", "{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_wpf", "Cinema_wpf\Cinema_wpf.csproj", "{78DB2C2C-6228-435A-A934-1041F93253B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B36452EC-D12F-412D-898B-7C9F92D72C98} = {B36452EC-D12F-412D-898B-7C9F92D72C98}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

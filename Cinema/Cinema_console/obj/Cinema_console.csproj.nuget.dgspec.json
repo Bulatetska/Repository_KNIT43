@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj": {}
+    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
+    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "projectUniqueName": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
         "projectName": "Cinema_classes",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
+        "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "packagesPath": "C:\\Users\\irina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj": {
+    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
+        "projectUniqueName": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
         "projectName": "Cinema_console",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\obj\\",
+        "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
+        "packagesPath": "C:\\Users\\irina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\irina\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\OneDrive\\Dokumente\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj"
+              "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
+                "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

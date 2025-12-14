@@ -4,9 +4,10 @@
     "\\Cinema_classes",
     "\\Cinema_console",
     "\\Cinema_wpf",
-    "\\Cinema_wpf\\obj",
-    "\\Cinema_wpf\\obj\\Debug"
+    "\\Cinema_wpf\\Models",
+    "\\Cinema_wpf\\View",
+    "\\Cinema_wpf\\ViewModel"
   ],
-  "SelectedNode": "\\Cinema_wpf\\View",
+  "SelectedNode": "\\Cinema.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -10,3 +10,15 @@ C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinem
 C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\refint\Cinema_classes.dll
 C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.pdb
 C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\ref\Cinema_classes.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\bin\Debug\net8.0\Cinema_classes.deps.json
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\bin\Debug\net8.0\Cinema_classes.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\bin\Debug\net8.0\Cinema_classes.pdb
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.AssemblyInfoInputs.cache
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.AssemblyInfo.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.csproj.CoreCompileInputs.cache
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.sourcelink.json
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\refint\Cinema_classes.dll
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\Cinema_classes.pdb
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_classes\obj\Debug\net8.0\ref\Cinema_classes.dll
