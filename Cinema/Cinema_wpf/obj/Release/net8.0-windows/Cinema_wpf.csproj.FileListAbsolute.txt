@@ -1,0 +1,2 @@
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Release\net8.0-windows\App.g.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Release\net8.0-windows\Cinema_wpf_MarkupCompile.cache

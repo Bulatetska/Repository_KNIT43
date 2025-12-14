@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_classes", "Cinema_classes\Cinema_classes.csproj", "{B36452EC-D12F-412D-898B-7C9F92D72C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_console", "Cinema_console\Cinema_console.csproj", "{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_wpf", "Cinema_wpf\Cinema_wpf.csproj", "{78DB2C2C-6228-435A-A934-1041F93253B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B36452EC-D12F-412D-898B-7C9F92D72C98} = {B36452EC-D12F-412D-898B-7C9F92D72C98}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B36452EC-D12F-412D-898B-7C9F92D72C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36452EC-D12F-412D-898B-7C9F92D72C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36452EC-D12F-412D-898B-7C9F92D72C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36452EC-D12F-412D-898B-7C9F92D72C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6322E31-21B7-4CFF-A4DA-0C8DDB9378AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DB2C2C-6228-435A-A934-1041F93253B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DB2C2C-6228-435A-A934-1041F93253B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DB2C2C-6228-435A-A934-1041F93253B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DB2C2C-6228-435A-A934-1041F93253B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14F5B297-B8EB-44F8-9B14-5E1991C5AB19}
+	EndGlobalSection
+EndGlobal
