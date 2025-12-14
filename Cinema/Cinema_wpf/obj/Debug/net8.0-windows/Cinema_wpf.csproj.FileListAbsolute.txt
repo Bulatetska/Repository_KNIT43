@@ -1,9 +1,9 @@
-C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.csproj.AssemblyReference.cache
-C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\View\MainWindow.g.cs
-C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf_MarkupCompile.cache
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf_MarkupCompile.lref
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.csproj.AssemblyReference.cache
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.exe
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.deps.json
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.runtimeconfig.json
