@@ -1,0 +1,15 @@
+E:\Repository_KNIT43\Zasadko\lab1\bin\Debug\net10.0\lab1.exe
+E:\Repository_KNIT43\Zasadko\lab1\bin\Debug\net10.0\lab1.deps.json
+E:\Repository_KNIT43\Zasadko\lab1\bin\Debug\net10.0\lab1.runtimeconfig.json
+E:\Repository_KNIT43\Zasadko\lab1\bin\Debug\net10.0\lab1.dll
+E:\Repository_KNIT43\Zasadko\lab1\bin\Debug\net10.0\lab1.pdb
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.AssemblyInfoInputs.cache
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.AssemblyInfo.cs
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.csproj.CoreCompileInputs.cache
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.sourcelink.json
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.dll
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\refint\lab1.dll
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.pdb
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\lab1.genruntimeconfig.cache
+E:\Repository_KNIT43\Zasadko\lab1\obj\Debug\net10.0\ref\lab1.dll
