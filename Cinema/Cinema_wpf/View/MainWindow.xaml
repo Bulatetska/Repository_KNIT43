@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:Cinema_wpf.ViewModel" 
         mc:Ignorable="d"
-        Title="Cinema World" Height="700" Width="1000"
+        Title="Cinema World" Height="750" Width="1000"
         WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
@@ -78,10 +78,8 @@
                                             <Border Background="#4A90E2" CornerRadius="6" Padding="8,4">
                                                 <TextBlock Text="{Binding StartTime, StringFormat='HH:mm'}" Foreground="White" FontWeight="Bold"/>
                                             </Border>
-
                                             <TextBlock Text="{Binding Hall.Name}" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#555" FontWeight="SemiBold"/>
                                         </StackPanel>
-
                                         <TextBlock Text="{Binding price, StringFormat='{}{0} грн'}" 
                                                    HorizontalAlignment="Right" VerticalAlignment="Center" 
                                                    FontWeight="Bold" Foreground="#27AE60" FontSize="16"/>
@@ -98,36 +96,31 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
+                <RowDefinition Height="80"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Margin="30,20">
-                <Button Command="{Binding GoBackCommand}" 
-                        Content="← Повернутися до афіші" 
-                        HorizontalAlignment="Left" Padding="15,8" 
-                        Background="#EEE" Foreground="#333" BorderThickness="0" 
-                        Cursor="Hand" FontWeight="SemiBold" FontSize="14">
-                    <Button.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="8"/>
-                        </Style>
-                    </Button.Resources>
-                </Button>
+            <Button Grid.Row="0" Command="{Binding GoBackToMoviesCommand}" 
+                    Content="← Повернутися до афіші" 
+                    HorizontalAlignment="Left" Margin="20" Padding="15,8" 
+                    Background="#EEE" Foreground="#333" BorderThickness="0" 
+                    Cursor="Hand" FontWeight="SemiBold" FontSize="14">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="8"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
 
-                <StackPanel Margin="0,20,0,0" HorizontalAlignment="Center">
-                    <TextBlock Text="{Binding SelectedSession.Movie.Title}" FontSize="28" FontWeight="Bold" Foreground="#222" HorizontalAlignment="Center"/>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
-                        <TextBlock Text="{Binding SelectedSession.Hall.Name}" FontSize="16" Foreground="#666"/>
-                        <TextBlock Text=" • " FontSize="16" Foreground="#CCC" Margin="5,0"/>
-                        <TextBlock Text="{Binding SelectedSession.StartTime, StringFormat='dd.MM HH:mm'}" FontSize="16" Foreground="#4A90E2" FontWeight="Bold"/>
-                    </StackPanel>
-
-                    <Border Background="Black" Height="8" Width="400" Margin="0,25,0,30" CornerRadius="4">
-                        <Border.Effect>
-                            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.5"/>
-                        </Border.Effect>
-                        <TextBlock Text="ЕКРАН" Foreground="#555" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="10"/>
-                    </Border>
+            <StackPanel Grid.Row="0" Margin="0,20,0,0" HorizontalAlignment="Center">
+                <TextBlock Text="{Binding SelectedSession.Movie.Title}" FontSize="28" FontWeight="Bold" Foreground="#222" HorizontalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                    <TextBlock Text="{Binding SelectedSession.Hall.Name}" FontSize="16" Foreground="#666"/>
+                    <TextBlock Text=" • " FontSize="16" Foreground="#CCC" Margin="5,0"/>
+                    <TextBlock Text="{Binding SelectedSession.StartTime, StringFormat='dd.MM HH:mm'}" FontSize="16" Foreground="#4A90E2" FontWeight="Bold"/>
                 </StackPanel>
+                <Border Background="Black" Height="8" Width="400" Margin="0,25,0,30" CornerRadius="4">
+                    <TextBlock Text="ЕКРАН" Foreground="#555" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="10"/>
+                </Border>
             </StackPanel>
 
             <ItemsControl Grid.Row="1" ItemsSource="{Binding Seats}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,50">
@@ -140,12 +133,23 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Border Margin="4" CornerRadius="6" Width="40" Height="40" Cursor="Hand" ToolTip="{Binding}">
+                            <Border.InputBindings>
+                                <MouseBinding MouseAction="LeftClick" 
+                                              Command="{Binding DataContext.ToggleSeatCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                              CommandParameter="{Binding}"/>
+                            </Border.InputBindings>
+
                             <Border.Style>
                                 <Style TargetType="Border">
                                     <Setter Property="Background" Value="#4A90E2"/>
                                     <Style.Triggers>
                                         <DataTrigger Binding="{Binding Type}" Value="VIP">
                                             <Setter Property="Background" Value="#F1C40F"/>
+                                        </DataTrigger>
+                                        <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                            <Setter Property="Background" Value="#2ECC71"/>
+                                            <Setter Property="BorderBrush" Value="#27AE60"/>
+                                            <Setter Property="BorderThickness" Value="2"/>
                                         </DataTrigger>
                                         <DataTrigger Binding="{Binding IsBooked}" Value="True">
                                             <Setter Property="Background" Value="#E74C3C"/>
@@ -154,12 +158,57 @@
                                     </Style.Triggers>
                                 </Style>
                             </Border.Style>
-
                             <TextBlock Text="{Binding Number}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"/>
                         </Border>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
+
+            <Border Grid.Row="2" Background="#FAFAFA" BorderBrush="#EEE" BorderThickness="0,1,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="30,0">
+                    <TextBlock Text="Разом:" VerticalAlignment="Center" FontSize="18" Foreground="Gray" Margin="0,0,10,0"/>
+                    <TextBlock Text="{Binding TotalPrice, StringFormat='{}{0} грн'}" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="#333" Margin="0,0,30,0"/>
+
+                    <Button Command="{Binding ProceedToCheckoutCommand}" Content="ОФОРМИТИ ЗАМОВЛЕННЯ" 
+                            Background="#27AE60" Foreground="White" Padding="20,10" FontWeight="Bold" BorderThickness="0" FontSize="16">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="1" Visibility="{Binding IsCheckoutVisible}" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="400"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Margin="50">
+                <Button Command="{Binding GoBackToBookingCommand}" Content="← Змінити місця" 
+                        HorizontalAlignment="Left" Background="Transparent" Foreground="#4A90E2" BorderThickness="0" Cursor="Hand"/>
+
+                <TextBlock Text="Оформлення замовлення" FontSize="32" FontWeight="Bold" Margin="0,20,0,30"/>
+
+                <TextBlock Text="Ваше Ім'я" Foreground="Gray" Margin="0,0,0,5"/>
+                <TextBox Text="{Binding ClientName, UpdateSourceTrigger=PropertyChanged}" Padding="10" FontSize="16" Margin="0,0,0,20"/>
+
+                <TextBlock Text="Номер телефону" Foreground="Gray" Margin="0,0,0,5"/>
+                <TextBox Text="{Binding ClientPhone, UpdateSourceTrigger=PropertyChanged}" Padding="10" FontSize="16" Margin="0,0,0,20"/>
+
+                <Button Command="{Binding ConfirmOrderCommand}" Content="ПІДТВЕРДИТИ БРОНЮВАННЯ" 
+                        Background="#333" Foreground="White" Padding="15" FontSize="16" FontWeight="Bold" Margin="0,20,0,0" BorderThickness="0"/>
+            </StackPanel>
+
+            <Border Grid.Column="1" Background="#F9F9F9" Padding="30" BorderBrush="#EEE" BorderThickness="1,0,0,0">
+                <StackPanel>
+                    <TextBlock Text="Ваше замовлення" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+                    <TextBlock Text="{Binding OrderSummary}" FontSize="14" Foreground="#444" LineHeight="24" TextWrapping="Wrap"/>
+                </StackPanel>
+            </Border>
         </Grid>
 
     </Grid>

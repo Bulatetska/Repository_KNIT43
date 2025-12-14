@@ -2,8 +2,10 @@ using Cinema_classes;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Text;
 using System.Windows;
 using System.Windows.Input;
+using System.Linq;
 
 namespace Cinema_wpf.ViewModel
 {
@@ -20,6 +22,30 @@ namespace Cinema_wpf.ViewModel
     {
         public ObservableCollection<Session> Sessions { get; set; }
 
+        public ObservableCollection<Seat> SelectedSeats { get; set; } = new ObservableCollection<Seat>();
+
+        private string _clientName;
+        public string ClientName
+        {
+            get => _clientName;
+            set
+            {
+                _clientName = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private string _clientPhone;
+        public string ClientPhone
+        {
+            get => _clientPhone;
+            set
+            {
+                _clientPhone = value;
+                OnPropertyChanged();
+            }
+        }
+
         private Session _selectedSession;
         public Session SelectedSession
         {
@@ -31,8 +57,7 @@ namespace Cinema_wpf.ViewModel
                 if (_selectedSession != null)
                 {
                     LoadSeatsForSession();
-                    IsBookingVisible = Visibility.Visible;
-                    IsListVisible = Visibility.Collapsed;
+                    ShowBookingScreen();
                 }
             }
         }
@@ -46,6 +71,9 @@ namespace Cinema_wpf.ViewModel
 
         public int RowsCount { get; set; }
         public int ColumnsCount { get; set; }
+
+        public decimal TotalPrice => SelectedSeats.Sum(s => CalculatePrice(s));
+        public string OrderSummary => GenerateOrderSummary();
 
         private Visibility _isListVisible = Visibility.Visible;
         public Visibility IsListVisible
@@ -61,32 +89,65 @@ namespace Cinema_wpf.ViewModel
             set { _isBookingVisible = value; OnPropertyChanged(); }
         }
 
-        public ICommand GoBackCommand { get; }
-        public ICommand OpenProfileCommand { get; }
+        private Visibility _isCheckoutVisible = Visibility.Collapsed;
+        public Visibility IsCheckoutVisible
+        {
+            get => _isCheckoutVisible;
+            set { _isCheckoutVisible = value; OnPropertyChanged(); }
+        }
 
+        public ICommand GoBackToMoviesCommand { get; }
+        public ICommand GoBackToBookingCommand { get; }
         public ICommand SelectSessionCommand { get; }
+        public ICommand ToggleSeatCommand { get; }
+        public ICommand ProceedToCheckoutCommand { get; }
+        public ICommand ConfirmOrderCommand { get; }
 
         public MainViewModel()
         {
             GenerateData();
-            GoBackCommand = new RelayCommand(o => GoBack());
-            OpenProfileCommand = new RelayCommand(o => MessageBox.Show("Кабінет в розробці"));
+            GoBackToMoviesCommand = new RelayCommand(o => ShowListScreen());
+            GoBackToBookingCommand = new RelayCommand(o => ShowBookingScreen());
 
             SelectSessionCommand = new RelayCommand(param =>
             {
-                if (param is Session session)
+                if (param is Session session) SelectedSession = session;
+            });
+
+            ToggleSeatCommand = new RelayCommand(param =>
+            {
+                if (param is Seat seat && SelectedSession != null)
                 {
-                    SelectedSession = session;
+                    if (seat.IsBooked)
+                    {
+                        MessageBox.Show("Це місце вже зайняте!");
+                        return;
+                    }
+
+                    seat.IsSelected = !seat.IsSelected;
+
+                    if (seat.IsSelected) SelectedSeats.Add(seat);
+                    else SelectedSeats.Remove(seat);
+
+                    OnPropertyChanged(nameof(TotalPrice));
                 }
             });
+
+            ProceedToCheckoutCommand = new RelayCommand(o =>
+            {
+                if (SelectedSeats.Count == 0)
+                {
+                    MessageBox.Show("Оберіть місце!");
+                    return;
+                }
+                OnPropertyChanged(nameof(OrderSummary));
+                OnPropertyChanged(nameof(TotalPrice));
+                ShowCheckoutScreen();
+            });
+
+            ConfirmOrderCommand = new RelayCommand(o => ConfirmOrder());
         }
 
-        private void GoBack()
-        {
-            IsBookingVisible = Visibility.Collapsed;
-            IsListVisible = Visibility.Visible;
-            SelectedSession = null;
-        }
 
         private void LoadSeatsForSession()
         {
@@ -122,5 +183,73 @@ namespace Cinema_wpf.ViewModel
                 new Session(godzilla, blueHall, DateTime.Now.AddDays(1).AddHours(14), 200)
             };
         }
+
+        private void ConfirmOrder()
+        {
+            if (string.IsNullOrWhiteSpace(ClientName) || string.IsNullOrWhiteSpace(ClientPhone))
+            {
+                MessageBox.Show("Будь ласка, введіть ім'я та телефон.");
+                return;
+            }
+
+            foreach (var seat in SelectedSeats)
+            {
+                SelectedSession.BookSeat(seat.Row, seat.Number);
+                seat.IsSelected = false;
+            }
+
+            MessageBox.Show($"Дякуємо, {ClientName}!\nЗамовлення оформлено.\nКвитки надіслано на {ClientPhone}.",
+                            "Оформлено", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            SelectedSeats.Clear();
+            ClientName = "";
+            ClientPhone = "";
+            ShowListScreen();
+        }
+
+        private decimal CalculatePrice(Seat seat)
+        {
+            if (seat.Type == SeatType.VIP)
+                return SelectedSession.price * 1.5m;
+
+            return SelectedSession.price;
+        }
+
+        private string GenerateOrderSummary()
+        {
+            if (SelectedSession == null) return "";
+            var sb = new StringBuilder();
+            sb.AppendLine($"Фільм: {SelectedSession.Movie.Title}");
+            sb.AppendLine($"Зал: {SelectedSession.Hall.Name}");
+            sb.AppendLine($" Час: {SelectedSession.StartTime:HH:mm}");
+            foreach (var seat in SelectedSeats)
+            {
+                string typeInfo = seat.Type == SeatType.VIP ? "(VIP)" : "";
+                sb.AppendLine($"Ряд {seat.Row}, Місце {seat.Number} {typeInfo} — {CalculatePrice(seat)} грн");
+            }
+            sb.AppendLine($"РАЗОМ: {TotalPrice} грн");
+
+            return sb.ToString();
+        }
+
+        private void UpdateVisibility(Visibility list, Visibility booking, Visibility checkout)
+        {
+            IsListVisible = list;
+            IsBookingVisible = booking;
+            IsCheckoutVisible = checkout;
+
+            OnPropertyChanged(nameof(IsListVisible));
+            OnPropertyChanged(nameof(IsBookingVisible));
+            OnPropertyChanged(nameof(IsCheckoutVisible));
+        }
+
+        private void ShowListScreen() => UpdateVisibility(Visibility.Visible, Visibility.Collapsed, Visibility.Collapsed);
+        private void ShowBookingScreen() => UpdateVisibility(Visibility.Collapsed, Visibility.Visible, Visibility.Collapsed);
+        private void ShowCheckoutScreen() => UpdateVisibility(Visibility.Collapsed, Visibility.Collapsed, Visibility.Visible);
+
+     
+
     }
+
+
 }

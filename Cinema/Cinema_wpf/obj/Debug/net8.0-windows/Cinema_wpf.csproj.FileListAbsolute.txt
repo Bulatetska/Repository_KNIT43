@@ -24,3 +24,29 @@ C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Re
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.pdb
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.genruntimeconfig.cache
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\ref\Cinema_wpf.dll
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.exe
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.deps.json
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.dll
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_wpf.pdb
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_classes.dll
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\bin\Debug\net8.0-windows\Cinema_classes.pdb
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\View\MainWindow.g.cs
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf_MarkupCompile.cache
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf_MarkupCompile.lref
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\View\MainWindow.baml
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.g.resources
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.sourcelink.json
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.csproj.Up2Date
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.dll
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\refint\Cinema_wpf.dll
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.pdb
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\Cinema_wpf.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_wpf\obj\Debug\net8.0-windows\ref\Cinema_wpf.dll
