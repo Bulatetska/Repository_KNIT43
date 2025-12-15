@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA2EDF03-3A07-4F2C-B8BD-7914C6799B63}|3\\3.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\\u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA2EDF03-3A07-4F2C-B8BD-7914C6799B63}|3\\3.csproj|solutionrelative:3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA2EDF03-3A07-4F2C-B8BD-7914C6799B63}|3\\3.csproj|c:\\users\\lukan\\onedrive\\documentos\\github\\repository_knit43\\lukianets\\\u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA2EDF03-3A07-4F2C-B8BD-7914C6799B63}|3\\3.csproj|solutionrelative:3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "3\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\MainWindow.xaml",
+              "RelativeToolTip": "3\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-25T10:52:02.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "3\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lukan\\OneDrive\\Documentos\\GitHub\\Repository_KNIT43\\Lukianets\\\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u044C\u043D\u0430 \u0440\u043E\u0431\u043E\u0442\u0430\\3\\3\\MainWindow.xaml.cs",
+              "RelativeToolTip": "3\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T10:51:34.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

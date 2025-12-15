@@ -1,0 +1,15 @@
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.AssemblyInfoInputs.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.AssemblyInfo.cs
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.csproj.CoreCompileInputs.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.sourcelink.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\bin\Debug\net8.0\1.exe
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\bin\Debug\net8.0\1.deps.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\bin\Debug\net8.0\1.runtimeconfig.json
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\bin\Debug\net8.0\1.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\bin\Debug\net8.0\1.pdb
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\refint\1.dll
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.pdb
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\1.genruntimeconfig.cache
+C:\Users\lukan\OneDrive\Documentos\GitHub\Repository_KNIT43\Lukianets\Контрольна робота\1\1\obj\Debug\net8.0\ref\1.dll
