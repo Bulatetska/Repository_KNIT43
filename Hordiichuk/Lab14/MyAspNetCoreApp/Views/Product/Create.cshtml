@@ -1,0 +1,29 @@
+@model MyAspNetCoreApp.Models.Product
+
+@{
+    ViewData["Title"] = "Додати продукт";
+}
+
+<h2>Додати новий продукт</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Створити" class="btn btn-primary" />
+        <a asp-action="List" class="btn btn-secondary">Назад до списку</a>
+    </div>
+</form>

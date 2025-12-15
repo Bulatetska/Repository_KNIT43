@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Hordiichuk",
+    "\\Hordiichuk\\HelloApp",
+    "\\Hordiichuk\\HelloApp\\HelloApp"
   ],
+  "SelectedNode": "\\Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj",
   "PreviewInSolutionExplorer": false
 }

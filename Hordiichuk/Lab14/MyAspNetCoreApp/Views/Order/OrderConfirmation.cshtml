@@ -1,0 +1,37 @@
+@model MyAspNetCoreApp.Models.Order
+
+@{
+    ViewData["Title"] = "Підтвердження замовлення";
+}
+
+<h2>Замовлення успішно розміщено!</h2>
+
+<div class="alert alert-success">
+    <h4>Дякуємо за ваше замовлення!</h4>
+    <p>Номер вашого замовлення: <strong>@Model.Id</strong></p>
+</div>
+
+<div>
+    <h4>Деталі замовлення:</h4>
+    <dl class="row">
+        <dt class="col-sm-3">Ім'я клієнта:</dt>
+        <dd class="col-sm-9">@Model.CustomerName</dd>
+        
+        <dt class="col-sm-3">Email:</dt>
+        <dd class="col-sm-9">@Model.CustomerEmail</dd>
+        
+        <dt class="col-sm-3">ID продукту:</dt>
+        <dd class="col-sm-9">@Model.ProductId</dd>
+        
+        <dt class="col-sm-3">Кількість:</dt>
+        <dd class="col-sm-9">@Model.Quantity</dd>
+        
+        <dt class="col-sm-3">Дата замовлення:</dt>
+        <dd class="col-sm-9">@Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="PlaceOrder" class="btn btn-primary">Зробити ще одне замовлення</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-secondary">На головну</a>
+</div>

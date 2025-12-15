@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7488D29A-9B8A-2D7E-C683-B03AEB9CC1B9}|Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7488D29A-9B8A-2D7E-C683-B03AEB9CC1B9}|Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hordiichuk\\hellomvcapp\\hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7488D29A-9B8A-2D7E-C683-B03AEB9CC1B9}|Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\hellomvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7488D29A-9B8A-2D7E-C683-B03AEB9CC1B9}|Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hordiichuk\\hellomvcapp\\hellomvcapp\\hellomvcapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AF975DE-FEC3-1F9A-08FD-E6A73F9A440E}|Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\helloapp\\helloapp\\helloapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0AF975DE-FEC3-1F9A-08FD-E6A73F9A440E}|Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj|solutionrelative:hordiichuk\\helloapp\\helloapp\\helloapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{37D9C142-9729-F9AE-66CF-5702F18D4DD9}|Hordiichuk\\Lab15\\EF_Lab\\EF_Lab.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\lab15\\ef_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37D9C142-9729-F9AE-66CF-5702F18D4DD9}|Hordiichuk\\Lab15\\EF_Lab\\EF_Lab.csproj|solutionrelative:hordiichuk\\lab15\\ef_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,39 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Program.cs",
-              "RelativeDocumentMoniker": "Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Program.cs",
-              "RelativeToolTip": "Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\Lab15\\EF_Lab\\Program.cs",
+              "RelativeDocumentMoniker": "Hordiichuk\\Lab15\\EF_Lab\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\Lab15\\EF_Lab\\Program.cs",
+              "RelativeToolTip": "Hordiichuk\\Lab15\\EF_Lab\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:30:55.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HelloMvcApp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj",
-              "RelativeDocumentMoniker": "Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj",
-              "RelativeToolTip": "Hordiichuk\\HelloMvcApp\\HelloMvcApp\\HelloMvcApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T01:30:18.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HelloApp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj",
-              "RelativeDocumentMoniker": "Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj",
-              "RelativeToolTip": "Hordiichuk\\HelloApp\\HelloApp\\HelloApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T01:30:07.488Z",
+              "WhenOpened": "2025-12-15T13:43:07.595Z",
               "EditorCaption": ""
             }
           ]

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\views\\hello\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\views\\hello\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\views\\hello\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\views\\hello\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\views\\hello\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{681A8D86-5EF5-424F-AB12-B7CC2D256E26}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|c:\\users\\user\\desktop\\net\\repository_knit43\\hordiichuk\\hellomvcapp\\hellomvcapp\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9977F55-1C80-BDC6-FAE5-7A4971395B27}|HelloMvcApp\\HelloMvcApp.csproj|solutionrelative:hellomvcapp\\controllers\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,7 +43,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Views\\Hello\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "HelloMvcApp\\Views\\Hello\\Index.cshtml.cs",
@@ -51,12 +51,11 @@
               "RelativeToolTip": "HelloMvcApp\\Views\\Hello\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:16:43.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:16:43.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\NET\\Repository_KNIT43\\Hordiichuk\\HelloMvcApp\\HelloMvcApp\\Views\\Hello\\Index.cshtml",
               "RelativeDocumentMoniker": "HelloMvcApp\\Views\\Hello\\Index.cshtml",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "HelloMvcApp\\Views\\Hello\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-04T01:16:19.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:16:19.491Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "HelloMvcApp\\Controllers\\HelloController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T01:11:31.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T01:11:31.405Z"
             }
           ]
         }

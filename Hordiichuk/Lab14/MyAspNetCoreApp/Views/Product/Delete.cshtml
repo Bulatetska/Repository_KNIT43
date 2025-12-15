@@ -1,0 +1,40 @@
+@model MyAspNetCoreApp.Models.Product
+
+@{
+    ViewData["Title"] = "Видалення продукту";
+}
+
+<h2>Видалення продукту</h2>
+
+<h3>Ви впевнені, що хочете видалити цей продукт?</h3>
+
+<div>
+    <h4>Продукт</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Видалити" class="btn btn-danger" />
+        <a asp-action="List" class="btn btn-secondary">Назад до списку</a>
+    </form>
+</div>
