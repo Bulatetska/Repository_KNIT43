@@ -1,9 +1,3 @@
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.csproj.AssemblyReference.cache
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfoInputs.cache
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfo.cs
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.csproj.CoreCompileInputs.cache
-C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.sourcelink.json
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_console\bin\Debug\net8.0\Cinema_console.exe
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_console\bin\Debug\net8.0\Cinema_console.deps.json
 C:\Users\irina\OneDrive\Desktop\ВНУ\4 year\4yearFirstsemestr\texhnologyNet\Repository_KNIT43\Cinema\Cinema_console\bin\Debug\net8.0\Cinema_console.runtimeconfig.json
@@ -42,3 +36,11 @@ C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_console\
 C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.pdb
 C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Dokumente\GitHub\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\ref\Cinema_console.dll
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfoInputs.cache
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.AssemblyInfo.cs
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.csproj.CoreCompileInputs.cache
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.sourcelink.json
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.dll
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\refint\Cinema_console.dll
+C:\Users\vladi\OneDrive\Робочий стіл\индз\Repository_KNIT43\Cinema\Cinema_console\obj\Debug\net8.0\Cinema_console.pdb
