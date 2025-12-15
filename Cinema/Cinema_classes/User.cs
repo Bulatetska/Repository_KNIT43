@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System;
+using System.Linq;
 
 namespace Cinema_classes
 {
@@ -7,34 +8,19 @@ namespace Cinema_classes
     {
         public string Name { get; set; }
         public string Email { get; set; }
+        public string PhoneNumber { get; set; } 
         public List<Ticket> PurchaseHistory { get; } = new List<Ticket>();
 
-        public User(string name, string email)
+        public User(string name, string email, string phone)
         {
             Name = name;
             Email = email;
+            PhoneNumber = phone;
         }
 
         public void BuyTicket(Ticket ticket)
         {
             PurchaseHistory.Add(ticket);
         }
-
-        public void DisplayHistory()
-        {
-            Console.WriteLine($"\n--- ²ÑÒÎĞ²ß ÏÎÊÓÏÎÊ ÊÎĞÈÑÒÓÂÀ×À {Name} ---");
-            if (PurchaseHistory.Any())
-            {
-                foreach (var ticket in PurchaseHistory)
-                {
-                    Console.WriteLine(ticket.PrintTicket());
-                    Console.WriteLine("---");
-                }
-            }
-            else
-            {
-                Console.WriteLine("²ñòîğ³ÿ ïîğîæíÿ.");
-            }
-        }
-    } 
-} 
+    }
+}

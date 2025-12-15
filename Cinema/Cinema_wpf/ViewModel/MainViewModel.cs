@@ -1,4 +1,4 @@
-using Cinema_classes;
+Ôªøusing Cinema_classes;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -20,32 +20,33 @@ namespace Cinema_wpf.ViewModel
 
     public class MainViewModel : ViewModelBase
     {
-        public ObservableCollection<Session> Sessions { get; set; }
+        private User _currentUser;
+        public User CurrentUser
+        {
+            get => _currentUser;
+            set { _currentUser = value; OnPropertyChanged(); OnPropertyChanged(nameof(HeaderUserName)); }
+        }
 
+        public string HeaderUserName => CurrentUser != null ? CurrentUser.Name : "–ú—ñ–π –∫–∞–±—ñ–Ω–µ—Ç";
+        public string RegName { get; set; }
+        public string RegEmail { get; set; }
+        public string RegPhone { get; set; }
+
+        public ObservableCollection<Ticket> ActiveTickets { get; set; } = new ObservableCollection<Ticket>();
+        public ObservableCollection<Ticket> PastTickets { get; set; } = new ObservableCollection<Ticket>();
+
+        public ObservableCollection<Session> Sessions { get; set; }
         public ObservableCollection<Seat> SelectedSeats { get; set; } = new ObservableCollection<Seat>();
 
-        private string _clientName;
-        public string ClientName
+        private List<Seat> _seats;
+        public List<Seat> Seats
         {
-            get => _clientName;
-            set
-            {
-                _clientName = value;
-                OnPropertyChanged();
-            }
+            get => _seats;
+            set { _seats = value; OnPropertyChanged(); }
         }
 
-        private string _clientPhone;
-        public string ClientPhone
-        {
-            get => _clientPhone;
-            set
-            {
-                _clientPhone = value;
-                OnPropertyChanged();
-            }
-        }
-
+        public int RowsCount { get; set; }
+        public int ColumnsCount { get; set; }
         private Session _selectedSession;
         public Session SelectedSession
         {
@@ -62,39 +63,34 @@ namespace Cinema_wpf.ViewModel
             }
         }
 
-        private List<Seat> _seats;
-        public List<Seat> Seats
-        {
-            get => _seats;
-            set { _seats = value; OnPropertyChanged(); }
-        }
-
-        public int RowsCount { get; set; }
-        public int ColumnsCount { get; set; }
+        private string _clientName;
+        public string ClientName { get => _clientName; set { _clientName = value; OnPropertyChanged(); } }
+        private string _clientPhone;
+        public string ClientPhone { get => _clientPhone; set { _clientPhone = value; OnPropertyChanged(); } }
 
         public decimal TotalPrice => SelectedSeats.Sum(s => CalculatePrice(s));
         public string OrderSummary => GenerateOrderSummary();
 
-        private Visibility _isListVisible = Visibility.Visible;
-        public Visibility IsListVisible
-        {
-            get => _isListVisible;
-            set { _isListVisible = value; OnPropertyChanged(); }
-        }
+
+        private Visibility _isRegistrationVisible = Visibility.Visible;
+        public Visibility IsRegistrationVisible { get => _isRegistrationVisible; set { _isRegistrationVisible = value; OnPropertyChanged(); } }
+
+        private Visibility _isListVisible = Visibility.Collapsed;
+        public Visibility IsListVisible { get => _isListVisible; set { _isListVisible = value; OnPropertyChanged(); } }
 
         private Visibility _isBookingVisible = Visibility.Collapsed;
-        public Visibility IsBookingVisible
-        {
-            get => _isBookingVisible;
-            set { _isBookingVisible = value; OnPropertyChanged(); }
-        }
+        public Visibility IsBookingVisible { get => _isBookingVisible; set { _isBookingVisible = value; OnPropertyChanged(); } }
 
         private Visibility _isCheckoutVisible = Visibility.Collapsed;
-        public Visibility IsCheckoutVisible
-        {
-            get => _isCheckoutVisible;
-            set { _isCheckoutVisible = value; OnPropertyChanged(); }
-        }
+        public Visibility IsCheckoutVisible { get => _isCheckoutVisible; set { _isCheckoutVisible = value; OnPropertyChanged(); } }
+
+        private Visibility _isProfileVisible = Visibility.Collapsed;
+        public Visibility IsProfileVisible { get => _isProfileVisible; set { _isProfileVisible = value; OnPropertyChanged(); } }
+
+
+        public ICommand RegisterCommand { get; }       
+        public ICommand OpenProfileCommand { get; }    
+        public ICommand BackToMoviesCommand { get; }   
 
         public ICommand GoBackToMoviesCommand { get; }
         public ICommand GoBackToBookingCommand { get; }
@@ -106,7 +102,29 @@ namespace Cinema_wpf.ViewModel
         public MainViewModel()
         {
             GenerateData();
+            RegisterCommand = new RelayCommand(o =>
+            {
+                if (string.IsNullOrWhiteSpace(RegName) || string.IsNullOrWhiteSpace(RegPhone))
+                {
+                    MessageBox.Show("–í–≤–µ–¥—ñ—Ç—å —ñ–º'—è —Ç–∞ —Ç–µ–ª–µ—Ñ–æ–Ω!");
+                    return;
+                }
+                CurrentUser = new User(RegName, RegEmail, RegPhone);
+                ClientName = CurrentUser.Name;
+                ClientPhone = CurrentUser.PhoneNumber;
+
+                ShowListScreen();
+            });
+            OpenProfileCommand = new RelayCommand(o =>
+            {
+                if (CurrentUser == null) return;
+                UpdateProfileLists(); 
+                ShowProfileScreen();
+            });
+
+            BackToMoviesCommand = new RelayCommand(o => ShowListScreen());
             GoBackToMoviesCommand = new RelayCommand(o => ShowListScreen());
+
             GoBackToBookingCommand = new RelayCommand(o => ShowBookingScreen());
 
             SelectSessionCommand = new RelayCommand(param =>
@@ -118,28 +136,16 @@ namespace Cinema_wpf.ViewModel
             {
                 if (param is Seat seat && SelectedSession != null)
                 {
-                    if (seat.IsBooked)
-                    {
-                        MessageBox.Show("÷Â Ï≥ÒˆÂ ‚ÊÂ Á‡ÈÌˇÚÂ!");
-                        return;
-                    }
-
+                    if (seat.IsBooked) { MessageBox.Show("–¶–µ –º—ñ—Å—Ü–µ –≤–∂–µ –∑–∞–π–Ω—è—Ç–µ!"); return; }
                     seat.IsSelected = !seat.IsSelected;
-
-                    if (seat.IsSelected) SelectedSeats.Add(seat);
-                    else SelectedSeats.Remove(seat);
-
+                    if (seat.IsSelected) SelectedSeats.Add(seat); else SelectedSeats.Remove(seat);
                     OnPropertyChanged(nameof(TotalPrice));
                 }
             });
 
             ProceedToCheckoutCommand = new RelayCommand(o =>
             {
-                if (SelectedSeats.Count == 0)
-                {
-                    MessageBox.Show("Œ·Â≥Ú¸ Ï≥ÒˆÂ!");
-                    return;
-                }
+                if (SelectedSeats.Count == 0) { MessageBox.Show("–û–±–µ—Ä—ñ—Ç—å –º—ñ—Å—Ü–µ!"); return; }
                 OnPropertyChanged(nameof(OrderSummary));
                 OnPropertyChanged(nameof(TotalPrice));
                 ShowCheckoutScreen();
@@ -148,6 +154,21 @@ namespace Cinema_wpf.ViewModel
             ConfirmOrderCommand = new RelayCommand(o => ConfirmOrder());
         }
 
+        private void UpdateProfileLists()
+        {
+            ActiveTickets.Clear();
+            PastTickets.Clear();
+
+            if (CurrentUser == null) return;
+
+            foreach (var ticket in CurrentUser.PurchaseHistory)
+            {
+                if (ticket.SessionDate > DateTime.Now)
+                    ActiveTickets.Add(ticket);
+                else
+                    PastTickets.Add(ticket);
+            }
+        }
 
         private void LoadSeatsForSession()
         {
@@ -159,97 +180,113 @@ namespace Cinema_wpf.ViewModel
             OnPropertyChanged(nameof(ColumnsCount));
         }
 
-        private void GenerateData()
-        {
-
-            var redHall = new Hall("◊Â‚ÓÌ‡ «‡Î‡", 5, 8);
-            var blueHall = new Hall("—ËÌˇ «‡Î‡", 8, 12);
-            var greenHall = new Hall("«ÂÎÂÌ‡ «‡Î‡", 6, 10);
-
-            var dune = new Movie { Title = "ƒ˛Ì‡ 2", Genre = "Sci-Fi", DurationMinutes = 166, Description = "≈Ô≥˜Ì‡ Ò‡„‡." };
-            var kungfu = new Movie { Title = "œ‡Ì‰‡  ÛÌ„-‘Û 4", Genre = "ÃÛÎ¸ÚÙ≥Î¸Ï", DurationMinutes = 94, Description = "œË„Ó‰Ë œÓ." };
-            var godzilla = new Movie { Title = "√Ó‰Á≥ÎÎ‡", Genre = "≈Í¯Ì", DurationMinutes = 115, Description = "¡ËÚ‚‡ ÚËÚ‡Ì≥‚." };
-
-            Sessions = new ObservableCollection<Session>
-            {
-                new Session(dune, redHall, DateTime.Now.AddHours(1), 150),
-                new Session(kungfu, blueHall, DateTime.Now.AddHours(2), 120),
-                new Session(godzilla, greenHall, DateTime.Now.AddHours(3), 140),
-                new Session(dune, blueHall, DateTime.Now.AddHours(5), 200),
-                new Session(kungfu, greenHall, DateTime.Now.AddHours(6), 120),
-                new Session(godzilla, redHall, DateTime.Now.AddHours(7), 140),
-                new Session(dune, greenHall, DateTime.Now.AddDays(1).AddHours(10), 150),
-                new Session(kungfu, redHall, DateTime.Now.AddDays(1).AddHours(12), 120),
-                new Session(godzilla, blueHall, DateTime.Now.AddDays(1).AddHours(14), 200)
-            };
-        }
-
         private void ConfirmOrder()
         {
             if (string.IsNullOrWhiteSpace(ClientName) || string.IsNullOrWhiteSpace(ClientPhone))
             {
-                MessageBox.Show("¡Û‰¸ Î‡ÒÍ‡, ‚‚Â‰≥Ú¸ ≥Ï'ˇ Ú‡ ÚÂÎÂÙÓÌ.");
-                return;
+                MessageBox.Show("–í–≤–µ–¥—ñ—Ç—å –¥–∞–Ω—ñ!"); return;
             }
 
             foreach (var seat in SelectedSeats)
             {
-                SelectedSession.BookSeat(seat.Row, seat.Number);
+            
+                bool success = SelectedSession.BookSeat(seat.Row, seat.Number);
+                if (success)
+                {
+                    var ticket = SelectedSession.CreateTicket(seat.Row, seat.Number);
+                    CurrentUser.BuyTicket(ticket);
+                }
                 seat.IsSelected = false;
             }
 
-            MessageBox.Show($"ƒˇÍÛ∫ÏÓ, {ClientName}!\n«‡ÏÓ‚ÎÂÌÌˇ ÓÙÓÏÎÂÌÓ.\n ‚ËÚÍË Ì‡‰≥ÒÎ‡ÌÓ Ì‡ {ClientPhone}.",
-                            "ŒÙÓÏÎÂÌÓ", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show($"–î—è–∫—É—î–º–æ, {ClientName}!\n–ö–≤–∏—Ç–∫–∏ –¥–æ–¥–∞–Ω–æ —É –≤–∞—à –ø—Ä–æ—Ñ—ñ–ª—å.", "–£—Å–ø—ñ—Ö", MessageBoxButton.OK, MessageBoxImage.Information);
 
             SelectedSeats.Clear();
-            ClientName = "";
-            ClientPhone = "";
             ShowListScreen();
         }
 
-        private decimal CalculatePrice(Seat seat)
-        {
-            if (seat.Type == SeatType.VIP)
-                return SelectedSession.price * 1.5m;
-
-            return SelectedSession.price;
-        }
+        private decimal CalculatePrice(Seat seat) => (seat.Type == SeatType.VIP) ? SelectedSession.price * 1.5m : SelectedSession.price;
 
         private string GenerateOrderSummary()
         {
             if (SelectedSession == null) return "";
             var sb = new StringBuilder();
-            sb.AppendLine($"‘≥Î¸Ï: {SelectedSession.Movie.Title}");
-            sb.AppendLine($"«‡Î: {SelectedSession.Hall.Name}");
-            sb.AppendLine($" ◊‡Ò: {SelectedSession.StartTime:HH:mm}");
+            sb.AppendLine($"{SelectedSession.Movie.Title} | {SelectedSession.StartTime:dd.MM HH:mm}");
+            sb.AppendLine($"–ó–∞–ª: {SelectedSession.Hall.Name}");
             foreach (var seat in SelectedSeats)
             {
-                string typeInfo = seat.Type == SeatType.VIP ? "(VIP)" : "";
-                sb.AppendLine($"–ˇ‰ {seat.Row}, Ã≥ÒˆÂ {seat.Number} {typeInfo} ó {CalculatePrice(seat)} „Ì");
+                sb.AppendLine($"–†—è–¥ {seat.Row}, –ú—ñ—Å—Ü–µ {seat.Number} - {CalculatePrice(seat)} –≥—Ä–Ω");
             }
-            sb.AppendLine($"–¿«ŒÃ: {TotalPrice} „Ì");
-
+            sb.AppendLine($"–†–ê–ó–û–ú: {TotalPrice} –≥—Ä–Ω");
             return sb.ToString();
         }
-
-        private void UpdateVisibility(Visibility list, Visibility booking, Visibility checkout)
+        private void ResetVisibility()
         {
-            IsListVisible = list;
-            IsBookingVisible = booking;
-            IsCheckoutVisible = checkout;
-
-            OnPropertyChanged(nameof(IsListVisible));
-            OnPropertyChanged(nameof(IsBookingVisible));
-            OnPropertyChanged(nameof(IsCheckoutVisible));
+            IsRegistrationVisible = Visibility.Collapsed;
+            IsListVisible = Visibility.Collapsed;
+            IsBookingVisible = Visibility.Collapsed;
+            IsCheckoutVisible = Visibility.Collapsed;
+            IsProfileVisible = Visibility.Collapsed;
         }
 
-        private void ShowListScreen() => UpdateVisibility(Visibility.Visible, Visibility.Collapsed, Visibility.Collapsed);
-        private void ShowBookingScreen() => UpdateVisibility(Visibility.Collapsed, Visibility.Visible, Visibility.Collapsed);
-        private void ShowCheckoutScreen() => UpdateVisibility(Visibility.Collapsed, Visibility.Collapsed, Visibility.Visible);
+        private void ShowRegistrationScreen()
+        {
+            ResetVisibility();
+            IsRegistrationVisible = Visibility.Visible;
+        }
 
-     
+        private void ShowListScreen()
+        {
+            ResetVisibility();
+            IsListVisible = Visibility.Visible;
+            SelectedSession = null;
+        }
 
+        private void ShowBookingScreen()
+        {
+            ResetVisibility();
+            IsBookingVisible = Visibility.Visible;
+        }
+
+        private void ShowCheckoutScreen()
+        {
+            ResetVisibility();
+            IsCheckoutVisible = Visibility.Visible;
+        }
+
+        private void ShowProfileScreen()
+        {
+            ResetVisibility();
+            IsProfileVisible = Visibility.Visible;
+        }
+
+        private void GenerateData()
+        {
+            var redHall = new Hall("–ß–µ—Ä–≤–æ–Ω–∞ –ó–∞–ª–∞", 5, 8);
+            var blueHall = new Hall("–°–∏–Ω—è –ó–∞–ª–∞", 8, 12);
+            var greenHall = new Hall("–ó–µ–ª–µ–Ω–∞ –ó–∞–ª–∞", 6, 10);
+
+            var dune = new Movie
+            {Title = "–î—é–Ω–∞ 2",Genre = "Sci-Fi",DurationMinutes = 166,Description = "–ï–ø—ñ—á–Ω–∞ —Å–∞–≥–∞."};
+
+            var kungfu = new Movie
+            {Title = "–ü–∞–Ω–¥–∞ –ö—É–Ω–≥-–§—É 4",Genre = "–ú—É–ª—å—Ç—Ñ—ñ–ª—å–º",DurationMinutes = 94,Description = "–ü—Ä–∏–≥–æ–¥–∏ –ü–æ."};
+
+            var godzilla = new Movie
+            {Title = "–ì–æ–¥–∑—ñ–ª–ª–∞",Genre = "–ï–∫—à–Ω",DurationMinutes = 115,Description = "–ë–∏—Ç–≤–∞ —Ç–∏—Ç–∞–Ω—ñ–≤."};
+
+            Sessions = new ObservableCollection<Session>
+    {
+        new Session(dune, redHall, DateTime.Now.AddHours(1), 150),
+        new Session(kungfu, blueHall, DateTime.Now.AddHours(2), 120),
+        new Session(godzilla, greenHall, DateTime.Now.AddHours(3), 140),
+        new Session(dune, blueHall, DateTime.Now.AddHours(5), 200),
+        new Session(kungfu, greenHall, DateTime.Now.AddHours(6), 120),
+        new Session(godzilla, redHall, DateTime.Now.AddHours(7), 140),
+        new Session(dune, greenHall, DateTime.Now.AddDays(1).AddHours(10), 150),
+        new Session(kungfu, redHall, DateTime.Now.AddDays(1).AddHours(12), 120),
+        new Session(godzilla, blueHall, DateTime.Now.AddDays(1).AddHours(14), 200)
+    };
+        }
     }
-
-
 }
