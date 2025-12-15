@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {}
+    "C:\\Users\\vladi\\OneDrive\\Робочий стіл\\индз\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
+    "C:\\Users\\vladi\\OneDrive\\Робочий стіл\\индз\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\OneDrive\\Робочий стіл\\индз\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
         "projectName": "Cinema_classes",
-        "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
-        "packagesPath": "C:\\Users\\irina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
+        "projectPath": "C:\\Users\\vladi\\OneDrive\\Робочий стіл\\индз\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vladi\\OneDrive\\Робочий стіл\\индз\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\irina\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

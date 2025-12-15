@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="clr-namespace:Cinema_wpf.ViewModel" 
         mc:Ignorable="d"
-        Title="Cinema World" Height="700" Width="1000"
+        Title="Cinema World" Height="750" Width="1000"
         WindowStartupLocation="CenterScreen">
 
     <Window.DataContext>
@@ -13,154 +13,308 @@
     </Window.DataContext>
 
     <Grid Background="#F3F3F3">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-
-        <Grid Grid.Row="0" Background="#222">
-            <TextBlock Text="CINEMA WORLD" Foreground="White" FontSize="22" FontWeight="Bold" 
-                       VerticalAlignment="Center" Margin="20,0"/>
-
-            <Button Command="{Binding OpenProfileCommand}" 
-                    HorizontalAlignment="Right" Margin="20,0"
-                    Background="Transparent" BorderThickness="0" Cursor="Hand">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock Text="Мій кабінет" Foreground="White" VerticalAlignment="Center" Margin="0,0,10,0" FontSize="14"/>
-                    <Grid>
-                        <Ellipse Width="35" Height="35" Fill="#444"/>
-                        <Path Data="M10,10 A5,5 0 1,1 20,10 A5,5 0 1,1 10,10 M5,30 Q15,15 25,30" 
-                              Stroke="White" StrokeThickness="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30"/>
-                    </Grid>
-                </StackPanel>
-            </Button>
-        </Grid>
-
-        <ScrollViewer Grid.Row="1" Visibility="{Binding IsListVisible}" VerticalScrollBarVisibility="Auto">
-            <ItemsControl ItemsSource="{Binding Sessions}" Margin="20">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <UniformGrid Columns="3"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Border Background="White" Margin="15" CornerRadius="12" Cursor="Hand">
-                            <Border.Effect>
-                                <DropShadowEffect Color="#AAA" BlurRadius="15" ShadowDepth="3" Opacity="0.3"/>
-                            </Border.Effect>
-
-                            <Border.InputBindings>
-                                <MouseBinding MouseAction="LeftClick" 
-                                              Command="{Binding DataContext.SelectSessionCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                                              CommandParameter="{Binding}"/>
-                            </Border.InputBindings>
-
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"/>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="Auto"/>
-                                </Grid.RowDefinitions>
-
-                                <Border Grid.Row="0" Background="#333" Height="6" CornerRadius="12,12,0,0" VerticalAlignment="Top"/>
-
-                                <StackPanel Grid.Row="1" Margin="20">
-                                    <TextBlock Text="{Binding Movie.Title}" FontSize="20" FontWeight="Bold" Foreground="#333" TextWrapping="Wrap"/>
-                                    <TextBlock Text="{Binding Movie.Genre}" Foreground="#777" FontSize="13" Margin="0,5,0,10"/>
-                                    <TextBlock Text="{Binding Movie.Description}" TextWrapping="Wrap" Foreground="#555" Height="40" TextTrimming="CharacterEllipsis"/>
-                                </StackPanel>
-
-                                <Border Grid.Row="2" BorderBrush="#EEE" BorderThickness="0,1,0,0" Padding="15">
-                                    <Grid>
-                                        <StackPanel Orientation="Horizontal">
-                                            <Border Background="#4A90E2" CornerRadius="6" Padding="8,4">
-                                                <TextBlock Text="{Binding StartTime, StringFormat='HH:mm'}" Foreground="White" FontWeight="Bold"/>
-                                            </Border>
-
-                                            <TextBlock Text="{Binding Hall.Name}" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#555" FontWeight="SemiBold"/>
-                                        </StackPanel>
-
-                                        <TextBlock Text="{Binding price, StringFormat='{}{0} грн'}" 
-                                                   HorizontalAlignment="Right" VerticalAlignment="Center" 
-                                                   FontWeight="Bold" Foreground="#27AE60" FontSize="16"/>
-                                    </Grid>
-                                </Border>
-                            </Grid>
-                        </Border>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
-
-        <Grid Grid.Row="1" Visibility="{Binding IsBookingVisible}" Background="White">
+        <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="60"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" Margin="30,20">
-                <Button Command="{Binding GoBackCommand}" 
-                        Content="← Повернутися до афіші" 
-                        HorizontalAlignment="Left" Padding="15,8" 
-                        Background="#EEE" Foreground="#333" BorderThickness="0" 
-                        Cursor="Hand" FontWeight="SemiBold" FontSize="14">
-                    <Button.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="8"/>
-                        </Style>
-                    </Button.Resources>
-                </Button>
+            <Grid Grid.Row="0" Background="#222">
+                <Grid.Style>
+                    <Style TargetType="Grid">
+                        <Setter Property="Visibility" Value="Visible"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsRegistrationVisible}" Value="Visible">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
 
-                <StackPanel Margin="0,20,0,0" HorizontalAlignment="Center">
-                    <TextBlock Text="{Binding SelectedSession.Movie.Title}" FontSize="28" FontWeight="Bold" Foreground="#222" HorizontalAlignment="Center"/>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
-                        <TextBlock Text="{Binding SelectedSession.Hall.Name}" FontSize="16" Foreground="#666"/>
-                        <TextBlock Text=" • " FontSize="16" Foreground="#CCC" Margin="5,0"/>
-                        <TextBlock Text="{Binding SelectedSession.StartTime, StringFormat='dd.MM HH:mm'}" FontSize="16" Foreground="#4A90E2" FontWeight="Bold"/>
+                <TextBlock Text="CINEMA WORLD" Foreground="White" FontSize="22" FontWeight="Bold" 
+                           VerticalAlignment="Center" Margin="20,0"/>
+
+                <Button Command="{Binding OpenProfileCommand}" 
+                        HorizontalAlignment="Right" Margin="20,0"
+                        Background="Transparent" BorderThickness="0" Cursor="Hand">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding HeaderUserName}" Foreground="White" VerticalAlignment="Center" Margin="0,0,10,0" FontSize="14" FontWeight="Bold"/>
+                        <Grid>
+                            <Ellipse Width="35" Height="35" Fill="#444"/>
+                            <Path Data="M10,10 A5,5 0 1,1 20,10 A5,5 0 1,1 10,10 M5,30 Q15,15 25,30" 
+                                  Stroke="White" StrokeThickness="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30"/>
+                        </Grid>
+                    </StackPanel>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="1">
+
+                <Grid Visibility="{Binding IsRegistrationVisible}" Background="#FFFFFF" Panel.ZIndex="100">
+                    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="350">
+                        <TextBlock Text="Вітаємо в Cinema World" FontSize="26" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,30" Foreground="#333"/>
+
+                        <TextBlock Text="Ваше ім'я:" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding RegName, UpdateSourceTrigger=PropertyChanged}" Padding="10" Margin="0,0,0,15" FontSize="16"/>
+
+                        <TextBlock Text="Email (не обов'язково):" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding RegEmail, UpdateSourceTrigger=PropertyChanged}" Padding="10" Margin="0,0,0,15" FontSize="16"/>
+
+                        <TextBlock Text="Номер телефону:" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding RegPhone, UpdateSourceTrigger=PropertyChanged}" Padding="10" Margin="0,0,0,25" FontSize="16"/>
+
+                        <Button Command="{Binding RegisterCommand}" Content="ПРОДОВЖИТИ" 
+                                Background="#4A90E2" Foreground="White" FontSize="16" FontWeight="Bold" Padding="15" BorderThickness="0" Cursor="Hand">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="5"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+
+                <ScrollViewer Visibility="{Binding IsListVisible}" VerticalScrollBarVisibility="Auto">
+                    <ItemsControl ItemsSource="{Binding Sessions}" Margin="20">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Columns="3"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Background="White" Margin="15" CornerRadius="12" Cursor="Hand">
+                                    <Border.Effect>
+                                        <DropShadowEffect Color="#AAA" BlurRadius="15" ShadowDepth="3" Opacity="0.3"/>
+                                    </Border.Effect>
+                                    <Border.InputBindings>
+                                        <MouseBinding MouseAction="LeftClick" 
+                                                      Command="{Binding DataContext.SelectSessionCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                                      CommandParameter="{Binding}"/>
+                                    </Border.InputBindings>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Border Grid.Row="0" Background="#333" Height="6" CornerRadius="12,12,0,0" VerticalAlignment="Top"/>
+                                        <StackPanel Grid.Row="1" Margin="20">
+                                            <TextBlock Text="{Binding Movie.Title}" FontSize="20" FontWeight="Bold" Foreground="#333" TextWrapping="Wrap"/>
+                                            <TextBlock Text="{Binding Movie.Genre}" Foreground="#777" FontSize="13" Margin="0,5,0,10"/>
+                                            <TextBlock Text="{Binding Movie.Description}" TextWrapping="Wrap" Foreground="#555" Height="40" TextTrimming="CharacterEllipsis"/>
+                                        </StackPanel>
+                                        <Border Grid.Row="2" BorderBrush="#EEE" BorderThickness="0,1,0,0" Padding="15">
+                                            <Grid>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Border Background="#4A90E2" CornerRadius="6" Padding="8,4">
+                                                        <TextBlock Text="{Binding StartTime, StringFormat='HH:mm'}" Foreground="White" FontWeight="Bold"/>
+                                                    </Border>
+                                                    <TextBlock Text="{Binding Hall.Name}" Margin="10,0,0,0" VerticalAlignment="Center" Foreground="#555" FontWeight="SemiBold"/>
+                                                </StackPanel>
+                                                <TextBlock Text="{Binding price, StringFormat='{}{0} грн'}" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold" Foreground="#27AE60" FontSize="16"/>
+                                            </Grid>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
+                <Grid Visibility="{Binding IsBookingVisible}" Background="White">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="80"/>
+                    </Grid.RowDefinitions>
+
+                    <Button Grid.Row="0" Command="{Binding GoBackToMoviesCommand}" Content="← Повернутися до афіші" HorizontalAlignment="Left" Margin="20" Padding="15,8" Background="#EEE" Foreground="#333" BorderThickness="0" Cursor="Hand" FontWeight="SemiBold" FontSize="14">
+                        <Button.Resources>
+                            <Style TargetType="Border">
+                                <Setter Property="CornerRadius" Value="8"/>
+                            </Style>
+                        </Button.Resources>
+                    </Button>
+
+                    <StackPanel Grid.Row="0" Margin="0,20,0,0" HorizontalAlignment="Center">
+                        <TextBlock Text="{Binding SelectedSession.Movie.Title}" FontSize="28" FontWeight="Bold" Foreground="#222" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5">
+                            <TextBlock Text="{Binding SelectedSession.Hall.Name}" FontSize="16" Foreground="#666"/>
+                            <TextBlock Text=" • " FontSize="16" Foreground="#CCC" Margin="5,0"/>
+                            <TextBlock Text="{Binding SelectedSession.StartTime, StringFormat='dd.MM HH:mm'}" FontSize="16" Foreground="#4A90E2" FontWeight="Bold"/>
+                        </StackPanel>
+                        <Border Background="Black" Height="8" Width="400" Margin="0,25,0,30" CornerRadius="4">
+                            <TextBlock Text="ЕКРАН" Foreground="#555" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="10"/>
+                        </Border>
                     </StackPanel>
 
-                    <Border Background="Black" Height="8" Width="400" Margin="0,25,0,30" CornerRadius="4">
-                        <Border.Effect>
-                            <DropShadowEffect Color="Black" BlurRadius="20" ShadowDepth="5" Opacity="0.5"/>
-                        </Border.Effect>
-                        <TextBlock Text="ЕКРАН" Foreground="#555" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-20,0,0" FontSize="10"/>
+                    <ItemsControl Grid.Row="1" ItemsSource="{Binding Seats}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,50">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Rows="{Binding RowsCount}" Columns="{Binding ColumnsCount}"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border Margin="4" CornerRadius="6" Width="40" Height="40" Cursor="Hand" ToolTip="{Binding}">
+                                    <Border.InputBindings>
+                                        <MouseBinding MouseAction="LeftClick" Command="{Binding DataContext.ToggleSeatCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}"/>
+                                    </Border.InputBindings>
+                                    <Border.Style>
+                                        <Style TargetType="Border">
+                                            <Setter Property="Background" Value="#4A90E2"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Type}" Value="VIP">
+                                                    <Setter Property="Background" Value="#F1C40F"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                                    <Setter Property="Background" Value="#2ECC71"/>
+                                                    <Setter Property="BorderBrush" Value="#27AE60"/>
+                                                    <Setter Property="BorderThickness" Value="2"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding IsBooked}" Value="True">
+                                                    <Setter Property="Background" Value="#E74C3C"/>
+                                                    <Setter Property="Cursor" Value="No"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Border.Style>
+                                    <TextBlock Text="{Binding Number}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"/>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <Border Grid.Row="2" Background="#FAFAFA" BorderBrush="#EEE" BorderThickness="0,1,0,0">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="30,0">
+                            <TextBlock Text="Разом:" VerticalAlignment="Center" FontSize="18" Foreground="Gray" Margin="0,0,10,0"/>
+                            <TextBlock Text="{Binding TotalPrice, StringFormat='{}{0} грн'}" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" Foreground="#333" Margin="0,0,30,0"/>
+                            <Button Command="{Binding ProceedToCheckoutCommand}" Content="ОФОРМИТИ ЗАМОВЛЕННЯ" Background="#27AE60" Foreground="White" Padding="20,10" FontWeight="Bold" BorderThickness="0" FontSize="16">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="8"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
                     </Border>
-                </StackPanel>
-            </StackPanel>
+                </Grid>
 
-            <ItemsControl Grid.Row="1" ItemsSource="{Binding Seats}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,0,0,50">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <UniformGrid Rows="{Binding RowsCount}" Columns="{Binding ColumnsCount}"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
+                <Grid Visibility="{Binding IsCheckoutVisible}" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="400"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="50">
+                        <Button Command="{Binding GoBackToBookingCommand}" Content="← Змінити місця" HorizontalAlignment="Left" Background="Transparent" Foreground="#4A90E2" BorderThickness="0" Cursor="Hand"/>
+                        <TextBlock Text="Оформлення замовлення" FontSize="32" FontWeight="Bold" Margin="0,20,0,30"/>
+                        <TextBlock Text="Ваше Ім'я" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding ClientName, UpdateSourceTrigger=PropertyChanged}" Padding="10" FontSize="16" Margin="0,0,0,20"/>
+                        <TextBlock Text="Номер телефону" Foreground="Gray" Margin="0,0,0,5"/>
+                        <TextBox Text="{Binding ClientPhone, UpdateSourceTrigger=PropertyChanged}" Padding="10" FontSize="16" Margin="0,0,0,20"/>
+                        <Button Command="{Binding ConfirmOrderCommand}" Content="ПІДТВЕРДИТИ БРОНЮВАННЯ" Background="#333" Foreground="White" Padding="15" FontSize="16" FontWeight="Bold" Margin="0,20,0,0" BorderThickness="0"/>
+                    </StackPanel>
+                    <Border Grid.Column="1" Background="#F9F9F9" Padding="30" BorderBrush="#EEE" BorderThickness="1,0,0,0">
+                        <StackPanel>
+                            <TextBlock Text="Ваше замовлення" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+                            <TextBlock Text="{Binding OrderSummary}" FontSize="14" Foreground="#444" LineHeight="24" TextWrapping="Wrap"/>
+                        </StackPanel>
+                    </Border>
+                </Grid>
 
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <Border Margin="4" CornerRadius="6" Width="40" Height="40" Cursor="Hand" ToolTip="{Binding}">
-                            <Border.Style>
-                                <Style TargetType="Border">
-                                    <Setter Property="Background" Value="#4A90E2"/>
-                                    <Style.Triggers>
-                                        <DataTrigger Binding="{Binding Type}" Value="VIP">
-                                            <Setter Property="Background" Value="#F1C40F"/>
-                                        </DataTrigger>
-                                        <DataTrigger Binding="{Binding IsBooked}" Value="True">
-                                            <Setter Property="Background" Value="#E74C3C"/>
-                                            <Setter Property="Cursor" Value="No"/>
-                                        </DataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </Border.Style>
+                <Grid Visibility="{Binding IsProfileVisible}" Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-                            <TextBlock Text="{Binding Number}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" FontWeight="Bold"/>
-                        </Border>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+                    <Border Grid.Column="0" Background="#FAFAFA" BorderBrush="#EEE" BorderThickness="0,0,1,0">
+                        <StackPanel Margin="20">
+                            <Ellipse Width="100" Height="100" Fill="#DDD" Margin="0,20,0,20"/>
+                            <TextBlock Text="{Binding CurrentUser.Name}" FontSize="22" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+                            <TextBlock Text="{Binding CurrentUser.Email}" FontSize="14" Foreground="Gray" HorizontalAlignment="Center"/>
+                            <TextBlock Text="{Binding CurrentUser.PhoneNumber}" FontSize="14" Foreground="Gray" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+
+                            <Button Command="{Binding BackToMoviesCommand}" Content="КУПИТИ КВИТКИ" 
+                                    Background="#4A90E2" Foreground="White" Padding="10" FontSize="14" FontWeight="Bold" BorderThickness="0" Cursor="Hand">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="5"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
+                        </StackPanel>
+                    </Border>
+
+                    <ScrollViewer Grid.Column="1" Padding="30">
+                        <StackPanel>
+                            <TextBlock Text="Мої Квитки" FontSize="28" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                            <TextBlock Text="Активні" FontSize="18" Foreground="#4A90E2" FontWeight="SemiBold" Margin="0,0,0,10"/>
+                            <ItemsControl ItemsSource="{Binding ActiveTickets}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="White" BorderBrush="#DDD" BorderThickness="1" CornerRadius="8" Margin="0,0,0,10" Padding="15">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding MovieTitle}" FontWeight="Bold" FontSize="16"/>
+                                                    <TextBlock Text="{Binding SessionDate, StringFormat='dd.MM.yyyy HH:mm'}" Foreground="#555"/>
+                                                    <TextBlock Text="{Binding HallName}" Foreground="Gray"/>
+                                                </StackPanel>
+                                                <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                                    <TextBlock Text="{Binding Row, StringFormat='Ряд: {0}'}"/>
+                                                    <TextBlock Text="{Binding SeatNumber, StringFormat='Місце: {0}'}" FontWeight="Bold"/>
+                                                </StackPanel>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                            <TextBlock Text="Немає активних квитків" FontStyle="Italic" Foreground="#999" HorizontalAlignment="Center" Margin="0,0,0,10">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding ActiveTickets.Count}" Value="0">
+                                                <Setter Property="Visibility" Value="Visible"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+
+                            <Separator Margin="0,20"/>
+
+                            <TextBlock Text="Історія відвідувань" FontSize="18" Foreground="#999" FontWeight="SemiBold" Margin="0,0,0,10"/>
+                            <ItemsControl ItemsSource="{Binding PastTickets}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="#F9F9F9" BorderBrush="#EEE" BorderThickness="1" CornerRadius="8" Margin="0,0,0,10" Padding="15">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding MovieTitle}" FontWeight="Bold" Foreground="#777"/>
+                                                    <TextBlock Text="{Binding SessionDate, StringFormat='dd.MM.yyyy HH:mm'}" Foreground="#999"/>
+                                                </StackPanel>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+
+            </Grid>
         </Grid>
-
     </Grid>
 </Window>

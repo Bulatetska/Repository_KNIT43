@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
+
 namespace Cinema_classes
 {
     public class CinemaService
@@ -14,7 +15,7 @@ namespace Cinema_classes
 
         public void Initialize()
         {
-            CurrentUser = new User("Учасник В Тест", "test@cinema.com");
+            CurrentUser = new User("Учасник В Тест", "test@cinema.com","0000000000");
 
             var movie1 = new Movie("Інтерстеллар", 169, "Фантастика", "Подорож у космос.");
             var movie2 = new Movie("Дюна", 155, "Фантастика", "Пустельна планета.");
