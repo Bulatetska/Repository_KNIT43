@@ -1,0 +1,30 @@
+@model List<lab14.Models.Product>
+@{
+    Layout = "_Layout";
+}
+
+<h1>Список продуктів</h1>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Actions</th>
+    </tr>
+@foreach (var p in Model)
+{
+    <tr>
+        <td>@p.Id</td>
+        <td>@p.Name</td>
+        <td>@p.Price</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@p.Id">Edit</a> |
+            <a asp-action="Delete" asp-route-id="@p.Id">Delete</a>
+        </td>
+    </tr>
+}
+</table>
+
+<br />
+<a asp-action="Create">Додати новий продукт</a>

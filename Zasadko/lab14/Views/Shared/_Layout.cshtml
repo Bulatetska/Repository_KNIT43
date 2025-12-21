@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab14</title>
+</head>
+<body>
+   <nav>
+    <a asp-controller="Home" asp-action="Index">Home</a> |
+    <a asp-controller="Product" asp-action="List">Products</a> |
+    <a asp-controller="Product" asp-action="Create">Add Product</a> |
+    <a asp-controller="User" asp-action="List">Users</a> |
+    <a asp-controller="User" asp-action="Create">Add User</a>
+</nav>
+
+    <hr />
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

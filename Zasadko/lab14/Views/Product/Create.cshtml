@@ -1,0 +1,12 @@
+@model lab14.Models.Product
+@{
+    Layout = "_Layout";
+}
+
+<h1>Додати продукт</h1>
+
+<form asp-action="Create" method="post">
+    <p>Name: <input asp-for="Name" /></p>
+    <p>Price: <input asp-for="Price" /></p>
+    <button type="submit">Додати</button>
+</form>

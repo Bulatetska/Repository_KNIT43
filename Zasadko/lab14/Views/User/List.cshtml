@@ -1,0 +1,14 @@
+@model List<lab14.Models.User>
+@{
+    Layout = "_Layout";
+}
+
+<h1>Список користувачів</h1>
+<ul>
+@foreach(var u in Model)
+{
+    <li>@u.Id. @u.Username - @u.Email</li>
+}
+</ul>
+
+<a asp-action="Create">Створити нового користувача</a>

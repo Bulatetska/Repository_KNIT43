@@ -1,0 +1,13 @@
+@model lab14.Models.Product
+@{
+    Layout = "_Layout";
+}
+
+<h1>Редагувати продукт</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <p>Name: <input asp-for="Name" /></p>
+    <p>Price: <input asp-for="Price" /></p>
+    <button type="submit">Зберегти</button>
+</form>

@@ -1,0 +1,12 @@
+@model lab14.Models.User
+@{
+    Layout = "_Layout";
+}
+
+<h1>Створити користувача</h1>
+
+<form asp-action="Create" method="post">
+    <p>Username: <input asp-for="Username" /></p>
+    <p>Email: <input asp-for="Email" /></p>
+    <button type="submit">Створити</button>
+</form>

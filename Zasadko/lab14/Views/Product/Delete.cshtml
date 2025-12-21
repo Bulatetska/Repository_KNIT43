@@ -1,0 +1,13 @@
+@model lab14.Models.Product
+@{
+    Layout = "_Layout";
+}
+
+<h1>Видалити продукт</h1>
+
+<p>Ви дійсно хочете видалити "@Model.Name"?</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Так, видалити</button>
+</form>
