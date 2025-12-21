@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repository_KNIT43\\Zasadko\\Lab9\\lab9.csproj": {}
+    "E:\\Repository_KNIT43\\Zasadko\\lab9\\lab9.csproj": {}
   },
   "projects": {
-    "E:\\Repository_KNIT43\\Zasadko\\Lab9\\lab9.csproj": {
+    "E:\\Repository_KNIT43\\Zasadko\\lab9\\lab9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repository_KNIT43\\Zasadko\\Lab9\\lab9.csproj",
+        "projectUniqueName": "E:\\Repository_KNIT43\\Zasadko\\lab9\\lab9.csproj",
         "projectName": "lab9",
-        "projectPath": "E:\\Repository_KNIT43\\Zasadko\\Lab9\\lab9.csproj",
+        "projectPath": "E:\\Repository_KNIT43\\Zasadko\\lab9\\lab9.csproj",
         "packagesPath": "C:\\Users\\csdss\\.nuget\\packages\\",
-        "outputPath": "E:\\Repository_KNIT43\\Zasadko\\Lab9\\obj\\",
+        "outputPath": "E:\\Repository_KNIT43\\Zasadko\\lab9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\csdss\\AppData\\Roaming\\NuGet\\NuGet.Config",

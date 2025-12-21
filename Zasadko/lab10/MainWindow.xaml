@@ -1,0 +1,47 @@
+﻿<Window x:Class="lab10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:lab10.ViewModels"
+        Title="Книги" Height="350" Width="600">
+
+    <Window.DataContext>
+        <vm:BookViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Список книг -->
+        <ListBox ItemsSource="{Binding Books}"
+                 SelectedItem="{Binding SelectedBook}"
+                 DisplayMemberPath="Title" />
+
+        <!-- Редагування -->
+        <StackPanel Grid.Column="1" Margin="10" VerticalAlignment="Top" >
+
+            <!-- Підпис + поле для назви -->
+            <TextBlock Text="Назва:" Margin="0,5,0,0"/>
+            <TextBox Text="{Binding SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}" />
+
+            <!-- Підпис + поле для автора -->
+            <TextBlock Text="Автор:" Margin="0,5,0,0"/>
+            <TextBox Text="{Binding SelectedBook.Author, UpdateSourceTrigger=PropertyChanged}" />
+
+            <!-- Підпис + поле для року -->
+            <TextBlock Text="Рік:" Margin="0,5,0,0"/>
+            <TextBox Text="{Binding SelectedBook.Year, UpdateSourceTrigger=PropertyChanged}" />
+
+            <!-- Кнопки -->
+            <Button Content="Додати книгу"
+                    Command="{Binding AddBookCommand}"
+                    Margin="0,10,0,0"/>
+
+            <Button Content="Видалити книгу"
+                    Command="{Binding DeleteBookCommand}"
+                    Margin="0,5,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
