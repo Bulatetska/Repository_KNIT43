@@ -1,0 +1,12 @@
+﻿<Window x:Class="HelloApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Привітання" Height="250" Width="400">
+    
+    <StackPanel Margin="20" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <TextBlock Text="Введіть своє ім'я:" FontSize="16" Margin="0,0,0,10"/>
+        <TextBox Width="200" FontSize="16" Text="{Binding UserName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+        <Button Content="Підтвердити" Width="120" Height="35" Click="ConfirmButton_Click" Margin="0,0,0,10"/>
+        <TextBlock Text="{Binding Greeting}" FontSize="16" FontWeight="Bold" Foreground="DarkBlue"/>
+    </StackPanel>
+</Window>
