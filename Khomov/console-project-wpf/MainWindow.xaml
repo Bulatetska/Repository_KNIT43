@@ -1,0 +1,31 @@
+<Window x:Class="ConsoleProjectWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Library" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0 0 0 5">
+                
+                <TextBox Width="200" Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,5,0"/>
+                
+                <Button Content="Search" Width="100" Command="{Binding SearchCommand}"/>
+            </StackPanel>
+            <ListBox ItemsSource="{Binding Items}" SelectedItem="{Binding SelectedItem}" DisplayMemberPath="Title" Height="300"/>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Margin="10 0 0 0">
+            <TextBlock Text="Details" FontWeight="Bold"/>
+            <TextBlock Text="{Binding SelectedItem.Title}"/>
+            <TextBlock Text="{Binding SelectedItem.Year}"/>
+            <TextBlock Text="{Binding SelectedItem}"/>
+            <Button Content="Borrow" Command="{Binding BorrowCommand}" IsEnabled="{Binding CanBorrow}" Margin="0 5 0 0"/>
+            <Button Content="Return" Command="{Binding ReturnCommand}" IsEnabled="{Binding CanReturn}"/>
+        </StackPanel>
+    </Grid>
+</Window>
