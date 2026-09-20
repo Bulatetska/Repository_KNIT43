@@ -10,28 +10,25 @@ int n = a.GetLength(0);
 int m = a.GetLength(1);
 double sum = 0;
 
-for (int i = 0; i < n; i++)
+foreach (int number in a)
 {
-    for (int j = 0; j < m; j++)
-    {
-        sum += a[i, j];
-    }
+    sum += number;
 }
 
-double avg = sum / (n * m);
+double average = sum / (n * m);
 
-Console.WriteLine("Середнє арифметичне: " + avg);
+Console.WriteLine("Середнє арифметичне: " + average);
 Console.WriteLine("Матриця після заміни:");
 
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < m; j++)
     {
-        if (a[i, j] < avg)
+        if (a[i, j] < average)
         {
             a[i, j] = -1;
         }
-        else if (a[i, j] > avg)
+        else if (a[i, j] > average)
         {
             a[i, j] = 1;
         }

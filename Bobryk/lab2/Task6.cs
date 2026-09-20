@@ -1,12 +1,11 @@
 using System;
 
 double[] a = { 1.5, -2.0, 3.5, 4.0, 0.0 };
-int n = a.Length;
 double sum = 0;
 
-for (int i = 0; i < n; i++)
+foreach (double number in a)
 {
-    sum += a[i];
+    sum += number;
 }
 
 Console.WriteLine("Сума елементів масиву: " + sum);

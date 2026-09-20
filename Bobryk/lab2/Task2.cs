@@ -17,13 +17,16 @@ for (int i = 0; i < n; i++)
     for (int j = 0; j < n; j++)
     {
         Console.Write(a[i, j] + "\t");
-
-        if (a[i, j] > max)
-        {
-            max = a[i, j];
-        }
     }
     Console.WriteLine();
+}
+
+foreach (double number in a)
+{
+    if (number > max)
+    {
+        max = number;
+    }
 }
 
 Console.WriteLine("Матриця після заміни:");
