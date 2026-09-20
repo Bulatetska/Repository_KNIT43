@@ -1,0 +1,1 @@
+Console.WriteLine("To be or not to be\n\\ Shakespeare \\");
