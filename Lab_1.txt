@@ -1,0 +1,157 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть перше число: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Введіть друге число: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+
+        double average = (a + b) / 2;
+
+        Console.WriteLine("Середнє арифметичне: " + average);
+    }
+}
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("To be or not to be");
+        Console.WriteLine("\\ Shakespeare \\");
+    }
+}
+
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть число: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+
+        if (number % 2 == 0)
+        {
+            Console.WriteLine("Число є парним.");
+        }
+        else
+        {
+            Console.WriteLine("Число є непарним.");
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть натуральне число (a < 100): ");
+        int a = Convert.ToInt32(Console.ReadLine());
+
+        int number = a;
+        int count = 0;
+        int sum = 0;
+
+        while (number > 0)
+        {
+            sum += number % 10;
+            count++;
+            number /= 10;
+        }
+
+        Console.WriteLine("Кількість цифр: " + count);
+        Console.WriteLine("Сума цифр: " + sum);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть число: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+
+        int reversed = 0;
+
+        while (number > 0)
+        {
+            int digit = number % 10;
+            reversed = reversed * 10 + digit;
+            number /= 10;
+        }
+
+        Console.WriteLine("Число навпаки: " + reversed);
+    }
+}
+
+
+
+
+
+
+
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Введіть число: ");
+        int number = Convert.ToInt32(Console.ReadLine());
+
+        int sum = 0;
+
+        while (number > 0)
+        {
+            sum += number % 10;
+            number /= 10;
+        }
+
+        Console.WriteLine("Сума цифр числа: " + sum);
+    }
+}
