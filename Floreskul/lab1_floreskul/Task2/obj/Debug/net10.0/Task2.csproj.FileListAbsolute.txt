@@ -1,0 +1,14 @@
+/Users/olgafloreskul/CSharpTasksv/Task2/bin/Debug/net10.0/Task2
+/Users/olgafloreskul/CSharpTasksv/Task2/bin/Debug/net10.0/Task2.deps.json
+/Users/olgafloreskul/CSharpTasksv/Task2/bin/Debug/net10.0/Task2.runtimeconfig.json
+/Users/olgafloreskul/CSharpTasksv/Task2/bin/Debug/net10.0/Task2.dll
+/Users/olgafloreskul/CSharpTasksv/Task2/bin/Debug/net10.0/Task2.pdb
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.AssemblyInfoInputs.cache
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.AssemblyInfo.cs
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.csproj.CoreCompileInputs.cache
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.dll
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/refint/Task2.dll
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.pdb
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/Task2.genruntimeconfig.cache
+/Users/olgafloreskul/CSharpTasksv/Task2/obj/Debug/net10.0/ref/Task2.dll
