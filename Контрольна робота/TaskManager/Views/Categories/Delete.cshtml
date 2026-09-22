@@ -1,0 +1,17 @@
+@model TaskManager.Models.Category
+
+@{
+    ViewData["Title"] = "Видалення категорії";
+}
+
+<h2>Видалити категорію</h2>
+
+<div class="alert alert-warning">
+    <p>Ви впевнені, що хочете видалити категорію "<strong>@Model.Name</strong>"?</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Так, видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>

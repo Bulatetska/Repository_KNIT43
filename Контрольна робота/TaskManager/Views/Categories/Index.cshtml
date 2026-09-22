@@ -1,0 +1,32 @@
+@model List<TaskManager.Models.Category>
+
+@{
+    ViewData["Title"] = "Список категорій";
+}
+
+<h2>Список категорій</h2>
+
+<a asp-action="Create" class="btn btn-primary">Створити нову категорію</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Назва</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Редагувати</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
