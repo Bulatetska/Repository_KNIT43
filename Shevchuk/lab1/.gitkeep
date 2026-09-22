@@ -1,1 +1,64 @@
+using System;
 
+namespace TasksApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // Завдання 1
+            Console.WriteLine("Завдання 1");
+            Console.Write("Введіть перше число: ");
+            double num1 = double.Parse(Console.ReadLine());
+            Console.Write("Введіть друге число: ");
+            double num2 = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Середнє арифметичне: {(num1 + num2) / 2}\n");
+
+            // Завдання 2
+            Console.WriteLine("Завдання 2");
+            Console.WriteLine("To be or not to be");
+            Console.WriteLine(@"\ Shakespeare \" + "\n");
+
+            // Завдання 3
+            Console.WriteLine("Завдання 3");
+            Console.Write("Введіть ціле число: ");
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(n % 2 == 0 ? "Число парне\n" : "Число непарне\n");
+
+            // Завдання 4
+            Console.WriteLine("Завдання 4");
+            Console.Write("Введіть число a (a < 100): ");
+            int a = int.Parse(Console.ReadLine());
+            int count = a < 10 ? 1 : 2;
+            int sum = a < 10 ? a : (a / 10 + a % 10);
+            Console.WriteLine($"Кількість цифр: {count}");
+            Console.WriteLine($"Сума цифр: {sum}\n");
+
+            // Завдання 5
+            Console.WriteLine("Завдання 5");
+            Console.Write("Введіть число: ");
+            long num = long.Parse(Console.ReadLine());
+            long temp = Math.Abs(num);
+            long reversed = 0;
+            while (temp > 0)
+            {
+                reversed = reversed * 10 + temp % 10;
+                temp /= 10;
+            }
+            if (num < 0) reversed = -reversed;
+            Console.WriteLine($"Число навпаки: {reversed}\n");
+
+            // Завдання 6
+            Console.WriteLine("Завдання 6");
+            Console.Write("Введіть число: ");
+            long numForSum = Math.Abs(long.Parse(Console.ReadLine()));
+            long totalSum = 0;
+            while (numForSum > 0)
+            {
+                totalSum += numForSum % 10;
+                numForSum /= 10;
+            }
+            Console.WriteLine($"Сума цифр: {totalSum}");
+        }
+    }
+}
