@@ -1,0 +1,16 @@
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\bin\Debug\net10.0\Lab_2.exe
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\bin\Debug\net10.0\Lab_2.deps.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\bin\Debug\net10.0\Lab_2.runtimeconfig.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\bin\Debug\net10.0\Lab_2.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\bin\Debug\net10.0\Lab_2.pdb
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.AssemblyInfoInputs.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.AssemblyInfo.cs
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.sourcelink.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\refint\Lab_2.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.pdb
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.genruntimeconfig.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\ref\Lab_2.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_2\Lab_2\Lab_2\obj\Debug\net10.0\Lab_2.csproj.Up2Date

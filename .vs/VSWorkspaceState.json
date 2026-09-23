@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Cinema",
-    "\\Cinema\\Cinema_classes",
-    "\\Cinema\\Cinema_console"
+    "\\Khrystenko",
+    "\\Khrystenko\\lab_2",
+    "\\Khrystenko\\lab_2\\Lab_2",
+    "\\Khrystenko\\lab_2\\Lab_2\\Lab_2"
   ],
-  "SelectedNode": "\\Cinema\\Cinema_classes\\Movie.cs",
   "PreviewInSolutionExplorer": false
 }
