@@ -71,7 +71,7 @@
         static void SumOfDigitsInNumber()
         {
             Console.WriteLine("Enter number to check:");
-            int number = Convert.ToInt16(Console.ReadLine());
+            int number = Convert.ToInt32(Console.ReadLine());
             char[] digits = number.ToString().ToCharArray();
             int sumOfDigits = 0;
             foreach (char digit in digits)

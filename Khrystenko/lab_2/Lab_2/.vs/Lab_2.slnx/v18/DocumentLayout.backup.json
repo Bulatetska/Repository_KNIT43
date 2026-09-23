@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_2\\Lab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E72B3048-04CF-47A6-863D-02D93765B9E6}|Lab_2\\Lab_2.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_2\\lab_2\\lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E72B3048-04CF-47A6-863D-02D93765B9E6}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6B4CCA-5443-5254-C4AF-0D535E61C604}|Lab_2\\Lab_2.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_2\\lab_2\\lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6B4CCA-5443-5254-C4AF-0D535E61C604}|Lab_2\\Lab_2.csproj|solutionrelative:lab_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,9 +38,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_2\\Lab_2\\Lab_2\\Program.cs",
               "RelativeDocumentMoniker": "Lab_2\\Program.cs",
-              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_2\\Lab_2\\Lab_2\\Program.cs",
-              "RelativeToolTip": "Lab_2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_2\\Lab_2\\Lab_2\\Program.cs*",
+              "RelativeToolTip": "Lab_2\\Program.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAiwEYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T11:02:59.309Z",
               "EditorCaption": ""
