@@ -1,0 +1,41 @@
+﻿@page
+@model QuickCalculatorApp.Pages.IndexModel
+
+<h1>Розрахунок вартості товару</h1>
+
+<form method="post">
+    <label>Назва товару:</label>
+    <input type="text" name="Product.Name" /><br />
+
+    <label>Ціна:</label>
+    <input type="number" step="0.01" name="Product.Price" /><br />
+
+    <label>Категорія:</label>
+    <input type="text" name="Product.Category" /><br />
+
+    <label>Знижка (%):</label>
+    <input type="number" step="0.01" name="discount" /><br />
+
+    <input type="submit" value="Розрахувати" />
+</form>
+
+@if (Request.Method == "POST")
+{
+    <h3>Результат</h3>
+    <p>@Model.Message</p>
+}
+
+<h3>Системна інформація (HTTP-заголовки)</h3>
+<table border="1">
+    <tr>
+        <th>Заголовок</th>
+        <th>Значення</th>
+    </tr>
+    @foreach (var header in Request.Headers)
+    {
+        <tr>
+            <td>@header.Key</td>
+            <td>@header.Value</td>
+        </tr>
+    }
+</table>
