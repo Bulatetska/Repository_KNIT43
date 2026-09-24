@@ -1,0 +1,15 @@
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\bin\Debug\net10.0\PshavaNET_lab3.exe
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\bin\Debug\net10.0\PshavaNET_lab3.deps.json
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\bin\Debug\net10.0\PshavaNET_lab3.runtimeconfig.json
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\bin\Debug\net10.0\PshavaNET_lab3.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\bin\Debug\net10.0\PshavaNET_lab3.pdb
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.AssemblyInfoInputs.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.AssemblyInfo.cs
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.csproj.CoreCompileInputs.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\refint\PshavaNET_lab3.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.pdb
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNET_lab3.genruntimeconfig.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\ref\PshavaNET_lab3.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshava razorpages labs\lab 2\PshavaNET_lab3\PshavaNET_lab3\obj\Debug\net10.0\PshavaNE.F0E3A478.Up2Date
