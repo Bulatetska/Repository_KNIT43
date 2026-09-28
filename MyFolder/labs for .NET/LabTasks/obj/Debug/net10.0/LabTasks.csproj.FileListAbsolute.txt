@@ -1,0 +1,14 @@
+D:\labs for .NET\LabTasks\bin\Debug\net10.0\LabTasks.exe
+D:\labs for .NET\LabTasks\bin\Debug\net10.0\LabTasks.deps.json
+D:\labs for .NET\LabTasks\bin\Debug\net10.0\LabTasks.runtimeconfig.json
+D:\labs for .NET\LabTasks\bin\Debug\net10.0\LabTasks.dll
+D:\labs for .NET\LabTasks\bin\Debug\net10.0\LabTasks.pdb
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.GeneratedMSBuildEditorConfig.editorconfig
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.AssemblyInfoInputs.cache
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.AssemblyInfo.cs
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.csproj.CoreCompileInputs.cache
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.dll
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\refint\LabTasks.dll
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.pdb
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\LabTasks.genruntimeconfig.cache
+D:\labs for .NET\LabTasks\obj\Debug\net10.0\ref\LabTasks.dll
