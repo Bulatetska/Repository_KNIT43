@@ -46,14 +46,48 @@ class Program {
 	};
 
 	static void Main()
-	{
+	{   
+	    //ex
 		var heroNames = _heroes
-             .Where(hero => hero.Name.Contains("man"))
-             .OrderBy(hero => hero.Name)
-             .Select(hero => hero.Name
-		foreach (var Hero in heroNames)
-		{
-			Console.WriteLine(Hero);
-		}
+		                .Where(hero => hero.Name.Contains("man"))
+		                .OrderBy(hero => hero.Name)
+		                .Select(hero => hero.Name);
+    	foreach (var Hero in heroNames)
+    	{
+    		Console.WriteLine(Hero);
+    	}
+    	
+    	//1
+    	var heroNames_41 = _heroes
+		                .Where(hero => hero.YearOfBirth == 1941)
+		                .OrderBy(hero => hero.Name)
+		                .Select(hero => hero.Name);
+		                
+		Console.WriteLine("\nВ 1941:");
+    	foreach (var Hero in heroNames_41)
+    	{
+    		Console.WriteLine(Hero);
+    	}
+    	
+    	//2
+    	var comics = _heroes
+		                .OrderBy(hero => hero.Comics)
+		                .Select(hero => hero.Comics);
+		                
+		Console.WriteLine("\nКомікси:");
+    	foreach (var Hero in comics)
+    	{
+    		Console.WriteLine(Hero);
+    	}
+    	
+    	//3
+    	heroNames = _heroes
+		                .OrderByDescending(hero => hero.YearOfBirth)
+		                .Select(hero => new List<string, int>(){ Name = hero.Name, Year = hero.YearOfBirth});
+		                
+    	foreach (var Hero in heroNames)
+    	{
+    		Console.WriteLine(Hero.Name);
+    	}
 	}
 }
