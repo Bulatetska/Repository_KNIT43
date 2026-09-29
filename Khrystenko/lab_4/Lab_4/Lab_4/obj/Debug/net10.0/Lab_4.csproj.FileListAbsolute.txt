@@ -1,0 +1,16 @@
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\bin\Debug\net10.0\Lab_4.exe
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\bin\Debug\net10.0\Lab_4.deps.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\bin\Debug\net10.0\Lab_4.runtimeconfig.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\bin\Debug\net10.0\Lab_4.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\bin\Debug\net10.0\Lab_4.pdb
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.AssemblyInfoInputs.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.AssemblyInfo.cs
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.csproj.CoreCompileInputs.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.sourcelink.json
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\refint\Lab_4.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.pdb
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.genruntimeconfig.cache
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\ref\Lab_4.dll
+C:\Users\Viktor\Documents\Projects\dot.NET\dot.NET\lab_1\Khrystenko\lab_4\Lab_4\Lab_4\obj\Debug\net10.0\Lab_4.csproj.Up2Date
