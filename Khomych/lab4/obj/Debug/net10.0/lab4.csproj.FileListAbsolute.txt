@@ -1,0 +1,15 @@
+/workspaces/Repository_KNIT43/Khomych/lab4/bin/Debug/net10.0/lab4
+/workspaces/Repository_KNIT43/Khomych/lab4/bin/Debug/net10.0/lab4.deps.json
+/workspaces/Repository_KNIT43/Khomych/lab4/bin/Debug/net10.0/lab4.runtimeconfig.json
+/workspaces/Repository_KNIT43/Khomych/lab4/bin/Debug/net10.0/lab4.dll
+/workspaces/Repository_KNIT43/Khomych/lab4/bin/Debug/net10.0/lab4.pdb
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.AssemblyInfoInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.AssemblyInfo.cs
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.csproj.CoreCompileInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.sourcelink.json
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.dll
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/refint/lab4.dll
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.pdb
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/lab4.genruntimeconfig.cache
+/workspaces/Repository_KNIT43/Khomych/lab4/obj/Debug/net10.0/ref/lab4.dll
