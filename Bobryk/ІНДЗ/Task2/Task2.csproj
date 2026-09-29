@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
+    <TieredCompilation>true</TieredCompilation>
+    <TieredPGO>true</TieredPGO>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <UseWindowsThreadPool>false</UseWindowsThreadPool>
+    <PublishSingleFile Condition="'$(PublishAot)' != 'true'">true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract Condition="'$(PublishAot)' != 'true'">true</IncludeNativeLibrariesForSelfExtract>
+    <JsonSerializerIsReflectionEnabledByDefault Condition="'$(PublishAot)' != 'true'">true</JsonSerializerIsReflectionEnabledByDefault>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(PublishAot)' == 'true'">
+    <DefineConstants>$(DefineConstants);NATIVE_AOT</DefineConstants>
+    <IlcInstructionSet>native</IlcInstructionSet>
+    <IlcOptimizationPreference>Speed</IlcOptimizationPreference>
+  </PropertyGroup>
+</Project>
