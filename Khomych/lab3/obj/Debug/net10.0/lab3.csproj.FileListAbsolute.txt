@@ -1,0 +1,15 @@
+/workspaces/Repository_KNIT43/Khomych/lab3/bin/Debug/net10.0/lab3
+/workspaces/Repository_KNIT43/Khomych/lab3/bin/Debug/net10.0/lab3.deps.json
+/workspaces/Repository_KNIT43/Khomych/lab3/bin/Debug/net10.0/lab3.runtimeconfig.json
+/workspaces/Repository_KNIT43/Khomych/lab3/bin/Debug/net10.0/lab3.dll
+/workspaces/Repository_KNIT43/Khomych/lab3/bin/Debug/net10.0/lab3.pdb
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.AssemblyInfoInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.AssemblyInfo.cs
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.csproj.CoreCompileInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.sourcelink.json
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.dll
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/refint/lab3.dll
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.pdb
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/lab3.genruntimeconfig.cache
+/workspaces/Repository_KNIT43/Khomych/lab3/obj/Debug/net10.0/ref/lab3.dll
