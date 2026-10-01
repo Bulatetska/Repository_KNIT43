@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_4\\rectanglecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_4\\rectanglecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_4\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_4\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_4\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_4\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_3\\bookgenrepubl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_3\\bookgenrepubl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_3\\bookgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_3\\bookgenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_3\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_3\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_2\\aspirant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_2\\aspirant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_2\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|c:\\users\\viktor\\documents\\projects\\dot.net\\dot.net\\lab_1\\khrystenko\\lab_5\\lab_5\\lab_5\\task_1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A3603C3-734E-4AD3-B6E1-950CDC7A5C8A}|Lab_5\\Lab_5.csproj|solutionrelative:lab_5\\task_1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RectangleColor.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\RectangleColor.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_4\\RectangleColor.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\RectangleColor.cs",
+              "RelativeToolTip": "Lab_5\\task_4\\RectangleColor.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:37:22.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_4\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\Rectangle.cs",
+              "RelativeToolTip": "Lab_5\\task_4\\Rectangle.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:37:08.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Figure.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\Figure.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_4\\Figure.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_4\\Figure.cs",
+              "RelativeToolTip": "Lab_5\\task_4\\Figure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:36:56.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookGenrePubl.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\BookGenrePubl.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_3\\BookGenrePubl.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\BookGenrePubl.cs",
+              "RelativeToolTip": "Lab_5\\task_3\\BookGenrePubl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:24:57.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookGenre.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\BookGenre.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_3\\BookGenre.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\BookGenre.cs",
+              "RelativeToolTip": "Lab_5\\task_3\\BookGenre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:24:43.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\Book.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_3\\Book.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_3\\Book.cs",
+              "RelativeToolTip": "Lab_5\\task_3\\Book.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:24:26.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Aspirant.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_2\\Aspirant.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_2\\Aspirant.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_2\\Aspirant.cs",
+              "RelativeToolTip": "Lab_5\\task_2\\Aspirant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:12:17.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_2\\Student.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_2\\Student.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_2\\Student.cs",
+              "RelativeToolTip": "Lab_5\\task_2\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T12:08:21.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_1\\Person.cs",
+              "RelativeDocumentMoniker": "Lab_5\\task_1\\Person.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\task_1\\Person.cs",
+              "RelativeToolTip": "Lab_5\\task_1\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T11:53:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\Program.cs",
+              "RelativeDocumentMoniker": "Lab_5\\Program.cs",
+              "ToolTip": "C:\\Users\\Viktor\\Documents\\Projects\\dot.NET\\dot.NET\\lab_1\\Khrystenko\\lab_5\\Lab_5\\Lab_5\\Program.cs",
+              "RelativeToolTip": "Lab_5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T11:47:30.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
