@@ -1,0 +1,14 @@
+D:\programs\.net\lab3\lab3_task6\bin\Debug\net10.0\lab3_task6.exe
+D:\programs\.net\lab3\lab3_task6\bin\Debug\net10.0\lab3_task6.deps.json
+D:\programs\.net\lab3\lab3_task6\bin\Debug\net10.0\lab3_task6.runtimeconfig.json
+D:\programs\.net\lab3\lab3_task6\bin\Debug\net10.0\lab3_task6.dll
+D:\programs\.net\lab3\lab3_task6\bin\Debug\net10.0\lab3_task6.pdb
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.AssemblyInfoInputs.cache
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.AssemblyInfo.cs
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.csproj.CoreCompileInputs.cache
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.dll
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\refint\lab3_task6.dll
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.pdb
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\lab3_task6.genruntimeconfig.cache
+D:\programs\.net\lab3\lab3_task6\obj\Debug\net10.0\ref\lab3_task6.dll
