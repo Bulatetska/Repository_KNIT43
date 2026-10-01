@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj": {}
+    "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj": {}
   },
   "projects": {
-    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
+    "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "projectUniqueName": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
         "projectName": "Cinema_classes",
-        "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
-        "packagesPath": "C:\\Users\\irina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
+        "projectPath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\irina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,10 +39,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -60,45 +56,54 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj": {
+    "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj",
+        "projectUniqueName": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj",
         "projectName": "Cinema_wpf",
-        "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj",
-        "packagesPath": "C:\\Users\\irina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_wpf\\obj\\",
+        "projectPath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\Cinema_wpf.csproj",
+        "packagesPath": "C:\\Users\\Vlad\\.nuget\\packages\\",
+        "outputPath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_wpf\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\irina\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Vlad\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
-                "projectPath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj"
+              "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj": {
+                "projectPath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_classes\\Cinema_classes.csproj"
               }
             }
           }
@@ -113,10 +118,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "imports": [
             "net461",
@@ -129,6 +135,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.31, 8.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -137,7 +161,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

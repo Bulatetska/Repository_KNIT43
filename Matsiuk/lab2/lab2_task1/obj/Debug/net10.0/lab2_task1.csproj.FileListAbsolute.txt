@@ -1,0 +1,14 @@
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.AssemblyInfoInputs.cache
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.AssemblyInfo.cs
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.csproj.CoreCompileInputs.cache
+D:\programs\.net\lab2\lab2_task1\bin\Debug\net10.0\lab2_task1.exe
+D:\programs\.net\lab2\lab2_task1\bin\Debug\net10.0\lab2_task1.deps.json
+D:\programs\.net\lab2\lab2_task1\bin\Debug\net10.0\lab2_task1.runtimeconfig.json
+D:\programs\.net\lab2\lab2_task1\bin\Debug\net10.0\lab2_task1.dll
+D:\programs\.net\lab2\lab2_task1\bin\Debug\net10.0\lab2_task1.pdb
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.dll
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\refint\lab2_task1.dll
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.pdb
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\lab2_task1.genruntimeconfig.cache
+D:\programs\.net\lab2\lab2_task1\obj\Debug\net10.0\ref\lab2_task1.dll

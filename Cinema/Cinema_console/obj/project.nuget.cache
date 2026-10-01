@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "574LpLNhYuo=",
+  "dgSpecHash": "bJSfvjjXeWw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\irina\\OneDrive\\Desktop\\ВНУ\\4 year\\4yearFirstsemestr\\texhnologyNet\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\programs\\GitHub\\Repository_KNIT43\\Cinema\\Cinema_console\\Cinema_console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.31\\microsoft.netcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.31\\microsoft.windowsdesktop.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.31\\microsoft.aspnetcore.app.ref.8.0.31.nupkg.sha512",
+    "C:\\Users\\Vlad\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.31\\microsoft.netcore.app.host.win-x64.8.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
