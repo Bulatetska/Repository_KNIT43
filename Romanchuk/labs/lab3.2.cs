@@ -81,13 +81,15 @@ class Program {
     	}
     	
     	//3
-    	heroNames = _heroes
+
+		var heroNames_desc = _heroes
 		                .OrderByDescending(hero => hero.YearOfBirth)
-		                .Select(hero => new List<string, int>(){ Name = hero.Name, Year = hero.YearOfBirth});
+		                .Select(hero => new { hero.Name, hero.YearOfBirth });
 		                
-    	foreach (var Hero in heroNames)
-    	{
-    		Console.WriteLine(Hero.Name);
-    	}
+		Console.WriteLine("\nВідсортовано за роком народження:");
+		foreach (var Hero in heroNames_desc)
+		{
+			Console.WriteLine($"{Hero.Name} - {Hero.YearOfBirth}");
+		}
 	}
 }
