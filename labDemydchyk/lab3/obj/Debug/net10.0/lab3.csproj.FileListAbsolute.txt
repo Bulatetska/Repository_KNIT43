@@ -1,0 +1,14 @@
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.AssemblyInfoInputs.cache
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.AssemblyInfo.cs
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.csproj.CoreCompileInputs.cache
+C:\Users\Користувач\Desktop\net\lab3\bin\Debug\net10.0\lab3.exe
+C:\Users\Користувач\Desktop\net\lab3\bin\Debug\net10.0\lab3.deps.json
+C:\Users\Користувач\Desktop\net\lab3\bin\Debug\net10.0\lab3.runtimeconfig.json
+C:\Users\Користувач\Desktop\net\lab3\bin\Debug\net10.0\lab3.dll
+C:\Users\Користувач\Desktop\net\lab3\bin\Debug\net10.0\lab3.pdb
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.dll
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\refint\lab3.dll
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.pdb
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\lab3.genruntimeconfig.cache
+C:\Users\Користувач\Desktop\net\lab3\obj\Debug\net10.0\ref\lab3.dll
