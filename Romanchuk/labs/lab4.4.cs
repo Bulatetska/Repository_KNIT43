@@ -1,6 +1,6 @@
 using System;
 class Program {
-	abstract class Figure
+	public class Figure
     {
         public string Name { get; set; }
 
@@ -9,9 +9,9 @@ class Program {
             this.Name = name;
         }
 
-        public void Display()
+        public virtual void Display()
         {
-            Console.WriteLine($"Назва фігури: {this.Name}");
+            Console.WriteLine($"\nНазва фігури: {this.Name}");
         }
     }
 
@@ -38,7 +38,7 @@ class Program {
             this.Lower_right_y = 1;
         }
 
-        public void Display()
+        public override void Display()
         {
             base.Display();
             Console.WriteLine($"Координати верхнього лівого кута: ({this.Upper_left_x}, {this.Upper_left_y})");
@@ -65,25 +65,41 @@ class Program {
             this.Color = "Red";
         }
 
-        public void Display()
+        public override void Display()
         {
             base.Display();
             Console.WriteLine($"Колір: {this.Color}");
         }
     }
 
-	static void Main() {
-        //    оголосити посилання на базовий клас Figure;
-        //створити екземпляри класів Rectangle та RectangleColor;
-        //продемонструвати доступ до методів похідних класів з допомогою посилання на клас Figure
+    public static void DemoPolymorphism(Figure figure)
+    {
+        figure.Display();
+    }
 
-        Figure figure1 = new Rectangle("Rectangle", 0, 0, 5, 5);
+	static void Main() {
+
+        Figure objFg = new Figure("Figure");
+        Rectangle figure1 = new Rectangle("Rectangle", 0, 0, 5, 5);
         figure1.Display();
         RectangleColor figure2 = new RectangleColor("RectangleColor", 0, 0, 5, 5, "Blue");
         figure2.Display();
 
-        Console.WriteLine($"Площа фігури {figure1.Name}: {figure1.Area()}");
-        Console.WriteLine($"Площа фігури {figure2.Name}: {figure2.Area()}");
+        Figure refFg;
+        refFg = objFg;
+        refFg.Display(); 
+
+        refFg = figure1;
+        refFg.Display(); 
+        
+        refFg = figure2;
+        refFg.Display(); 
+       
+        refFg = figure1;
+        Program.DemoPolymorphism(refFg); 
+        
+        refFg = figure2;
+        Program.DemoPolymorphism(refFg);
         
 	}
 }
