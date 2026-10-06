@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BRligbXll0A=",
+  "dgSpecHash": "60z3m4+7b7I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SystemX\\Desktop\\ІНДЗ\\Task1\\Task1.csproj",
+  "projectFilePath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task1\\Task1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.20\\microsoft.net.illink.tasks.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",

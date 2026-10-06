@@ -82,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SystemX\\Desktop\\ІНДЗ\\Task4\\Task4.csproj",
+      "projectUniqueName": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task4\\Task4.csproj",
       "projectName": "Task4",
-      "projectPath": "C:\\Users\\SystemX\\Desktop\\ІНДЗ\\Task4\\Task4.csproj",
+      "projectPath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task4\\Task4.csproj",
       "packagesPath": "C:\\Users\\SystemX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SystemX\\Desktop\\ІНДЗ\\Task4\\obj\\",
+      "outputPath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SystemX\\AppData\\Roaming\\NuGet\\NuGet.Config"
