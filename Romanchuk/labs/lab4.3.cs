@@ -51,7 +51,7 @@ class Program {
         }
     }
 
-	static void Main() {
+	static void Main(string[] args) {
 	    Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 10);
         book1.Print();
         

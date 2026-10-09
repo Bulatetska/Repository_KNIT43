@@ -32,7 +32,7 @@ class Program {
 		}
 	}
 
-	static void Main() {
+	static void Main(string[] args) {
 	    
 	    var student = new Student("Romanchuk", 2, "1234");
 	    var aspirant = new Aspirant("Romanchuk", 2, "1234");

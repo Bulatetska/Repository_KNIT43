@@ -77,7 +77,7 @@ class Program {
         figure.Display();
     }
 
-	static void Main() {
+	static void Main(string[] args) {
 
         Figure objFg = new Figure("Figure");
         Rectangle figure1 = new Rectangle("Rectangle", 0, 0, 5, 5);

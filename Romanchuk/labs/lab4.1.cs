@@ -20,7 +20,7 @@ class Program {
 		}
 	}
 
-	static void Main() {
+	static void Main(string[] args) {
 			
 		Person person1 = new Person("John", 25, "Male", "123-456-7890");
 		person1.Print();

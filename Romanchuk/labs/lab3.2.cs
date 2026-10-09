@@ -45,7 +45,7 @@ class Program {
 		}
 	};
 
-	static void Main()
+	static void Main(string[] args)
 	{   
 	    //ex
 		var heroNames = _heroes
