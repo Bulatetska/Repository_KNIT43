@@ -1,0 +1,14 @@
+D:\programs\.net\lab7\bin\Debug\net10.0\Lab7.exe
+D:\programs\.net\lab7\bin\Debug\net10.0\Lab7.deps.json
+D:\programs\.net\lab7\bin\Debug\net10.0\Lab7.runtimeconfig.json
+D:\programs\.net\lab7\bin\Debug\net10.0\Lab7.dll
+D:\programs\.net\lab7\bin\Debug\net10.0\Lab7.pdb
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.AssemblyInfoInputs.cache
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.AssemblyInfo.cs
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.csproj.CoreCompileInputs.cache
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.dll
+D:\programs\.net\lab7\obj\Debug\net10.0\refint\Lab7.dll
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.pdb
+D:\programs\.net\lab7\obj\Debug\net10.0\Lab7.genruntimeconfig.cache
+D:\programs\.net\lab7\obj\Debug\net10.0\ref\Lab7.dll
