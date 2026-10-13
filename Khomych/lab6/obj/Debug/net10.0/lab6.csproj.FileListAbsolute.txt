@@ -1,0 +1,15 @@
+/workspaces/Repository_KNIT43/Khomych/lab6/bin/Debug/net10.0/lab6
+/workspaces/Repository_KNIT43/Khomych/lab6/bin/Debug/net10.0/lab6.deps.json
+/workspaces/Repository_KNIT43/Khomych/lab6/bin/Debug/net10.0/lab6.runtimeconfig.json
+/workspaces/Repository_KNIT43/Khomych/lab6/bin/Debug/net10.0/lab6.dll
+/workspaces/Repository_KNIT43/Khomych/lab6/bin/Debug/net10.0/lab6.pdb
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.AssemblyInfoInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.AssemblyInfo.cs
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.csproj.CoreCompileInputs.cache
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.sourcelink.json
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.dll
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/refint/lab6.dll
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.pdb
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/lab6.genruntimeconfig.cache
+/workspaces/Repository_KNIT43/Khomych/lab6/obj/Debug/net10.0/ref/lab6.dll
