@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task2\\Task2.csproj": {}
+    "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task2\\Task2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task2\\Task2.csproj": {
+    "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task2\\Task2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task2\\Task2.csproj",
+        "projectUniqueName": "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task2\\Task2.csproj",
         "projectName": "Task2",
-        "projectPath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task2\\Task2.csproj",
+        "projectPath": "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task2\\Task2.csproj",
         "packagesPath": "C:\\Users\\SystemX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task2\\obj\\",
+        "outputPath": "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SystemX\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,12 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.DotNet.ILCompiler": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.20, )",
+              "autoReferenced": true
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
@@ -74,10 +80,6 @@
               "version": "[9.0.20, 9.0.20]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[9.0.20, 9.0.20]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Ref",
               "version": "[9.0.20, 9.0.20]"
             },
@@ -91,6 +93,10 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[9.0.20, 9.0.20]"
+            },
+            {
+              "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
               "version": "[9.0.20, 9.0.20]"
             }
           ],

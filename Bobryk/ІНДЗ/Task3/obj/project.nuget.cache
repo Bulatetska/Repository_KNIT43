@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "hxcuQRfpBB8=",
+  "dgSpecHash": "UHIyNfT9Eh8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SystemX\\Documents\\GitHub\\Repository_KNIT43\\Bobryk\\ІНДЗ\\Task3\\Task3.csproj",
+  "projectFilePath": "D:\\study\\Булатецька 4 курс\\ІНДЗ\\Task3\\Task3.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.20\\microsoft.dotnet.ilcompiler.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.20\\microsoft.net.illink.tasks.9.0.20.nupkg.sha512",
+    "C:\\Users\\SystemX\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.20\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.20\\microsoft.netcore.app.ref.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.20\\microsoft.netcore.app.runtime.win-x64.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.20\\microsoft.windowsdesktop.app.ref.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.20\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.20\\microsoft.aspnetcore.app.ref.9.0.20.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.20\\microsoft.aspnetcore.app.runtime.win-x64.9.0.20.nupkg.sha512",
-    "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.20\\microsoft.netcore.app.host.win-x64.9.0.20.nupkg.sha512"
+    "C:\\Users\\SystemX\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.20\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.20.nupkg.sha512"
   ],
   "logs": []
 }

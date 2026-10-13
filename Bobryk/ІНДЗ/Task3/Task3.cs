@@ -36,7 +36,7 @@ try
     Console.WriteLine("Запуск                    Час, мс  Виділено, MiB     RAM, MiB");
     for (int i = 0; i <= repeats; i++)
     {
-        string label = i == 0 ? "Перший" : $"Повтор {i}";
+        string label = i == 0 ? "Перший" : $"Прогрітий {i}";
         using (var json = new BlockStream())
         {
             double write = Measure(label + ": запис", () => Save(json, data));
@@ -65,8 +65,8 @@ try
         }
     }
     Console.WriteLine($"JSON: {jsonSize / 1048576.0:F2} MiB | Перевірка: OK");
-    Finish("Запис", writeTimes);
-    Finish("Читання", readTimes);
+    Finish("Прогріті повтори: запис", writeTimes);
+    Finish("Прогріті повтори: читання", readTimes);
 }
 catch (OutOfMemoryException)
 {
@@ -133,9 +133,16 @@ static void Header(string title, string level)
         if (ready != "READY" || child.ExitCode != 0) throw new Exception("Помилка перевірки старту.");
     }
     Array.Sort(starts);
-    string size = viaDotnet ? "запусти готовий EXE" : $"{new FileInfo(exe).Length / 1048576.0:F2} MiB";
     Console.WriteLine($"{title} | {mode} | {level} | .NET {Environment.Version}");
-    Console.WriteLine($"Холодний старт: {starts[1]:F2} мс | EXE: {size}");
+    Console.WriteLine($"Холодний старт: {starts[1]:F2} мс");
+    if (viaDotnet)
+        Console.WriteLine("EXE: запусти готовий .exe з папки out, щоб побачити його розмір.");
+    else
+    {
+        long bytes = new FileInfo(exe).Length; // Розмір саме запущеного файлу на диску
+        Console.WriteLine($"EXE: {exe}");
+        Console.WriteLine($"Розмір EXE: {bytes} байт ({bytes / 1048576.0:F2} MiB)");
+    }
 }
 
 static double Measure(string label, Action work)
@@ -156,10 +163,13 @@ static double Measure(string label, Action work)
 
 static void Warmup(Action work)
 {
+    Console.WriteLine("Прогрів на малих даних...");
     var clock = Stopwatch.StartNew();
     int calls = 0;
     do { work(); calls++; } while (calls < 32 || clock.ElapsedMilliseconds < 500);
-    Thread.Sleep(150); // Час для фонової JIT-оптимізації.
+    Thread.Sleep(150); // Додаткова пауза входить у виміряний час прогріву.
+    clock.Stop();
+    Console.WriteLine($"Час прогріву (з паузою 150 мс): {clock.Elapsed.TotalMilliseconds:F2} мс; викликів: {calls}");
 }
 
 static void Finish(string name, double[] times)
@@ -168,7 +178,8 @@ static void Finish(string name, double[] times)
     int mid = times.Length / 2;
     double median = times.Length % 2 == 1 ? times[mid] : (times[mid - 1] + times[mid]) / 2;
     using Process process = Process.GetCurrentProcess();
-    Console.WriteLine($"{name}: медіана {median:F2} мс | пік RAM процесу: {process.PeakWorkingSet64 / 1048576.0:F2} MiB");
+    Console.WriteLine($"{name} ({times.Length}): медіана {median:F2} мс; мін {times[0]:F2} мс; макс {times[^1]:F2} мс");
+    Console.WriteLine($"Пік RAM процесу: {process.PeakWorkingSet64 / 1048576.0:F2} MiB");
 }
 
 public class UserSession
