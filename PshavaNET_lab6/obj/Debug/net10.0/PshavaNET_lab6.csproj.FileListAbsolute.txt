@@ -1,0 +1,15 @@
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\bin\Debug\net10.0\PshavaNET_lab6.exe
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\bin\Debug\net10.0\PshavaNET_lab6.deps.json
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\bin\Debug\net10.0\PshavaNET_lab6.runtimeconfig.json
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\bin\Debug\net10.0\PshavaNET_lab6.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\bin\Debug\net10.0\PshavaNET_lab6.pdb
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.AssemblyInfoInputs.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.AssemblyInfo.cs
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.csproj.CoreCompileInputs.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\refint\PshavaNET_lab6.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.pdb
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNET_lab6.genruntimeconfig.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\ref\PshavaNET_lab6.dll
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 6\PshavaNET_lab6\PshavaNET_lab6\obj\Debug\net10.0\PshavaNE.DBE0A478.Up2Date
