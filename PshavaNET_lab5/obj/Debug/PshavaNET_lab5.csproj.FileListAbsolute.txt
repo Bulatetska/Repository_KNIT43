@@ -1,0 +1,7 @@
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\bin\Debug\PshavaNET_lab5.exe.config
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\bin\Debug\PshavaNET_lab5.exe
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\bin\Debug\PshavaNET_lab5.pdb
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\obj\Debug\PshavaNET_lab5.csproj.AssemblyReference.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\obj\Debug\PshavaNET_lab5.csproj.CoreCompileInputs.cache
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\obj\Debug\PshavaNET_lab5.exe
+C:\Users\pshav\OneDrive\Рабочий стол\pshavaNETlabs\lab 5\PshavaNET_lab5\PshavaNET_lab5\obj\Debug\PshavaNET_lab5.pdb
