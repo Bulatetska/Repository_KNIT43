@@ -1,0 +1,12 @@
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\bin\Debug\net10.0\ClassesLibrary.deps.json
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\bin\Debug\net10.0\ClassesLibrary.dll
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\bin\Debug\net10.0\ClassesLibrary.pdb
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.AssemblyInfoInputs.cache
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.AssemblyInfo.cs
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.csproj.CoreCompileInputs.cache
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.sourcelink.json
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.dll
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\refint\ClassesLibrary.dll
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ClassesLibrary.pdb
+D:\programs\GitHub\dotnet-labs\Lab09-NUnit-UnitTesting\ClassesLibrary\obj\Debug\net10.0\ref\ClassesLibrary.dll
