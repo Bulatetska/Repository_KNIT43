@@ -1,0 +1,14 @@
+C:\Users\Користувач\Desktop\net\lab7\bin\Debug\net10.0\lab7.exe
+C:\Users\Користувач\Desktop\net\lab7\bin\Debug\net10.0\lab7.deps.json
+C:\Users\Користувач\Desktop\net\lab7\bin\Debug\net10.0\lab7.runtimeconfig.json
+C:\Users\Користувач\Desktop\net\lab7\bin\Debug\net10.0\lab7.dll
+C:\Users\Користувач\Desktop\net\lab7\bin\Debug\net10.0\lab7.pdb
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.AssemblyInfoInputs.cache
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.AssemblyInfo.cs
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.csproj.CoreCompileInputs.cache
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.dll
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\refint\lab7.dll
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.pdb
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\lab7.genruntimeconfig.cache
+C:\Users\Користувач\Desktop\net\lab7\obj\Debug\net10.0\ref\lab7.dll
