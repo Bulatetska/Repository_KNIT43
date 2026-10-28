@@ -1,0 +1,243 @@
+Task1
+using System;
+class Person
+{
+    private string name;
+    private int age;
+    private string gender;
+    private string phone;
+    public Person(string name, int age, string gender, string phone)
+    {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+    }  
+    public void SetName(string value) { name = value; }
+    public void SetAge(int value) { age = value; }
+    public void SetGender(string value) { gender = value; }
+    public void SetPhone(string value) { phone = value; }
+    public void Print()
+    {
+        Console.WriteLine($"Ім'я: {name}");
+        Console.WriteLine($"Вік: {age}");
+        Console.WriteLine($"Стать: {gender}");
+        Console.WriteLine($"Телефон: {phone}");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Person person = new Person("Олег", 19, "чоловіча", "+380501112233");
+        Console.WriteLine("Початкові дані:");
+        person.Print();
+        person.SetName("Андрій");
+        person.SetAge(20);
+        person.SetGender("чоловіча");
+        person.SetPhone("+380671234567");
+        Console.WriteLine("\nДані після змін:");
+        person.Print();
+    }
+}
+
+Task2
+using System;
+class Student
+{
+    public string Surname { get; set; }
+    public int Course { get; set; }
+    public string RecordBook { get; set; }
+    public Student(string surname, int course, string recordBook)
+    {
+        Surname = surname;
+        Course = course;
+        RecordBook = recordBook;
+    }
+    public virtual void Print()
+    {
+        Console.WriteLine($"Прізвище: {Surname}");
+        Console.WriteLine($"Курс: {Course}");
+        Console.WriteLine($"Номер залікової книги: {RecordBook}");
+    }
+}
+class Aspirant : Student
+{
+    public string DissertationTopic { get; set; }
+    public Aspirant(string surname, int course, string recordBook, string topic)
+        : base(surname, course, recordBook)
+    {
+        DissertationTopic = topic;
+    }
+    public override void Print()
+    {
+        base.Print();
+        Console.WriteLine($"Тема дисертації: {DissertationTopic}");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Student student = new Student("Демчук", 3, "КНІТ-43");
+        Aspirant aspirant = new Aspirant("Коваль", 1, "КНІТ-13", "Захист даних у мережах");
+        Console.WriteLine("Студент:");
+        student.Print();
+        student.Course = 4;
+        Console.WriteLine("\nСтудент після зміни курсу:");
+        student.Print();
+        Console.WriteLine("\nАспірант:");
+        aspirant.Print();
+    }
+}
+task3 
+using System;
+class Book
+{
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public decimal Price { get; set; }
+    public Book(string title, string author, decimal price)
+    {
+        Title = title;
+        Author = author;
+        Price = price;
+    }
+    public virtual void Print()
+    {
+        Console.WriteLine($"Назва: {Title}");
+        Console.WriteLine($"Автор: {Author}");
+        Console.WriteLine($"Ціна: {Price} грн");
+    }
+}
+class BookGenre : Book
+{
+    public string Genre { get; set; }
+    public BookGenre(string title, string author, decimal price, string genre)
+        : base(title, author, price)
+    {
+        Genre = genre;
+    }
+    public override void Print()
+    {
+        base.Print();
+        Console.WriteLine($"Жанр: {Genre}");
+    }
+}
+sealed class BookGenrePubl : BookGenre
+{
+    public string Publisher { get; set; }
+    public BookGenrePubl(string title, string author, decimal price, string genre, string publisher)
+        : base(title, author, price, genre)
+    {
+        Publisher = publisher;
+    }
+    public override void Print()
+    {
+        base.Print();
+        Console.WriteLine($"Видавництво: {Publisher}");
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Book book = new Book("Кобзар", "Тарас Шевченко", 250m);
+        BookGenre genreBook = new BookGenre("Тигролови", "Іван Багряний", 320m, "Пригодницький роман");
+        BookGenrePubl fullBook = new BookGenrePubl("Лісова пісня", "Леся Українка", 280m, "Драма-феєрія", "Веселка");
+        Console.WriteLine("Книга:");
+        book.Print();
+        Console.WriteLine("\nКнига з жанром:");
+        genreBook.Print();
+        Console.WriteLine("\nКнига з жанром і видавцем:");
+        fullBook.Print();
+        fullBook.Publisher = "Навчальна книга";
+        Console.WriteLine("\nПісля зміни видавця:");
+        fullBook.Print();
+    }
+}
+
+task4
+using System;
+class Figure
+{
+    protected string name;
+    public Figure(string name)
+    {
+        this.name = name;
+    }
+    public virtual void Display()
+    {
+        Console.WriteLine($"Фігура: {name}");
+    }
+}
+class Rectangle : Figure
+{
+    protected double x1, y1, x2, y2;
+    public Rectangle(string name, double x1, double y1, double x2, double y2)
+        : base(name)
+    {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x2;
+        this.y2 = y2;
+    }
+    public Rectangle() : this("Прямокутник", 0, 0, 1, 1) { }
+    public override void Display()
+    {
+        base.Display();
+        Console.WriteLine($"Кути: ({x1}; {y1}), ({x2}; {y2})");
+    }
+    public virtual double Area()
+    {
+        return Math.Abs((x2 - x1) * (y2 - y1));
+    }
+}
+class RectangleColor : Rectangle
+{
+    private string color;
+    public RectangleColor(string name, double x1, double y1, double x2, double y2, string color)
+        : base(name, x1, y1, x2, y2)
+    {
+        this.color = color;
+    }
+    public RectangleColor() : this("Кольоровий прямокутник", 0, 0, 1, 1, "білий") { }
+    public override void Display()
+    {
+        base.Display();
+        Console.WriteLine($"Колір: {color}");
+    }
+    public override double Area()
+    {
+        return base.Area();
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Figure figure; 
+        Rectangle rectangle = new Rectangle("Прямокутник", 0, 0, 4, 3);
+        RectangleColor colored = new RectangleColor("Кольоровий прямокутник", 1, 1, 6, 4, "синій");
+        figure = rectangle;
+        Console.WriteLine("Звичайний прямокутник:");
+        figure.Display(); 
+        if (figure is Rectangle r1)
+            Console.WriteLine($"Площа: {r1.Area()}");
+        figure = colored;
+        Console.WriteLine("\nКольоровий прямокутник:");
+        figure.Display(); 
+        if (figure is Rectangle r2)
+            Console.WriteLine($"Площа: {r2.Area()}");
+        Rectangle defaultRectangle = new Rectangle();
+        RectangleColor defaultColored = new RectangleColor();
+        Console.WriteLine("\nПрямокутник без параметрів:");
+        defaultRectangle.Display();
+        Console.WriteLine($"Площа: {defaultRectangle.Area()}");
+        Console.WriteLine("\nКольоровий прямокутник без параметрів:");
+        defaultColored.Display();
+        Console.WriteLine($"Площа: {defaultColored.Area()}");
+    }
+}
+
+
