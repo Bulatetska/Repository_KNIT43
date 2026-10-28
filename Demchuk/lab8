@@ -1,0 +1,136 @@
+using System;
+delegate double OperationDelegate(double a, double b);
+class MathOperations
+{
+    public event Action<string, double> OnOperationPerformed;
+	// Додавання
+    public double Add(double a, double b)
+    {
+        double result = a + b;
+        OnOperationPerformed?.Invoke("Додавання", result);
+        return result;
+    }
+    // Множення
+    public double Multiply(double a, double b)
+    {
+        double result = a * b;
+        OnOperationPerformed?.Invoke("Множення", result);
+        return result;
+    }
+    // Виконання операції через делегат
+    public double ExecuteOperation(
+        string name, OperationDelegate operation,
+        double a, double b)
+    {
+        double result = operation(a, b);
+        OnOperationPerformed?.Invoke(name, result);
+        return result;
+    }
+}
+
+class Program
+{
+    static double ReadNumber(string message)
+    {
+        double number;
+
+        while (true)
+        {
+            Console.Write(message);
+
+            if (double.TryParse(Console.ReadLine(), out number)
+                && !double.IsNaN(number)
+                && !double.IsInfinity(number))
+            {
+                return number;
+            }
+
+            Console.WriteLine("Помилка! Введіть правильне число.");
+        }
+    }
+    static void ShowMulticast(MathOperations math,
+                              double a, double b)
+    {
+        OperationDelegate operations = math.Add;
+        operations += math.Multiply;
+        Console.WriteLine("\nГруповий делегат:");
+        foreach (OperationDelegate operation
+                 in operations.GetInvocationList())
+        {
+            operation(a, b);
+        }
+        operations -= math.Add;
+        Console.WriteLine("\nПісля видалення додавання:");
+        if (operations != null)
+        {
+            operations(a, b);
+        }
+    }
+    static void Main()
+    {
+        MathOperations math = new MathOperations();
+        math.OnOperationPerformed += (name, result) =>
+        {
+            Console.WriteLine($"{name}. Результат: {result}");
+        };
+        OperationDelegate difference =
+            (a, b) => a * a - b * b;
+        OperationDelegate squareRoot =
+            (a, b) => Math.Sqrt(a * a + b * b);
+        int choice;
+        do
+        {
+            Console.WriteLine("\n===== МЕНЮ =====");
+            Console.WriteLine("1. Додавання");
+            Console.WriteLine("2. Множення");
+            Console.WriteLine("3. Різниця квадратів");
+            Console.WriteLine("4. Корінь із суми квадратів");
+            Console.WriteLine("5. Груповий делегат");
+            Console.WriteLine("0. Вихід");
+            Console.Write("Ваш вибір: ");
+            if (!int.TryParse(Console.ReadLine(), out choice))
+            {
+                Console.WriteLine("Неправильний вибір!");
+                continue;
+            }
+            if (choice == 0)
+            {
+                Console.WriteLine("Завершення програми.");
+                break;
+            }
+            if (choice < 1 || choice > 5)
+            {
+                Console.WriteLine("Неправильний вибір!");
+                continue;
+            }
+            double a = ReadNumber("Введіть перше число: ");
+            double b = ReadNumber("Введіть друге число: ");
+            switch (choice)
+            {
+                case 1:
+                    math.Add(a, b);
+                    break;
+
+                case 2:
+                    math.Multiply(a, b);
+                    break;
+
+                case 3:
+                    math.ExecuteOperation(
+                        "Різниця квадратів", difference, a, b);
+                    break;
+
+                case 4:
+                    math.ExecuteOperation(
+                        "Корінь із суми квадратів",
+                        squareRoot, a, b);
+                    break;
+
+                case 5:
+                    ShowMulticast(math, a, b);
+                    break;
+            }
+
+        } while (true);
+    }
+}
