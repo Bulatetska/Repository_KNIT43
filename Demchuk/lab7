@@ -1,0 +1,84 @@
+using System;
+class Vector
+{
+    public double x;
+    public double y;
+    public Vector(double x, double y)
+    {
+        this.x = x;
+        this.y = y;
+    }    
+    public static Vector operator -(Vector v)
+    {
+        return new Vector(-v.x, -v.y);
+    }
+    public static Vector operator +(Vector v1, Vector v2)
+    {
+        return new Vector(v1.x + v2.x, v1.y + v2.y);
+    }
+    public static Vector operator *(Vector v, double number)
+    {
+        return new Vector(v.x * number, v.y * number);
+    }
+    public static bool operator ==(Vector v1, Vector v2)
+    {
+        if (ReferenceEquals(v1, v2))
+            return true;
+
+        if (v1 is null || v2 is null)
+            return false;
+
+        return v1.x == v2.x && v1.y == v2.y;
+    }
+    public static bool operator !=(Vector v1, Vector v2)
+    {
+        return !(v1 == v2);
+    }
+    public override bool Equals(object obj)
+    {
+        if (obj is Vector v)
+            return this == v;
+
+        return false;
+    }
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(x, y);
+    }
+    public void Print()
+    {
+        Console.WriteLine("(" + x + ", " + y + ")");
+    }
+    public double Length()
+    {
+        return Math.Sqrt(x * x + y * y);
+    }
+}
+class Program
+{
+    static void Main()
+    {
+        Vector v1 = new Vector(3, 4);
+        Vector v2 = new Vector(1, -2);
+        Console.Write("Vector v1 = ");
+        v1.Print();
+        Console.Write("Vector v2 = ");
+        v2.Print();
+        Vector v3 = -v1;
+        Console.Write("Unary minus v1 = ");
+        v3.Print();
+        Vector sum = v1 + v2;
+        Console.Write("v1 + v2 = ");
+        sum.Print();
+        Vector result = v2 * 2;
+        Console.Write("v2 * 2 = ");
+        result.Print();
+        Console.WriteLine("v1 == v2: " + (v1 == v2));
+        Console.WriteLine("v1 != v2: " + (v1 != v2));
+        Vector v4 = new Vector(3, 4);
+        Console.WriteLine("v1 == v4: " + (v1 == v4));
+        Console.WriteLine("Length v1 = " + v1.Length());
+        Console.WriteLine("Length v2 = " + v2.Length());
+    }
+}
+  
