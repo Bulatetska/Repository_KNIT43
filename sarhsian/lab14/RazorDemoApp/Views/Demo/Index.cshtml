@@ -1,0 +1,34 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Лаб 14</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <main>
+        <h1>@ViewData["Message"]</h1>
+
+        @if (ViewData["Message"] != null)
+        {
+            <p>Повідомлення успішно передано з контролера.</p>
+        }
+
+        <h2>Числа від 1 до 5</h2>
+        <ul>
+            @for (var i = 1; i <= 5; i++)
+            {
+                <li>Число: @i</li>
+            }
+        </ul>
+
+        @await Html.PartialAsync("_PartialView")
+
+        <p><a href="/demo/list">Перейти до списку країн</a></p>
+    </main>
+</body>
+</html>
