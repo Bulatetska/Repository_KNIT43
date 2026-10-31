@@ -1,0 +1,14 @@
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\bin\Debug\net8.0\ClassesLab.exe
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\bin\Debug\net8.0\ClassesLab.deps.json
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\bin\Debug\net8.0\ClassesLab.runtimeconfig.json
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\bin\Debug\net8.0\ClassesLab.dll
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\bin\Debug\net8.0\ClassesLab.pdb
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.AssemblyInfoInputs.cache
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.AssemblyInfo.cs
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.csproj.CoreCompileInputs.cache
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.dll
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\refint\ClassesLab.dll
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.pdb
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ClassesLab.genruntimeconfig.cache
+C:\Users\nitro 5\OneDrive\Desktop\ClassesLab\ClassesLab\obj\Debug\net8.0\ref\ClassesLab.dll
