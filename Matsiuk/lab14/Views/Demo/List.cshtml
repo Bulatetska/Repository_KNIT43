@@ -1,0 +1,20 @@
+@model List<string>
+
+@{
+    ViewData["Title"] = "Countries List";
+}
+
+<div class="container mt-4">
+    <h2>List of Countries</h2>
+
+    <p class="lead">
+        This list is transferred from the controller using a model.
+    </p>
+
+    <ul class="list-group">
+        @foreach (var country in Model)
+        {
+            <li class="list-group-item">@country</li>
+        }
+    </ul>
+</div>

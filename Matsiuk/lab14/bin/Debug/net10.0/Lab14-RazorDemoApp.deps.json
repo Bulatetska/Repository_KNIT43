@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Lab14-RazorDemoApp/1.0.0": {
+        "runtime": {
+          "Lab14-RazorDemoApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab14-RazorDemoApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
