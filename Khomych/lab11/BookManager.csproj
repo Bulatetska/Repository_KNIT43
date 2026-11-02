@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>BookManager</RootNamespace>
+    <AssemblyName>BookManager</AssemblyName>
+    <!-- Дозволяє запуск і на новіших версіях .NET, якщо .NET 8 не встановлено -->
+    <RollForward>Major</RollForward>
+  </PropertyGroup>
+
+</Project>

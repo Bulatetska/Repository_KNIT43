@@ -1,0 +1,106 @@
+<Window x:Class="BookManager.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:BookManager.ViewModels"
+        Title="Список книг"
+        Width="720" Height="440"
+        MinWidth="560" MinHeight="340"
+        WindowStartupLocation="CenterScreen"
+        FontSize="14">
+
+    <Window.DataContext>
+        <vm:BookViewModel />
+    </Window.DataContext>
+
+    <Window.Resources>
+        <Style x:Key="FieldLabel" TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,0,0,4" />
+        </Style>
+
+        <Style x:Key="FieldBox" TargetType="TextBox">
+            <Setter Property="Margin" Value="0,0,0,14" />
+            <Setter Property="Padding" Value="4,3" />
+            <Style.Triggers>
+                <!-- Пояснення для некоректного значення, наприклад літер у полі "Рік" -->
+                <Trigger Property="Validation.HasError" Value="True">
+                    <Setter Property="ToolTip" Value="Введіть ціле число" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="ActionButton" TargetType="Button">
+            <Setter Property="Padding" Value="14,6" />
+            <Setter Property="MinWidth" Value="130" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="16" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Список книг -->
+        <ListBox Grid.Row="0" Grid.Column="0"
+                 ItemsSource="{Binding Books}"
+                 SelectedItem="{Binding SelectedBook}"
+                 SelectionChanged="BooksList_SelectionChanged"
+                 HorizontalContentAlignment="Stretch">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="4">
+                        <TextBlock Text="{Binding Title}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis" />
+                        <TextBlock Opacity="0.7" TextTrimming="CharacterEllipsis">
+                            <Run Text="{Binding Author, Mode=OneWay}" /><Run Text=", " /><Run Text="{Binding Year, Mode=OneWay}" />
+                        </TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <!-- Редагування вибраної книги -->
+        <GroupBox Grid.Row="0" Grid.Column="2" Header="Дані книги" Padding="10">
+            <GroupBox.Style>
+                <Style TargetType="GroupBox">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding SelectedBook}" Value="{x:Null}">
+                            <Setter Property="IsEnabled" Value="False" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </GroupBox.Style>
+
+            <StackPanel>
+                <TextBlock Text="Назва" Style="{StaticResource FieldLabel}" />
+                <TextBox Style="{StaticResource FieldBox}"
+                         Text="{Binding SelectedBook.Title, UpdateSourceTrigger=PropertyChanged}" />
+
+                <TextBlock Text="Автор" Style="{StaticResource FieldLabel}" />
+                <TextBox Style="{StaticResource FieldBox}"
+                         Text="{Binding SelectedBook.Author, UpdateSourceTrigger=PropertyChanged}" />
+
+                <TextBlock Text="Рік" Style="{StaticResource FieldLabel}" />
+                <TextBox Style="{StaticResource FieldBox}"
+                         Text="{Binding SelectedBook.Year, UpdateSourceTrigger=PropertyChanged}" />
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Кнопки -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3"
+                    Orientation="Horizontal"
+                    Margin="0,14,0,0">
+            <Button Content="Додати книгу"
+                    Style="{StaticResource ActionButton}"
+                    Margin="0,0,10,0"
+                    Command="{Binding AddBookCommand}" />
+            <Button Content="Видалити книгу"
+                    Style="{StaticResource ActionButton}"
+                    Command="{Binding DeleteBookCommand}" />
+        </StackPanel>
+    </Grid>
+</Window>
