@@ -1,0 +1,14 @@
+# Minimal API + Native AOT, musl (Alpine).
+#   docker build -f docker/Dockerfile.aot.alpine -t bench/aot:alpine .
+FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
+RUN apk add --no-cache clang build-base zlib-dev
+WORKDIR /src
+COPY Directory.Build.props .
+COPY src/ src/
+RUN dotnet publish src/Api.MinimalAot -c Release -r linux-musl-x64 -o /out -p:ApiAssemblyName=app
+
+FROM mcr.microsoft.com/dotnet/runtime-deps:9.0-alpine
+ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+WORKDIR /app
+COPY --from=build /out/app .
+ENTRYPOINT ["/app/app"]

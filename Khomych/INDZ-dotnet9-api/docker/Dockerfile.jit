@@ -1,0 +1,16 @@
+# Controllers / Minimal API (JIT) на офіційних образах Microsoft.
+#   docker build -f docker/Dockerfile.jit --build-arg PROJECT=Api.Minimal -t bench/minimal:chiseled .
+#   docker build -f docker/Dockerfile.jit --build-arg PROJECT=Api.Minimal --build-arg TAG=9.0-alpine -t bench/minimal:alpine .
+ARG TAG=9.0-noble-chiseled
+FROM mcr.microsoft.com/dotnet/sdk:9.0-noble AS build
+ARG PROJECT=Api.Minimal
+WORKDIR /src
+COPY Directory.Build.props .
+COPY src/ src/
+RUN dotnet publish src/${PROJECT} -c Release -o /out -p:ApiAssemblyName=app -p:UseAppHost=false
+
+FROM mcr.microsoft.com/dotnet/aspnet:${TAG}
+ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+WORKDIR /app
+COPY --from=build /out/ .
+ENTRYPOINT ["dotnet", "app.dll"]

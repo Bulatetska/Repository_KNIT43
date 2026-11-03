@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <PublishAot>true</PublishAot>
+    <OptimizationPreference>Speed</OptimizationPreference>
+    <StripSymbols>true</StripSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bench.Core\Bench.Core.csproj" />
+    <Compile Include="..\Shared\Endpoints.cs" Link="Endpoints.cs" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(ApiAssemblyName)' != ''">
+    <!-- Фіксоване ім'я збірки для ENTRYPOINT у Docker: у chiseled немає shell -->
+    <AssemblyName>$(ApiAssemblyName)</AssemblyName>
+  </PropertyGroup>
+</Project>

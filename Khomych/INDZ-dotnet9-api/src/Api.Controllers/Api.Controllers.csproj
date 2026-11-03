@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup><ProjectReference Include="..\Bench.Core\Bench.Core.csproj" /></ItemGroup>
+  <PropertyGroup Condition="'$(ApiAssemblyName)' != ''">
+    <!-- Фіксоване ім'я збірки для ENTRYPOINT у Docker: у chiseled немає shell -->
+    <AssemblyName>$(ApiAssemblyName)</AssemblyName>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+# Minimal API + Native AOT, glibc: фінальний образ runtime-deps chiseled (без shell).
+#   docker build -f docker/Dockerfile.aot -t bench/aot:chiseled .
+FROM mcr.microsoft.com/dotnet/sdk:9.0-noble AS build
+ARG RID=linux-x64
+RUN apt-get update && apt-get install -y --no-install-recommends clang zlib1g-dev
+WORKDIR /src
+COPY Directory.Build.props .
+COPY src/ src/
+RUN dotnet publish src/Api.MinimalAot -c Release -r ${RID} -o /out -p:ApiAssemblyName=app
+
+FROM mcr.microsoft.com/dotnet/runtime-deps:9.0-noble-chiseled
+ENV ASPNETCORE_URLS=http://0.0.0.0:8080
+WORKDIR /app
+COPY --from=build /out/app .
+ENTRYPOINT ["/app/app"]

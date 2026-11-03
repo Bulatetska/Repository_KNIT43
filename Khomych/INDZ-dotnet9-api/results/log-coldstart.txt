@@ -1,0 +1,160 @@
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 16, 'ts': '2026-11-02T18:54:13', 'first_ok_ms': 286.316738999858, 'first_items_ms': 2.804986999990433, 'first_cpu_ms': 2.446040999984689, 'second_ping_ms': 0.3182129999004246}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 1, 'ts': '2026-11-02T18:54:14', 'first_ok_ms': 695.6001080000078, 'first_items_ms': 95.48379400007434, 'first_cpu_ms': 16.984023000077286, 'second_ping_ms': 0.807904000112103}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 2, 'ts': '2026-11-02T18:54:15', 'first_ok_ms': 208.83192300016162}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 0, 'ts': '2026-11-02T18:54:15', 'first_ok_ms': 223.881904000109, 'first_items_ms': 3.2056630000170117, 'first_cpu_ms': 2.7930129999731435, 'second_ping_ms': 0.23794500020812848}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 11, 'ts': '2026-11-02T18:54:17', 'first_ok_ms': 744.9588680001398, 'first_items_ms': 96.42910499997015, 'first_cpu_ms': 14.401894000002358, 'second_ping_ms': 0.6737449998581724}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 7, 'ts': '2026-11-02T18:54:17', 'first_ok_ms': 249.0818199999012, 'first_items_ms': 2.5032860000919754, 'first_cpu_ms': 2.4195549999603827, 'second_ping_ms': 0.34225900003548304}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 9, 'ts': '2026-11-02T18:54:19', 'first_ok_ms': 602.7428669999608, 'first_items_ms': 85.72390100016491, 'first_cpu_ms': 14.030794000063906, 'second_ping_ms': 0.7209810000858852}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 17, 'ts': '2026-11-02T18:54:20', 'first_ok_ms': 633.5175650001474, 'first_items_ms': 54.84339999998156, 'first_cpu_ms': 12.093320000076346, 'second_ping_ms': 0.6050069998764229}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 6, 'ts': '2026-11-02T18:54:21', 'first_ok_ms': 599.5514419998926, 'first_items_ms': 66.10531999990599, 'first_cpu_ms': 14.631738999923982, 'second_ping_ms': 0.583674000154133}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 1, 'ts': '2026-11-02T18:54:22', 'first_ok_ms': 187.8850290001992}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 12, 'ts': '2026-11-02T18:54:22', 'first_ok_ms': 225.49039999989873, 'first_items_ms': 2.795650999814825, 'first_cpu_ms': 2.485594000063429, 'second_ping_ms': 0.29495599983420107}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 4, 'ts': '2026-11-02T18:54:23', 'first_ok_ms': 187.12694499981808}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 19, 'ts': '2026-11-02T18:54:24', 'first_ok_ms': 217.7936260000024, 'first_items_ms': 2.3487700000259792, 'first_cpu_ms': 2.440756000169131, 'second_ping_ms': 0.20921300006193633}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 19, 'ts': '2026-11-02T18:54:25', 'first_ok_ms': 593.855842000039, 'first_items_ms': 52.96630499992716, 'first_cpu_ms': 13.092778000100225, 'second_ping_ms': 0.6589730000996497}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 10, 'ts': '2026-11-02T18:54:26', 'first_ok_ms': 584.1609779999999, 'first_items_ms': 102.16346399988652, 'first_cpu_ms': 14.990876999945613, 'second_ping_ms': 0.6876329998704023}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 18, 'ts': '2026-11-02T18:54:27', 'first_ok_ms': 185.80336100012573}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 17, 'ts': '2026-11-02T18:54:28', 'first_ok_ms': 669.8408139998264, 'first_items_ms': 87.35777900005814, 'first_cpu_ms': 18.266884000013306, 'second_ping_ms': 0.7538380000369216}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 19, 'ts': '2026-11-02T18:54:29', 'first_ok_ms': 608.4379660001105, 'first_items_ms': 99.07907900014834, 'first_cpu_ms': 17.634921000080794, 'second_ping_ms': 0.7856550000724383}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 13, 'ts': '2026-11-02T18:54:30', 'first_ok_ms': 616.7519539999375, 'first_items_ms': 96.82943099983277, 'first_cpu_ms': 16.095359000019016, 'second_ping_ms': 0.8974209999905725}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 5, 'ts': '2026-11-02T18:54:31', 'first_ok_ms': 601.3709540000036, 'first_items_ms': 64.11260499999116, 'first_cpu_ms': 11.054775999809863, 'second_ping_ms': 0.5396930000642897}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 11, 'ts': '2026-11-02T18:54:32', 'first_ok_ms': 187.97965300018404}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 4, 'ts': '2026-11-02T18:54:33', 'first_ok_ms': 647.9686260001927, 'first_items_ms': 98.78253400006543, 'first_cpu_ms': 16.330282999888368, 'second_ping_ms': 0.7835209999029757}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 9, 'ts': '2026-11-02T18:54:34', 'first_ok_ms': 252.73911099998259, 'first_items_ms': 3.721172000041406, 'first_cpu_ms': 2.899759999991147, 'second_ping_ms': 0.35364100017432065}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 2, 'ts': '2026-11-02T18:54:35', 'first_ok_ms': 245.77479599997787, 'first_items_ms': 2.663667999968311, 'first_cpu_ms': 2.363993000017217, 'second_ping_ms': 0.27536500010683085}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 10, 'ts': '2026-11-02T18:54:35', 'first_ok_ms': 215.77178500001537, 'first_items_ms': 2.3532870000053663, 'first_cpu_ms': 2.439382999909867, 'second_ping_ms': 0.1929120001022966}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 16, 'ts': '2026-11-02T18:54:36', 'first_ok_ms': 228.74342499994782}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 2, 'ts': '2026-11-02T18:54:37', 'first_ok_ms': 629.5847659998799, 'first_items_ms': 87.14019300009568, 'first_cpu_ms': 14.174811999964732, 'second_ping_ms': 0.54340399992725}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 15, 'ts': '2026-11-02T18:54:38', 'first_ok_ms': 621.895042999995, 'first_items_ms': 65.24376899983508, 'first_cpu_ms': 15.076278000151433, 'second_ping_ms': 0.5831170001329156}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 5, 'ts': '2026-11-02T18:54:39', 'first_ok_ms': 217.0746289998533}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 14, 'ts': '2026-11-02T18:54:40', 'first_ok_ms': 694.0770710000379, 'first_items_ms': 98.03440599989699, 'first_cpu_ms': 13.635589999921649, 'second_ping_ms': 0.6118930000411638}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 1, 'ts': '2026-11-02T18:54:42', 'first_ok_ms': 746.2897069999599, 'first_items_ms': 72.20554300010917, 'first_cpu_ms': 15.87699500009876, 'second_ping_ms': 0.644324000177221}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 18, 'ts': '2026-11-02T18:54:42', 'first_ok_ms': 203.66190899994763, 'first_items_ms': 2.3299599999972997, 'first_cpu_ms': 2.286919999960446, 'second_ping_ms': 0.1939599999332131}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 17, 'ts': '2026-11-02T18:54:43', 'first_ok_ms': 230.0955509999767, 'first_items_ms': 2.2341659998801333, 'first_cpu_ms': 2.4092969999855995, 'second_ping_ms': 0.21876499999962107}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 11, 'ts': '2026-11-02T18:54:44', 'first_ok_ms': 717.6373830000102, 'first_items_ms': 50.47606299990548, 'first_cpu_ms': 11.23808299985285, 'second_ping_ms': 3.137772999934896}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 4, 'ts': '2026-11-02T18:54:45', 'first_ok_ms': 223.36299900007361, 'first_items_ms': 2.613227999972878, 'first_cpu_ms': 2.9574850000244624, 'second_ping_ms': 0.29241800007184793}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 7, 'ts': '2026-11-02T18:54:46', 'first_ok_ms': 578.5618150000573, 'first_items_ms': 67.38341799996306, 'first_cpu_ms': 13.384298999881139, 'second_ping_ms': 0.5560330000662361}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 14, 'ts': '2026-11-02T18:54:47', 'first_ok_ms': 234.46605599997383, 'first_items_ms': 2.2739309999906254, 'first_cpu_ms': 2.6950980000037816, 'second_ping_ms': 0.4021899999315792}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 9, 'ts': '2026-11-02T18:54:48', 'first_ok_ms': 200.90427799982535}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 5, 'ts': '2026-11-02T18:54:48', 'first_ok_ms': 282.5758849999147, 'first_items_ms': 2.8574770001341676, 'first_cpu_ms': 2.810968999938268, 'second_ping_ms': 0.2774590000171884}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 17, 'ts': '2026-11-02T18:54:49', 'first_ok_ms': 184.8518710000917}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 8, 'ts': '2026-11-02T18:54:50', 'first_ok_ms': 211.49745299999267}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 7, 'ts': '2026-11-02T18:54:50', 'first_ok_ms': 188.14716399992903}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 7, 'ts': '2026-11-02T18:54:52', 'first_ok_ms': 695.932042000095, 'first_items_ms': 90.21320400006516, 'first_cpu_ms': 15.042320000020482, 'second_ping_ms': 0.7502790001581161}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 14, 'ts': '2026-11-02T18:54:52', 'first_ok_ms': 191.51705900003435}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 8, 'ts': '2026-11-02T18:54:53', 'first_ok_ms': 676.4719289999448, 'first_items_ms': 51.421883999864804, 'first_cpu_ms': 12.286103999940678, 'second_ping_ms': 0.588946999869222}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 13, 'ts': '2026-11-02T18:54:55', 'first_ok_ms': 570.6452310000714, 'first_items_ms': 54.14234500017301, 'first_cpu_ms': 11.291512999832776, 'second_ping_ms': 0.5559809999340359}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 6, 'ts': '2026-11-02T18:54:55', 'first_ok_ms': 242.44977800003653}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 3, 'ts': '2026-11-02T18:54:56', 'first_ok_ms': 627.3218540000016, 'first_items_ms': 78.43931299998985, 'first_cpu_ms': 12.098233999950025, 'second_ping_ms': 0.5750899999839021}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 10, 'ts': '2026-11-02T18:54:57', 'first_ok_ms': 216.16872499998863}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 6, 'ts': '2026-11-02T18:54:58', 'first_ok_ms': 758.636567999929, 'first_items_ms': 114.44569800005411, 'first_cpu_ms': 24.568637999891507, 'second_ping_ms': 0.9222089997820149}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 16, 'ts': '2026-11-02T18:55:00', 'first_ok_ms': 730.8107589999508, 'first_items_ms': 89.86258000004455, 'first_cpu_ms': 14.789717999974528, 'second_ping_ms': 0.8107670000754297}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 8, 'ts': '2026-11-02T18:55:01', 'first_ok_ms': 233.56214899990846, 'first_items_ms': 2.233935000049314, 'first_cpu_ms': 2.3290369999813265, 'second_ping_ms': 0.38955700006226834}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 10, 'ts': '2026-11-02T18:55:02', 'first_ok_ms': 634.2427800000223, 'first_items_ms': 84.5527219998985, 'first_cpu_ms': 15.370701000165354, 'second_ping_ms': 0.6297239999639714}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 13, 'ts': '2026-11-02T18:55:03', 'first_ok_ms': 255.11412000014388, 'first_items_ms': 2.368598999964888, 'first_cpu_ms': 2.56584700014173, 'second_ping_ms': 0.32359700003326}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 16, 'ts': '2026-11-02T18:55:04', 'first_ok_ms': 751.2937629999215, 'first_items_ms': 62.43725700005598, 'first_cpu_ms': 10.778455000036047, 'second_ping_ms': 0.6278930000007676}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 0, 'ts': '2026-11-02T18:55:05', 'first_ok_ms': 601.3115999999172, 'first_items_ms': 63.07875300012711, 'first_cpu_ms': 11.561771000060617, 'second_ping_ms': 0.578871000016079}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 5, 'ts': '2026-11-02T18:55:06', 'first_ok_ms': 799.3198409999422, 'first_items_ms': 113.59785499985264, 'first_cpu_ms': 20.726856999999654, 'second_ping_ms': 1.0360710000441031}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 1, 'ts': '2026-11-02T18:55:07', 'first_ok_ms': 207.96931400013818, 'first_items_ms': 2.540135999879567, 'first_cpu_ms': 2.3384989999613026, 'second_ping_ms': 0.23123999994822952}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 9, 'ts': '2026-11-02T18:55:08', 'first_ok_ms': 735.0364030000947, 'first_items_ms': 81.19971200017062, 'first_cpu_ms': 15.511511999875438, 'second_ping_ms': 0.9079599999495258}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 3, 'ts': '2026-11-02T18:55:09', 'first_ok_ms': 238.0185579997942, 'first_items_ms': 2.3941340000419586, 'first_cpu_ms': 2.4276369999824965, 'second_ping_ms': 0.4450669998732337}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 12, 'ts': '2026-11-02T18:55:10', 'first_ok_ms': 214.67672300013874}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 11, 'ts': '2026-11-02T18:55:11', 'first_ok_ms': 237.17355300004783, 'first_items_ms': 3.286302000105934, 'first_cpu_ms': 3.2946239998636884, 'second_ping_ms': 0.36500000010164513}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 19, 'ts': '2026-11-02T18:55:11', 'first_ok_ms': 234.1468160000204}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 18, 'ts': '2026-11-02T18:55:12', 'first_ok_ms': 682.9004429998804, 'first_items_ms': 92.38879800000177, 'first_cpu_ms': 17.033269999956246, 'second_ping_ms': 0.78914599998825}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 0, 'ts': '2026-11-02T18:55:14', 'first_ok_ms': 806.0796169997957, 'first_items_ms': 129.20966199999384, 'first_cpu_ms': 22.099711000009847, 'second_ping_ms': 0.9343039998839231}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 13, 'ts': '2026-11-02T18:55:15', 'first_ok_ms': 229.63000899994768}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 12, 'ts': '2026-11-02T18:55:16', 'first_ok_ms': 663.2689129999108, 'first_items_ms': 55.22504800001116, 'first_cpu_ms': 14.294425999878513, 'second_ping_ms': 0.6345749998217798}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 0, 'ts': '2026-11-02T18:55:17', 'first_ok_ms': 253.31961999995656}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 15, 'ts': '2026-11-02T18:55:17', 'first_ok_ms': 219.35891099997207, 'first_items_ms': 2.7957929999047337, 'first_cpu_ms': 3.248629000154324, 'second_ping_ms': 0.3609090001646109}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 3, 'ts': '2026-11-02T18:55:19', 'first_ok_ms': 756.1993859999347, 'first_items_ms': 122.89283599989176, 'first_cpu_ms': 15.364953000016612, 'second_ping_ms': 0.9391460000642837}
+{'variant': 'aot', 'mode': 'warm_cache', 'i': 6, 'ts': '2026-11-02T18:55:19', 'first_ok_ms': 270.6808650000312, 'first_items_ms': 3.4851129998969554, 'first_cpu_ms': 3.345701000171175, 'second_ping_ms': 0.3793519999817363}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 12, 'ts': '2026-11-02T18:55:21', 'first_ok_ms': 689.8908800001209, 'first_items_ms': 87.45992800004387, 'first_cpu_ms': 14.557799000158411, 'second_ping_ms': 1.3949289998436143}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 15, 'ts': '2026-11-02T18:55:22', 'first_ok_ms': 653.8811460000034, 'first_items_ms': 85.37628099998074, 'first_cpu_ms': 14.503610000019762, 'second_ping_ms': 0.7805019999977958}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 14, 'ts': '2026-11-02T18:55:23', 'first_ok_ms': 682.5462839999545, 'first_items_ms': 85.63341499984745, 'first_cpu_ms': 12.636348999876645, 'second_ping_ms': 0.7598800000323536}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 15, 'ts': '2026-11-02T18:55:24', 'first_ok_ms': 200.1493870000104}
+{'variant': 'control', 'mode': 'warm_cache', 'i': 3, 'ts': '2026-11-02T18:55:25', 'first_ok_ms': 216.17124199997306}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 8, 'ts': '2026-11-02T18:55:26', 'first_ok_ms': 700.6913069999428, 'first_items_ms': 101.10759499980304, 'first_cpu_ms': 14.019412000152442, 'second_ping_ms': 0.84134400003677}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 2, 'ts': '2026-11-02T18:55:27', 'first_ok_ms': 668.7654679999468, 'first_items_ms': 101.82441599999947, 'first_cpu_ms': 14.713419999907273, 'second_ping_ms': 0.7063349999043567}
+{'variant': 'controllers', 'mode': 'warm_cache', 'i': 18, 'ts': '2026-11-02T18:55:28', 'first_ok_ms': 708.7815340000816, 'first_items_ms': 108.86977000018305, 'first_cpu_ms': 22.694048999937877, 'second_ping_ms': 0.8345100000042294}
+{'variant': 'minimal', 'mode': 'warm_cache', 'i': 4, 'ts': '2026-11-02T18:55:30', 'first_ok_ms': 604.373495000118, 'first_items_ms': 72.66135100007887, 'first_cpu_ms': 17.99642099990706, 'second_ping_ms': 1.6239999999925203}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 16, 'ts': '2026-11-02T18:55:31', 'first_ok_ms': 365.66624900001443, 'first_items_ms': 2.751903999978822, 'first_cpu_ms': 6.717879000007088, 'second_ping_ms': 0.22088600007919013}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 1, 'ts': '2026-11-02T18:55:33', 'first_ok_ms': 872.7768890000789, 'first_items_ms': 109.79582200002369, 'first_cpu_ms': 25.944722999838632, 'second_ping_ms': 0.7311470001241105}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 2, 'ts': '2026-11-02T18:55:34', 'first_ok_ms': 292.98332400003346}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 0, 'ts': '2026-11-02T18:55:35', 'first_ok_ms': 330.71161999987453, 'first_items_ms': 2.8913270000430202, 'first_cpu_ms': 6.363998000097126, 'second_ping_ms': 0.27614600003289524}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 11, 'ts': '2026-11-02T18:55:36', 'first_ok_ms': 872.1321450000232, 'first_items_ms': 110.13942199997473, 'first_cpu_ms': 23.925252000026376, 'second_ping_ms': 3.744596999922578}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 7, 'ts': '2026-11-02T18:55:38', 'first_ok_ms': 328.19699900005617, 'first_items_ms': 4.265401000111524, 'first_cpu_ms': 8.28459599983944, 'second_ping_ms': 0.29473700010385073}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 9, 'ts': '2026-11-02T18:55:39', 'first_ok_ms': 787.7598630000193, 'first_items_ms': 71.02266599986251, 'first_cpu_ms': 25.937579000128608, 'second_ping_ms': 0.7790490001298167}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 17, 'ts': '2026-11-02T18:55:41', 'first_ok_ms': 787.1091790000264, 'first_items_ms': 55.8475840000483, 'first_cpu_ms': 20.13829599991368, 'second_ping_ms': 0.5217220000304224}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 6, 'ts': '2026-11-02T18:55:42', 'first_ok_ms': 766.4745740000853, 'first_items_ms': 49.55500400001256, 'first_cpu_ms': 18.940514999940206, 'second_ping_ms': 3.708588000108648}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 1, 'ts': '2026-11-02T18:55:43', 'first_ok_ms': 260.6305799999973}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 12, 'ts': '2026-11-02T18:55:44', 'first_ok_ms': 291.5687270001399, 'first_items_ms': 2.8701299997919705, 'first_cpu_ms': 10.101904000066497, 'second_ping_ms': 0.2764450000540819}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 4, 'ts': '2026-11-02T18:55:45', 'first_ok_ms': 278.4593669998685}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 19, 'ts': '2026-11-02T18:55:46', 'first_ok_ms': 314.86872499999663, 'first_items_ms': 3.548284999851603, 'first_cpu_ms': 6.1266570000952925, 'second_ping_ms': 0.1964020000286837}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 19, 'ts': '2026-11-02T18:55:48', 'first_ok_ms': 818.0658559999756, 'first_items_ms': 54.67226699988714, 'first_cpu_ms': 18.44378400005553, 'second_ping_ms': 0.5598109999027656}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 10, 'ts': '2026-11-02T18:55:49', 'first_ok_ms': 778.0006929999672, 'first_items_ms': 97.07241000000977, 'first_cpu_ms': 29.905645000098957, 'second_ping_ms': 0.7720549999703508}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 18, 'ts': '2026-11-02T18:55:50', 'first_ok_ms': 244.43288899988147}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 17, 'ts': '2026-11-02T18:55:52', 'first_ok_ms': 805.8989389999169, 'first_items_ms': 81.22357100000954, 'first_cpu_ms': 20.57065999997576, 'second_ping_ms': 0.6911299999501352}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 19, 'ts': '2026-11-02T18:55:53', 'first_ok_ms': 802.0690610001111, 'first_items_ms': 80.21495599996342, 'first_cpu_ms': 21.643207999886727, 'second_ping_ms': 0.8783959999618673}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 13, 'ts': '2026-11-02T18:55:55', 'first_ok_ms': 810.509852999985, 'first_items_ms': 83.40693299987834, 'first_cpu_ms': 23.495836999927633, 'second_ping_ms': 0.8025559998259268}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 5, 'ts': '2026-11-02T18:55:57', 'first_ok_ms': 824.9944189999496, 'first_items_ms': 75.31949899998835, 'first_cpu_ms': 20.454156999903716, 'second_ping_ms': 0.4854199999044795}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 11, 'ts': '2026-11-02T18:55:58', 'first_ok_ms': 246.5671510001357}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 4, 'ts': '2026-11-02T18:55:59', 'first_ok_ms': 747.4234720000368, 'first_items_ms': 83.38184500007628, 'first_cpu_ms': 22.760557999845332, 'second_ping_ms': 0.6747679999534739}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 9, 'ts': '2026-11-02T18:56:00', 'first_ok_ms': 338.3544430000711, 'first_items_ms': 2.705475000084334, 'first_cpu_ms': 6.100627000023451, 'second_ping_ms': 0.22279700010585657}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 2, 'ts': '2026-11-02T18:56:01', 'first_ok_ms': 301.02306599997064, 'first_items_ms': 3.149595999957455, 'first_cpu_ms': 7.1421879999888915, 'second_ping_ms': 0.29239200011943467}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 10, 'ts': '2026-11-02T18:56:02', 'first_ok_ms': 298.51338499997837, 'first_items_ms': 2.837590000126511, 'first_cpu_ms': 6.738861000030738, 'second_ping_ms': 0.4158020001341356}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 16, 'ts': '2026-11-02T18:56:03', 'first_ok_ms': 255.64298300014343}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 2, 'ts': '2026-11-02T18:56:04', 'first_ok_ms': 749.0216749999945, 'first_items_ms': 66.57820000009451, 'first_cpu_ms': 18.571385000086593, 'second_ping_ms': 0.6195150001531147}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 15, 'ts': '2026-11-02T18:56:06', 'first_ok_ms': 785.0693880000108, 'first_items_ms': 64.08897000005709, 'first_cpu_ms': 26.001086999940526, 'second_ping_ms': 0.6317310001122678}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 5, 'ts': '2026-11-02T18:56:07', 'first_ok_ms': 250.16158199991878}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 14, 'ts': '2026-11-02T18:56:09', 'first_ok_ms': 791.9145620001018, 'first_items_ms': 93.82665899988751, 'first_cpu_ms': 28.95592899994881, 'second_ping_ms': 0.8170340001925069}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 1, 'ts': '2026-11-02T18:56:10', 'first_ok_ms': 874.1049110001313, 'first_items_ms': 64.53805000001012, 'first_cpu_ms': 18.868757999825903, 'second_ping_ms': 0.5492239999966841}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 18, 'ts': '2026-11-02T18:56:11', 'first_ok_ms': 342.0714549999957, 'first_items_ms': 5.715857000041069, 'first_cpu_ms': 9.357067000109964, 'second_ping_ms': 0.2839109999968059}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 17, 'ts': '2026-11-02T18:56:12', 'first_ok_ms': 328.05808900002376, 'first_items_ms': 2.7191389999643434, 'first_cpu_ms': 6.422791999966648, 'second_ping_ms': 0.20612799994523812}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 11, 'ts': '2026-11-02T18:56:14', 'first_ok_ms': 864.1805689999273, 'first_items_ms': 75.7913180000287, 'first_cpu_ms': 22.919411999964723, 'second_ping_ms': 0.5511229999228817}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 4, 'ts': '2026-11-02T18:56:15', 'first_ok_ms': 287.46541999998954, 'first_items_ms': 3.126242000007551, 'first_cpu_ms': 6.599837000067055, 'second_ping_ms': 0.20671200013566704}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 7, 'ts': '2026-11-02T18:56:17', 'first_ok_ms': 844.6588509998492, 'first_items_ms': 82.18220900016604, 'first_cpu_ms': 26.06452400004855, 'second_ping_ms': 0.9136420001141232}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 14, 'ts': '2026-11-02T18:56:18', 'first_ok_ms': 300.5035730000145, 'first_items_ms': 2.431462000004103, 'first_cpu_ms': 5.6251359999350825, 'second_ping_ms': 0.20756000003530062}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 9, 'ts': '2026-11-02T18:56:19', 'first_ok_ms': 241.1171569999624}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 5, 'ts': '2026-11-02T18:56:20', 'first_ok_ms': 322.9775800000425, 'first_items_ms': 3.0529099999512255, 'first_cpu_ms': 7.1708919999764476, 'second_ping_ms': 0.27294299979985226}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 17, 'ts': '2026-11-02T18:56:21', 'first_ok_ms': 277.7940439998474}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 8, 'ts': '2026-11-02T18:56:22', 'first_ok_ms': 244.6733880001375}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 7, 'ts': '2026-11-02T18:56:22', 'first_ok_ms': 285.01981599993087}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 7, 'ts': '2026-11-02T18:56:24', 'first_ok_ms': 781.4126229998237, 'first_items_ms': 97.49756499991236, 'first_cpu_ms': 25.943016999917745, 'second_ping_ms': 0.8464400000320893}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 14, 'ts': '2026-11-02T18:56:25', 'first_ok_ms': 248.9836340000693}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 8, 'ts': '2026-11-02T18:56:26', 'first_ok_ms': 768.075786000054, 'first_items_ms': 71.48778300006597, 'first_cpu_ms': 23.575962999984768, 'second_ping_ms': 0.6969959999878483}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 13, 'ts': '2026-11-02T18:56:28', 'first_ok_ms': 789.6313119999832, 'first_items_ms': 70.16443799989247, 'first_cpu_ms': 21.155240999860325, 'second_ping_ms': 0.543119999974806}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 6, 'ts': '2026-11-02T18:56:29', 'first_ok_ms': 277.91644700005236}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 3, 'ts': '2026-11-02T18:56:31', 'first_ok_ms': 779.6119740000904, 'first_items_ms': 89.67629600010696, 'first_cpu_ms': 27.48515099983706, 'second_ping_ms': 0.6931620000614203}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 10, 'ts': '2026-11-02T18:56:32', 'first_ok_ms': 238.86633200004326}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 6, 'ts': '2026-11-02T18:56:33', 'first_ok_ms': 765.980184, 'first_items_ms': 87.46393100000205, 'first_cpu_ms': 22.865980000005948, 'second_ping_ms': 4.051066000101855}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 16, 'ts': '2026-11-02T18:56:35', 'first_ok_ms': 792.7510920001168, 'first_items_ms': 81.56633099997634, 'first_cpu_ms': 22.875467999938337, 'second_ping_ms': 0.8032729999740695}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 8, 'ts': '2026-11-02T18:56:36', 'first_ok_ms': 317.6831079999829, 'first_items_ms': 2.803666999852794, 'first_cpu_ms': 7.28551699990021, 'second_ping_ms': 0.22624000007454015}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 10, 'ts': '2026-11-02T18:56:37', 'first_ok_ms': 760.6661940001231, 'first_items_ms': 66.04389199992511, 'first_cpu_ms': 20.019262000005256, 'second_ping_ms': 0.5545579999761685}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 13, 'ts': '2026-11-02T18:56:38', 'first_ok_ms': 370.7649110001512, 'first_items_ms': 3.1859380001151294, 'first_cpu_ms': 7.334363999916604, 'second_ping_ms': 0.31123199983085215}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 16, 'ts': '2026-11-02T18:56:40', 'first_ok_ms': 757.6916350001284, 'first_items_ms': 76.9978490000085, 'first_cpu_ms': 21.835959000100047, 'second_ping_ms': 0.671200999931898}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 0, 'ts': '2026-11-02T18:56:41', 'first_ok_ms': 728.3637200000612, 'first_items_ms': 84.50863100006245, 'first_cpu_ms': 21.585477000144238, 'second_ping_ms': 0.5119790000662761}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 5, 'ts': '2026-11-02T18:56:43', 'first_ok_ms': 841.5241620000415, 'first_items_ms': 112.24124000000302, 'first_cpu_ms': 30.041693999919517, 'second_ping_ms': 1.159531999974206}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 1, 'ts': '2026-11-02T18:56:44', 'first_ok_ms': 300.25795800020205, 'first_items_ms': 2.6578389999940555, 'first_cpu_ms': 6.520620999936, 'second_ping_ms': 0.3173220000007859}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 9, 'ts': '2026-11-02T18:56:46', 'first_ok_ms': 777.0538140000554, 'first_items_ms': 73.57477499999732, 'first_cpu_ms': 25.574260999974285, 'second_ping_ms': 0.5088289999548579}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 3, 'ts': '2026-11-02T18:56:47', 'first_ok_ms': 329.85678699992604, 'first_items_ms': 2.6178769999205542, 'first_cpu_ms': 5.840516000034768, 'second_ping_ms': 0.21168900002521696}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 12, 'ts': '2026-11-02T18:56:48', 'first_ok_ms': 304.8315430000912}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 11, 'ts': '2026-11-02T18:56:49', 'first_ok_ms': 305.87224399982915, 'first_items_ms': 2.753510000047754, 'first_cpu_ms': 5.85592400011592, 'second_ping_ms': 0.20183199990242429}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 19, 'ts': '2026-11-02T18:56:50', 'first_ok_ms': 317.1492369999669}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 18, 'ts': '2026-11-02T18:56:51', 'first_ok_ms': 783.4484649999922, 'first_items_ms': 84.05113399999209, 'first_cpu_ms': 18.910020000021177, 'second_ping_ms': 0.5671179999353626}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 0, 'ts': '2026-11-02T18:56:53', 'first_ok_ms': 814.1189759999179, 'first_items_ms': 118.41640599982384, 'first_cpu_ms': 28.45643699993161, 'second_ping_ms': 0.9168230001250777}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 13, 'ts': '2026-11-02T18:56:54', 'first_ok_ms': 242.99417100019127}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 12, 'ts': '2026-11-02T18:56:56', 'first_ok_ms': 737.477508999973, 'first_items_ms': 75.6659959999979, 'first_cpu_ms': 21.039435999909983, 'second_ping_ms': 0.5411130000538833}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 0, 'ts': '2026-11-02T18:56:57', 'first_ok_ms': 250.85841300005995}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 15, 'ts': '2026-11-02T18:56:58', 'first_ok_ms': 316.68862199990144, 'first_items_ms': 3.8971830001628405, 'first_cpu_ms': 12.190141000019139, 'second_ping_ms': 0.25401499988220166}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 3, 'ts': '2026-11-02T18:56:59', 'first_ok_ms': 787.5993319998997, 'first_items_ms': 81.60880500008716, 'first_cpu_ms': 22.52468299980137, 'second_ping_ms': 0.6432239999867306}
+{'variant': 'aot', 'mode': 'cold_cache', 'i': 6, 'ts': '2026-11-02T18:57:00', 'first_ok_ms': 278.8529080000899, 'first_items_ms': 2.5391359999957785, 'first_cpu_ms': 6.666617000064434, 'second_ping_ms': 0.2798259999963193}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 12, 'ts': '2026-11-02T18:57:02', 'first_ok_ms': 834.4787910000377, 'first_items_ms': 115.3933620000771, 'first_cpu_ms': 24.27681299991491, 'second_ping_ms': 0.6822739999279293}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 15, 'ts': '2026-11-02T18:57:03', 'first_ok_ms': 813.6711889999333, 'first_items_ms': 101.1020449998341, 'first_cpu_ms': 23.871500000041124, 'second_ping_ms': 0.7495260001633142}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 14, 'ts': '2026-11-02T18:57:05', 'first_ok_ms': 802.7816759999951, 'first_items_ms': 69.0708160000213, 'first_cpu_ms': 19.642760999886377, 'second_ping_ms': 0.5432699999801116}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 15, 'ts': '2026-11-02T18:57:06', 'first_ok_ms': 233.78938199994082}
+{'variant': 'control', 'mode': 'cold_cache', 'i': 3, 'ts': '2026-11-02T18:57:07', 'first_ok_ms': 245.51117600003636}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 8, 'ts': '2026-11-02T18:57:08', 'first_ok_ms': 771.1782870001116, 'first_items_ms': 95.08001600011085, 'first_cpu_ms': 24.001230000067153, 'second_ping_ms': 0.7499370001369243}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 2, 'ts': '2026-11-02T18:57:10', 'first_ok_ms': 772.9426169998987, 'first_items_ms': 100.63692799985802, 'first_cpu_ms': 21.08197100005782, 'second_ping_ms': 0.6479969999872992}
+{'variant': 'controllers', 'mode': 'cold_cache', 'i': 18, 'ts': '2026-11-02T18:57:11', 'first_ok_ms': 714.6129739999196, 'first_items_ms': 86.54885000009926, 'first_cpu_ms': 22.315492999950948, 'second_ping_ms': 0.7003410000834265}
+{'variant': 'minimal', 'mode': 'cold_cache', 'i': 4, 'ts': '2026-11-02T18:57:13', 'first_ok_ms': 806.4781840000705, 'first_items_ms': 76.00365600001169, 'first_cpu_ms': 23.752624999815453, 'second_ping_ms': 0.8101309999801742}
