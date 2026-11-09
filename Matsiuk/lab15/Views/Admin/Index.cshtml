@@ -1,0 +1,53 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="page-heading">
+
+    <span class="eyebrow">CONTROL CENTER</span>
+
+    <h1>Admin Dashboard</h1>
+
+    <p>Manage your store, products and users.</p>
+
+</div>
+
+<div class="stats-grid">
+
+    <div class="stat-card">
+        <span>Total Products</span>
+        <strong>@ViewBag.ProductsCount</strong>
+        <small>Products in database</small>
+    </div>
+
+    <div class="stat-card">
+        <span>Registered Users</span>
+        <strong>@ViewBag.UsersCount</strong>
+        <small>Store accounts</small>
+    </div>
+
+    <div class="stat-card">
+        <span>Total Orders</span>
+        <strong>@ViewBag.OrdersCount</strong>
+        <small>Recorded orders</small>
+    </div>
+
+</div>
+
+<div class="admin-navigation">
+
+    <a asp-action="Products" class="admin-card">
+        <span class="eyebrow">01 / INVENTORY</span>
+        <h2>Manage Products</h2>
+        <p>View, edit and delete store products.</p>
+        <span class="text-link">Open Products →</span>
+    </a>
+
+    <a asp-action="Users" class="admin-card">
+        <span class="eyebrow">02 / ACCOUNTS</span>
+        <h2>Manage Users</h2>
+        <p>View registered users and their roles.</p>
+        <span class="text-link">Open Users →</span>
+    </a>
+
+</div>

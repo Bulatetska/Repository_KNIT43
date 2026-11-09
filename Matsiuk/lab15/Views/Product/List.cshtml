@@ -1,0 +1,76 @@
+@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="page-heading">
+    <span class="eyebrow">STORE CATALOG</span>
+    <h1>Our Products</h1>
+    <p>Explore our collection of available products.</p>
+</div>
+
+<div class="product-grid">
+
+    @foreach (var product in Model)
+    {
+        <div class="product-card">
+
+            <div class="product-image">
+                <span>PRODUCT #@product.Id</span>
+            </div>
+
+            <div class="product-info">
+
+                <h3>@product.Name</h3>
+
+                <p>@product.Description</p>
+
+                <div class="stock-label">
+                    @if (product.Stock > 0)
+                    {
+                        <span class="stock-available">
+                            @product.Stock in stock
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="stock-empty">Out of stock</span>
+                    }
+                </div>
+
+                <div class="product-bottom">
+
+                    <strong>$@product.Price.ToString("N2")</strong>
+
+                    <a asp-action="Details"
+                       asp-route-id="@product.Id"
+                       class="btn btn-small">
+                        Details
+                    </a>
+
+                </div>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="admin-product-actions">
+
+                        <a asp-action="Edit"
+                           asp-route-id="@product.Id">
+                            Edit
+                        </a>
+
+                        <a asp-action="Delete"
+                           asp-route-id="@product.Id"
+                           class="danger-link">
+                            Delete
+                        </a>
+
+                    </div>
+                }
+
+            </div>
+        </div>
+    }
+
+</div>

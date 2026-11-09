@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Place Order";
+}
+
+<div class="form-container">
+
+    <span class="eyebrow">SHOPPING</span>
+
+    <h1>Place an Order</h1>
+
+    <p class="muted">
+        Select a product and specify the required quantity.
+    </p>
+
+    <form asp-action="PlaceOrder" method="post">
+
+        <div asp-validation-summary="All"
+             class="validation-summary"></div>
+
+        <div class="form-group">
+
+            <label for="productId">Select Product</label>
+
+            <select name="productId"
+                    id="productId"
+                    class="form-control"
+                    asp-items="ViewBag.Products"
+                    required>
+
+                <option value="">Choose a product...</option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="quantity">Quantity</label>
+
+            <input type="number"
+                   id="quantity"
+                   name="quantity"
+                   class="form-control"
+                   min="1"
+                   max="1000"
+                   value="1"
+                   required />
+
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+            Confirm Order
+        </button>
+
+    </form>
+
+</div>

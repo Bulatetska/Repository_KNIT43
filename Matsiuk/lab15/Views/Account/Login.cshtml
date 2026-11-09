@@ -1,0 +1,60 @@
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="form-container">
+
+    <span class="eyebrow">WELCOME BACK</span>
+
+    <h1>Sign In</h1>
+
+    <p class="muted">
+        Enter your credentials to access your account.
+    </p>
+
+    <form asp-action="Login" method="post">
+
+        <div asp-validation-summary="All"
+             class="validation-summary"></div>
+
+        <div class="form-group">
+
+            <label for="email">Email Address</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   class="form-control"
+                   placeholder="Enter your email"
+                   required />
+
+        </div>
+
+        <div class="form-group">
+
+            <label for="password">Password</label>
+
+            <input type="password"
+                   id="password"
+                   name="password"
+                   class="form-control"
+                   placeholder="Enter your password"
+                   required />
+
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+            Sign In
+        </button>
+
+    </form>
+
+    <p class="form-footer">
+        Don't have an account?
+
+        <a asp-controller="User" asp-action="Create">
+            Create one
+        </a>
+    </p>
+
+</div>

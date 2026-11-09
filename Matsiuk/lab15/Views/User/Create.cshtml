@@ -1,0 +1,70 @@
+@{
+    ViewData["Title"] = "Create Account";
+}
+
+<div class="form-container">
+
+    <span class="eyebrow">JOIN STOREHUB</span>
+
+    <h1>Create Account</h1>
+
+    <p class="muted">
+        Create your account to start shopping.
+    </p>
+
+    <form asp-action="Create" method="post">
+
+        <div asp-validation-summary="All"
+             class="validation-summary"></div>
+
+        <div class="form-group">
+            <label for="fullName">Full Name</label>
+
+            <input type="text"
+                   id="fullName"
+                   name="fullName"
+                   class="form-control"
+                   placeholder="John Smith"
+                   maxlength="100"
+                   required />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   class="form-control"
+                   placeholder="john@example.com"
+                   maxlength="254"
+                   required />
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+
+            <input type="password"
+                   id="password"
+                   name="password"
+                   class="form-control"
+                   placeholder="Minimum 8 characters"
+                   minlength="8"
+                   required />
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">
+            Create Account
+        </button>
+
+    </form>
+
+    <p class="form-footer">
+        Already have an account?
+
+        <a asp-controller="Account" asp-action="Login">
+            Sign in
+        </a>
+    </p>
+
+</div>

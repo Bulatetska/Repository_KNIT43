@@ -1,0 +1,47 @@
+@model Product
+
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="form-container">
+
+    <span class="eyebrow">PRODUCT DETAILS</span>
+
+    <h1>@Model.Name</h1>
+
+    <div class="detail-panel">
+
+        <p>@Model.Description</p>
+
+        <div class="detail-row">
+            <span>Product ID</span>
+            <strong>#@Model.Id</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Price</span>
+            <strong>$@Model.Price.ToString("N2")</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Available Stock</span>
+            <strong>@Model.Stock</strong>
+        </div>
+
+    </div>
+
+    @if (User.Identity?.IsAuthenticated == true && Model.Stock > 0)
+    {
+        <a asp-controller="Order"
+           asp-action="PlaceOrder"
+           class="btn btn-primary btn-block">
+            Place an Order
+        </a>
+    }
+
+    <a asp-action="List" class="text-link">
+        ← Back to Products
+    </a>
+
+</div>

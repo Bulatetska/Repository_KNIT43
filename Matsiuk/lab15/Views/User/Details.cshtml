@@ -1,0 +1,52 @@
+@model User
+
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<div class="form-container">
+
+    <span class="eyebrow">ACCOUNT INFORMATION</span>
+
+    <h1>User Profile</h1>
+
+    <div class="profile-avatar">
+        @Model.FullName.Substring(0, 1).ToUpper()
+    </div>
+
+    <div class="detail-panel">
+
+        <div class="detail-row">
+            <span>User ID</span>
+            <strong>#@Model.Id</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Full Name</span>
+            <strong>@Model.FullName</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Email</span>
+            <strong>@Model.Email</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Role</span>
+            <strong>@Model.Role</strong>
+        </div>
+
+        <div class="detail-row">
+            <span>Created At</span>
+            <strong>@Model.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy")</strong>
+        </div>
+
+    </div>
+
+    <a asp-controller="Home"
+       asp-action="Index"
+       class="btn btn-outline btn-block">
+        Back to Home
+    </a>
+
+</div>

@@ -1,0 +1,77 @@
+@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Manage Products";
+}
+
+<div class="page-heading">
+
+    <span class="eyebrow">ADMINISTRATION</span>
+
+    <h1>Product Management</h1>
+
+    <p>Manage all products stored in the database.</p>
+
+</div>
+
+<div class="table-container">
+
+    <table class="data-table">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>#@product.Id</td>
+
+                    <td>
+                        <strong>@product.Name</strong>
+                    </td>
+
+                    <td>$@product.Price.ToString("N2")</td>
+
+                    <td>@product.Stock</td>
+
+                    <td>
+                        <div class="table-actions">
+
+                            <a asp-controller="Product"
+                               asp-action="Edit"
+                               asp-route-id="@product.Id">
+                                Edit
+                            </a>
+
+                            <a asp-controller="Product"
+                               asp-action="Delete"
+                               asp-route-id="@product.Id"
+                               class="danger-link">
+                                Delete
+                            </a>
+
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<a asp-controller="Admin"
+   asp-action="Index"
+   class="text-link">
+    ← Back to Dashboard
+</a>

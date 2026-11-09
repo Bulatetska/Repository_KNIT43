@@ -1,0 +1,92 @@
+@model IEnumerable<User>
+
+@{
+    ViewData["Title"] = "Manage Users";
+}
+
+<div class="page-heading">
+
+    <span class="eyebrow">ADMINISTRATION</span>
+
+    <h1>User Management</h1>
+
+    <p>Manage registered accounts and access permissions.</p>
+
+</div>
+
+<div class="table-container">
+
+    <table class="data-table">
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Current Role</th>
+                <th>Change Role</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            @foreach (var user in Model)
+            {
+                <tr>
+
+                    <td>#@user.Id</td>
+
+                    <td><strong>@user.FullName</strong></td>
+
+                    <td>@user.Email</td>
+
+                    <td>
+                        <span class="role-badge">@user.Role</span>
+                    </td>
+
+                    <td>
+
+                        <form asp-action="ChangeRole" method="post"
+                              style="display:flex; gap:8px;">
+
+                            <input type="hidden"
+                                   name="id"
+                                   value="@user.Id" />
+
+                            <select name="role" class="form-control"
+                                    style="width:110px; padding:7px;">
+
+                                <option value="User"
+                                        selected="@(user.Role == "User")">
+                                    User
+                                </option>
+
+                                <option value="Admin"
+                                        selected="@(user.Role == "Admin")">
+                                    Admin
+                                </option>
+
+                            </select>
+
+                            <button type="submit" class="btn btn-small">
+                                Save
+                            </button>
+
+                        </form>
+
+                    </td>
+
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<a asp-controller="Admin"
+   asp-action="Index"
+   class="text-link">
+    ← Back to Dashboard
+</a>

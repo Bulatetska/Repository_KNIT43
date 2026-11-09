@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - StoreHub</title>
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="nav-container">
+
+        <a asp-controller="Home" asp-action="Index" class="logo">
+            <span class="logo-icon">S</span>
+            StoreHub
+        </a>
+
+        <nav class="nav-links">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Product" asp-action="List">Products</a>
+
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <a asp-controller="Order" asp-action="PlaceOrder">Place Order</a>
+                <a asp-controller="User"
+                   asp-action="Details"
+                   asp-route-id="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value">
+                    My Profile
+                </a>
+            }
+
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-controller="Admin" asp-action="Index">Admin Panel</a>
+            }
+        </nav>
+
+        <div class="nav-actions">
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <span class="user-label">
+                    @User.Identity.Name
+                </span>
+
+                <form asp-controller="Account"
+                      asp-action="Logout"
+                      method="post">
+
+                    <button type="submit" class="btn btn-outline">
+                        Logout
+                    </button>
+                </form>
+            }
+            else
+            {
+                <a asp-controller="Account"
+                   asp-action="Login"
+                   class="btn btn-outline">
+                    Login
+                </a>
+
+                <a asp-controller="User"
+                   asp-action="Create"
+                   class="btn btn-primary">
+                    Sign Up
+                </a>
+            }
+        </div>
+
+    </div>
+</header>
+
+<main class="main-container">
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-error">
+            @TempData["Error"]
+        </div>
+    }
+
+    @RenderBody()
+
+</main>
+
+<footer class="footer">
+    <div>
+        <strong>StoreHub</strong>
+        <span>Modern Shopping Experience</span>
+    </div>
+
+    <p>© 2026 StoreHub. All rights reserved.</p>
+</footer>
+
+@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="hero">
+
+    <div class="hero-content">
+        <span class="eyebrow">WELCOME TO STOREHUB</span>
+
+        <h1>
+            Everything you need.
+            <span>One place.</span>
+        </h1>
+
+        <p>
+            Discover quality products, explore our collection
+            and enjoy a simple shopping experience.
+        </p>
+
+        <div class="hero-actions">
+            <a asp-controller="Product"
+               asp-action="List"
+               class="btn btn-primary">
+                Explore Products
+            </a>
+
+            <a asp-controller="User"
+               asp-action="Create"
+               class="btn btn-outline">
+                Create Account
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-decoration">
+        <div class="hero-circle">
+            <span>SH</span>
+        </div>
+        <span class="hero-caption">YOUR SHOPPING DESTINATION</span>
+    </div>
+
+</section>
+
+<section class="section">
+
+    <div class="section-header">
+        <div>
+            <span class="eyebrow">OUR COLLECTION</span>
+            <h2>Featured Products</h2>
+        </div>
+
+        <a asp-controller="Product"
+           asp-action="List"
+           class="text-link">
+            View All Products →
+        </a>
+    </div>
+
+    <div class="product-grid">
+
+        @foreach (var product in Model)
+        {
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span>PRODUCT</span>
+                </div>
+
+                <div class="product-info">
+                    <h3>@product.Name</h3>
+
+                    <p>@product.Description</p>
+
+                    <div class="product-bottom">
+                        <strong>$@product.Price.ToString("N2")</strong>
+
+                        <a asp-controller="Product"
+                           asp-action="Details"
+                           asp-route-id="@product.Id"
+                           class="btn btn-small">
+                            Details
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</section>
+
+<section class="quick-links">
+
+    <div class="quick-link-card">
+        <span class="quick-icon">01</span>
+        <h3>Products</h3>
+        <p>Browse and explore our available products.</p>
+
+        <a asp-controller="Product" asp-action="List">
+            Browse products →
+        </a>
+    </div>
+
+    <div class="quick-link-card">
+        <span class="quick-icon">02</span>
+        <h3>Account</h3>
+        <p>Create an account and manage your profile.</p>
+
+        <a asp-controller="User" asp-action="Create">
+            Get started →
+        </a>
+    </div>
+
+    <div class="quick-link-card">
+        <span class="quick-icon">03</span>
+        <h3>Orders</h3>
+        <p>Place a new order using your account.</p>
+
+        <a asp-controller="Order" asp-action="PlaceOrder">
+            Place order →
+        </a>
+    </div>
+
+</section>
