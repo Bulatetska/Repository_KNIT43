@@ -1,0 +1,20 @@
+@model HelloMvcApp.Models.GreetingModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Лаб 13</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <main>
+        <h1>@Model.Title</h1>
+        <p>@Model.Description</p>
+        <p><a href="/hello?format=text">Текстова відповідь контролера</a></p>
+    </main>
+</body>
+</html>

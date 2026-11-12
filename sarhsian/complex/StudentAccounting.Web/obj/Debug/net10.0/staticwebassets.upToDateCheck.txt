@@ -1,0 +1,6 @@
+C:\Users\Artur_9qd5kph\Downloads\complex\StudentAccounting.Web\wwwroot\site.css
+C:\Users\Artur_9qd5kph\Downloads\complex\StudentAccounting.Web\wwwroot\app.js
+C:\Users\Artur_9qd5kph\Downloads\complex\StudentAccounting.Web\wwwroot\index.html
+wwwroot\app.js
+wwwroot\index.html
+wwwroot\site.css

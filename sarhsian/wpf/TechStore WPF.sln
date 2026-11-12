@@ -1,0 +1,33 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.Wpf", "TechStore.Wpf\TechStore.Wpf.csproj", "{720C5F2C-0049-4AD0-884F-866C3FD8DC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.Core", "TechStore.Core\TechStore.Core.csproj", "{0F662997-7BCB-49C0-8E17-6B0D6EEE6123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechStore.Console", "TechStore.Console\TechStore.Console.csproj", "{51A4A1D2-C65E-4D3C-BA7C-D5C9667B62AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F662997-7BCB-49C0-8E17-6B0D6EEE6123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F662997-7BCB-49C0-8E17-6B0D6EEE6123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F662997-7BCB-49C0-8E17-6B0D6EEE6123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F662997-7BCB-49C0-8E17-6B0D6EEE6123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A4A1D2-C65E-4D3C-BA7C-D5C9667B62AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A4A1D2-C65E-4D3C-BA7C-D5C9667B62AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A4A1D2-C65E-4D3C-BA7C-D5C9667B62AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A4A1D2-C65E-4D3C-BA7C-D5C9667B62AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720C5F2C-0049-4AD0-884F-866C3FD8DC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720C5F2C-0049-4AD0-884F-866C3FD8DC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720C5F2C-0049-4AD0-884F-866C3FD8DC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720C5F2C-0049-4AD0-884F-866C3FD8DC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

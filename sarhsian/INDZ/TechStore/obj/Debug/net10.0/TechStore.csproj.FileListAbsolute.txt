@@ -1,0 +1,16 @@
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.exe
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.deps.json
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.runtimeconfig.json
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.runtimeconfig.dev.json
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.dll
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\bin\Debug\net10.0\TechStore.pdb
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.AssemblyInfoInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.AssemblyInfo.cs
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.csproj.CoreCompileInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.dll
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\refint\TechStore.dll
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.pdb
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.genruntimeconfig.cache
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\ref\TechStore.dll
+C:\Users\Artur_9qd5kph\Downloads\Консольний проєкт\TechStore\obj\Debug\net10.0\TechStore.csproj.Up2Date

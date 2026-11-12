@@ -1,0 +1,26 @@
+<Window x:Class="Variant3.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Варіант 3 - букви «і»" Height="280" Width="520"
+        MinWidth="380" MinHeight="250" WindowStartupLocation="CenterScreen">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Введіть українське слово без пробілів:"
+                   FontSize="16" Margin="0,0,0,10"/>
+
+        <TextBox Grid.Row="1" x:Name="WordTextBox" FontSize="15"
+                 Padding="8,6" HorizontalAlignment="Stretch" Margin="0,0,0,14"/>
+
+        <Button Grid.Row="2" Content="Обробити" Width="120" Height="34"
+                HorizontalAlignment="Left" Click="ProcessButton_Click"/>
+
+        <TextBlock Grid.Row="3" x:Name="ResultTextBlock" FontSize="15"
+                   Margin="0,18,0,0" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
