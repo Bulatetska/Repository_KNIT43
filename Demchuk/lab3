@@ -1,0 +1,110 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+namespace LinqLabWork
+{   
+    public class Hero
+    {
+        public string Name { get; set; }
+        public int YearOfBirth { get; set; }
+        public string Comics { get; set; }
+        public Hero(string name, int yearOfBirth, string comics)
+        {
+            Name = name;
+            YearOfBirth = yearOfBirth;
+            Comics = comics;
+        }
+    }
+
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            List<Hero> heroes = new List<Hero>()
+            {
+                new Hero("Superman", 1938, "Action Comics"),
+                new Hero("Batman", 1938, "Detective Comics"),
+                new Hero("Captain America", 1941, "Captain America Comics"),
+                new Hero("Ironman", 1963, "Tales of Suspense"),
+                new Hero("Spiderman", 1963, "Amazing Fantasy")
+            };
+
+            
+            // task1: Герої, які народилися 1941 р.          
+            Console.WriteLine("TASK1: Герої, народжені 1941 року");           
+            // Підхід 1 — Імперативний
+            Console.WriteLine("- Імперативний підхід -");
+            List<string> task1Imperative = new List<string>();
+            foreach (var hero in heroes)
+            {
+                if (hero.YearOfBirth == 1941)
+                {
+                    task1Imperative.Add(hero.Name);
+                }
+            }
+            foreach (var name in task1Imperative)
+            {
+                Console.WriteLine(name);
+            }
+
+            // Підхід 2 — Декларативний 
+            Console.WriteLine("\n- Декларативний підхід -");
+            var task1Linq = heroes
+                .Where(h => h.YearOfBirth == 1941)
+                .Select(h => h.Name);
+            foreach (var name in task1Linq)
+            {
+                Console.WriteLine(name);
+            }
+
+            Console.WriteLine();
+            
+            // task2: Назви коміксів в алфавітному порядку
+            Console.WriteLine("TASK2: Комікси в алфавітному порядку");          
+            // Підхід 1 — Імперативний 
+            Console.WriteLine("- Імперативний підхід -");
+            List<string> task2Imperative = new List<string>();
+            foreach (var hero in heroes)
+            {
+                task2Imperative.Add(hero.Comics);
+            }
+            task2Imperative.Sort();
+            foreach (var comic in task2Imperative)
+            {
+                Console.WriteLine(comic);
+            }
+            // Підхід 2 — Декларативний 
+            Console.WriteLine("\n- Декларативний підхід -");
+            var task2Linq = heroes
+                .Select(h => h.Comics)
+                .OrderBy(c => c);
+            foreach (var comic in task2Linq)
+            {
+                Console.WriteLine(comic);
+            }
+            Console.WriteLine();           
+            // task3: Герої та роки народження за спаданням
+           Console.WriteLine("TASK3: Герої за роком народження (спадання)");         
+            // Підхід 1 — Імперативний 
+            Console.WriteLine("- Імперативний підхід -");
+            List<Hero> task3Imperative = new List<Hero>(heroes);
+            task3Imperative.Sort((h1, h2) => h2.YearOfBirth.CompareTo(h1.YearOfBirth));
+            foreach (var hero in task3Imperative)
+            {
+                Console.WriteLine($"{hero.Name} - {hero.YearOfBirth}");
+            }
+            // Підхід 2 — Декларативний 
+            Console.WriteLine("\n- Декларативний підхід -");
+            var task3Linq = heroes
+                .OrderByDescending(h => h.YearOfBirth)
+                .Select(h => $"{h.Name} - {h.YearOfBirth}");
+            foreach (var item in task3Linq)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("\nНатисніть будь-яку клавішу для завершення...");
+            Console.ReadKey();
+        }
+    }
+}
