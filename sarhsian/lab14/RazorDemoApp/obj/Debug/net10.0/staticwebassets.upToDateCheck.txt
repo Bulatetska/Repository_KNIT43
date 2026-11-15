@@ -1,0 +1,2 @@
+wwwroot\css\site.css
+C:\Users\Artur_9qd5kph\Downloads\143\RazorDemoApp\wwwroot\css\site.css

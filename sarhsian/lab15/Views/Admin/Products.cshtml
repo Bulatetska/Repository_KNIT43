@@ -1,0 +1,12 @@
+@model IReadOnlyList<Product>
+@{ ViewData["Title"] = "Адміністрування продуктів"; }
+<div class="topline"><h1>Керування продуктами</h1>
+<a class="button" asp-controller="Product" asp-action="Create">Новий продукт</a></div>
+<table><thead><tr><th>ID</th><th>Назва</th><th>Ціна</th><th>Залишок</th><th>Дії</th></tr></thead><tbody>
+@foreach (var item in Model)
+{
+<tr><td>@item.Id</td><td>@item.Name</td><td>@item.Price.ToString("N2") грн</td><td>@item.Stock</td>
+<td class="actions"><a asp-controller="Product" asp-action="Edit" asp-route-id="@item.Id">Редагувати</a>
+<a asp-controller="Product" asp-action="Delete" asp-route-id="@item.Id">Видалити</a></td></tr>
+}
+</tbody></table>

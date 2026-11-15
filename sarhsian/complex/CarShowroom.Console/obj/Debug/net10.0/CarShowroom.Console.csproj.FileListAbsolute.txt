@@ -1,0 +1,16 @@
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.exe
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.deps.json
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.runtimeconfig.json
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.runtimeconfig.dev.json
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.dll
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\bin\Debug\net10.0\CarShowroom.Console.pdb
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.AssemblyInfoInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.AssemblyInfo.cs
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.csproj.CoreCompileInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.dll
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\refint\CarShowroom.Console.dll
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.pdb
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowroom.Console.genruntimeconfig.cache
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\ref\CarShowroom.Console.dll
+C:\Users\Artur_9qd5kph\Downloads\complex\CarShowroom.Console\obj\Debug\net10.0\CarShowr.DDE6DEAE.Up2Date

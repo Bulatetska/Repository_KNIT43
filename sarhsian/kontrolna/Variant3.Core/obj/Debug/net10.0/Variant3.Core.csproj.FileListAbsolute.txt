@@ -1,0 +1,12 @@
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\bin\Debug\net10.0\Variant3.Core.deps.json
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\bin\Debug\net10.0\Variant3.Core.dll
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\bin\Debug\net10.0\Variant3.Core.pdb
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.AssemblyInfoInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.AssemblyInfo.cs
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.csproj.CoreCompileInputs.cache
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.dll
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\refint\Variant3.Core.dll
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.Core.pdb
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\ref\Variant3.Core.dll
+C:\Users\Artur_9qd5kph\Downloads\Варіант 3\Variant3.Core\obj\Debug\net10.0\Variant3.E81B6B9C.Up2Date

@@ -1,0 +1,12 @@
+body {
+    margin: 32px;
+    color: #202020;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+main { max-width: 760px; }
+h1 { font-size: 25px; }
+h2 { font-size: 21px; }
+h3 { font-size: 18px; }
+a { color: #0645ad; }

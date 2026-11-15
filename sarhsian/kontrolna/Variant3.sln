@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12324.72 oobinsiders
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant3.Core", "Variant3.Core\Variant3.Core.csproj", "{B10A08F1-81A6-4EE1-8C49-7F92EA1C7E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant3.Console", "Variant3.Console\Variant3.Console.csproj", "{F1208BA1-1C3D-473E-981C-E953CFBB2553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variant3.Wpf", "Variant3.Wpf\Variant3.Wpf.csproj", "{F29EB85B-0164-42E3-82D8-9B879D2A48BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B10A08F1-81A6-4EE1-8C49-7F92EA1C7E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10A08F1-81A6-4EE1-8C49-7F92EA1C7E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10A08F1-81A6-4EE1-8C49-7F92EA1C7E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10A08F1-81A6-4EE1-8C49-7F92EA1C7E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1208BA1-1C3D-473E-981C-E953CFBB2553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1208BA1-1C3D-473E-981C-E953CFBB2553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1208BA1-1C3D-473E-981C-E953CFBB2553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1208BA1-1C3D-473E-981C-E953CFBB2553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F29EB85B-0164-42E3-82D8-9B879D2A48BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F29EB85B-0164-42E3-82D8-9B879D2A48BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F29EB85B-0164-42E3-82D8-9B879D2A48BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F29EB85B-0164-42E3-82D8-9B879D2A48BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

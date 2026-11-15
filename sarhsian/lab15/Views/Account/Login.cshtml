@@ -1,0 +1,19 @@
+@model LoginModel
+@{ ViewData["Title"] = "Вхід"; }
+<div class="auth-layout">
+    <div class="auth-intro">
+        <p class="eyebrow">Особистий кабінет</p>
+        <h1>Раді вас бачити знову</h1>
+        <p class="muted">Увійдіть, щоб оформити замовлення та переглядати свої покупки.</p>
+        <p class="auth-secondary">Ще немає облікового запису? <a asp-controller="User" asp-action="Create">Зареєструватися</a></p>
+    </div>
+    <form asp-action="Login" asp-route-returnUrl="@ViewBag.ReturnUrl" method="post" class="form-card">
+        <h2>Вхід до облікового запису</h2>
+        <div asp-validation-summary="All" class="validation"></div>
+        <label asp-for="Email">Електронна адреса</label>
+        <input asp-for="Email" type="email" autocomplete="username" placeholder="name@example.com" />
+        <label asp-for="Password">Пароль</label>
+        <input asp-for="Password" type="password" autocomplete="current-password" placeholder="Введіть пароль" />
+        <button type="submit" class="button button-wide">Увійти</button>
+    </form>
+</div>
