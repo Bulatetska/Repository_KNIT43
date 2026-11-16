@@ -1,0 +1,3 @@
+John Doe|19|87
+Carl Moon|21|73
+Lamar Norman|20|94

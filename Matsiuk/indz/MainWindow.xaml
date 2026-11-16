@@ -1,0 +1,522 @@
+﻿
+<Window x:Class="StudentManagementSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Student Management System"
+        Height="900"
+        Width="1440"
+        MinHeight="750"
+        MinWidth="1100"
+        WindowStartupLocation="CenterScreen"
+        Background="#F4F6FA"
+        FontFamily="Segoe UI">
+
+    <Window.Resources>
+
+        <!-- COLORS -->
+        <SolidColorBrush x:Key="NavyBrush" Color="#172B4D"/>
+        <SolidColorBrush x:Key="BlueBrush" Color="#3478F6"/>
+        <SolidColorBrush x:Key="TextBrush" Color="#26344A"/>
+        <SolidColorBrush x:Key="MutedBrush" Color="#8290A5"/>
+        <SolidColorBrush x:Key="BorderBrush" Color="#E7ECF3"/>
+        <SolidColorBrush x:Key="PageBrush" Color="#F4F6FA"/>
+
+        <!-- PRIMARY BUTTON -->
+        <Style x:Key="PrimaryButton" TargetType="Button">
+            <Setter Property="Background" Value="#3478F6"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="18,11"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="7"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#2563D9"/>
+                </Trigger>
+
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" Value="0.5"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- SECONDARY BUTTON -->
+        <Style x:Key="SecondaryButton" TargetType="Button">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#52627A"/>
+            <Setter Property="BorderBrush" Value="#E1E7F0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="14,9"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="7"
+                                Padding="{TemplateBinding Padding}">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#F1F5FB"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- TEXT BOX -->
+        <Style x:Key="InputStyle" TargetType="TextBox">
+            <Setter Property="Height" Value="42"/>
+            <Setter Property="Padding" Value="12,9"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="#26344A"/>
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="BorderBrush" Value="#DDE4EE"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- DATA GRID -->
+        <Style x:Key="StudentsDataGrid" TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="Foreground" Value="#344258"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="RowBackground" Value="White"/>
+            <Setter Property="AlternatingRowBackground" Value="#F8FAFD"/>
+            <Setter Property="GridLinesVisibility" Value="None"/>
+            <Setter Property="HeadersVisibility" Value="Column"/>
+            <Setter Property="CanUserAddRows" Value="False"/>
+            <Setter Property="CanUserDeleteRows" Value="False"/>
+            <Setter Property="IsReadOnly" Value="True"/>
+            <Setter Property="AutoGenerateColumns" Value="False"/>
+            <Setter Property="SelectionMode" Value="Single"/>
+            <Setter Property="SelectionUnit" Value="FullRow"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="RowHeight" Value="48"/>
+            <Setter Property="ColumnHeaderHeight" Value="44"/>
+        </Style>
+
+        <!-- DATA GRID HEADER -->
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#F6F8FC"/>
+            <Setter Property="Foreground" Value="#8290A5"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="Padding" Value="14,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <!-- DATA GRID CELL -->
+        <Style TargetType="DataGridCell">
+            <Setter Property="Padding" Value="14,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- MINIMAL SIDEBAR -->
+        <Border Grid.Column="0"
+                Background="{StaticResource NavyBrush}">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- LOGO -->
+                <Border Grid.Row="0"
+                        Width="42"
+                        Height="42"
+                        Background="#3478F6"
+                        CornerRadius="11"
+                        HorizontalAlignment="Center"
+                        Margin="0,25,0,0">
+
+                    <TextBlock Text="A"
+                               Foreground="White"
+                               FontSize="25"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+                </Border>
+
+                <!-- VERSION -->
+                <TextBlock Grid.Row="2"
+                           Text="1.0"
+                           Foreground="#91A4C1"
+                           FontSize="10"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,24"/>
+
+            </Grid>
+        </Border>
+
+        <!-- MAIN WORKSPACE -->
+        <Grid Grid.Column="1"
+              Background="{StaticResource PageBrush}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- HEADER -->
+            <Border Grid.Row="0"
+                    Background="White"
+                    BorderBrush="#E7ECF3"
+                    BorderThickness="0,0,0,1"
+                    Padding="34,23">
+
+                <Grid>
+                    <StackPanel>
+
+                        <TextBlock Text="Dashboard"
+                                   FontSize="25"
+                                   FontWeight="Bold"
+                                   Foreground="{StaticResource TextBrush}"/>
+
+                        <TextBlock Text="Manage students and monitor academic performance."
+                                   FontSize="12"
+                                   Foreground="{StaticResource MutedBrush}"
+                                   Margin="0,6,0,0"/>
+
+                    </StackPanel>
+
+                    <Border HorizontalAlignment="Right"
+                            VerticalAlignment="Center"
+                            Background="#EDF4FF"
+                            CornerRadius="7"
+                            Padding="12,8">
+
+                        <TextBlock Text="●  SYSTEM ACTIVE"
+                                   Foreground="#3478F6"
+                                   FontSize="10"
+                                   FontWeight="Bold"/>
+
+                    </Border>
+                </Grid>
+            </Border>
+
+            <!-- STATISTICS -->
+            <Grid Grid.Row="1"
+                  Margin="34,25,34,0">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- TOTAL STUDENTS -->
+                <Border Grid.Column="0"
+                        Background="White"
+                        CornerRadius="11"
+                        BorderBrush="#E7ECF3"
+                        BorderThickness="1"
+                        Padding="20"
+                        Margin="0,0,12,0">
+
+                    <StackPanel>
+
+                        <TextBlock Text="TOTAL STUDENTS"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#8290A5"/>
+
+                        <TextBlock x:Name="TotalStudentsText"
+                                   Text="0"
+                                   FontSize="29"
+                                   FontWeight="Bold"
+                                   Foreground="#26344A"
+                                   Margin="0,12,0,0"/>
+
+                        <TextBlock Text="Registered students"
+                                   FontSize="11"
+                                   Foreground="#9AA6B7"
+                                   Margin="0,4,0,0"/>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- GROUP AVERAGE -->
+                <Border Grid.Column="1"
+                        Background="White"
+                        CornerRadius="11"
+                        BorderBrush="#E7ECF3"
+                        BorderThickness="1"
+                        Padding="20"
+                        Margin="6,0">
+
+                    <StackPanel>
+
+                        <TextBlock Text="GROUP AVERAGE"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#8290A5"/>
+
+                        <TextBlock x:Name="AverageMarkText"
+                                   Text="0.00"
+                                   FontSize="29"
+                                   FontWeight="Bold"
+                                   Foreground="#26344A"
+                                   Margin="0,12,0,0"/>
+
+                        <TextBlock Text="Average academic mark"
+                                   FontSize="11"
+                                   Foreground="#9AA6B7"
+                                   Margin="0,4,0,0"/>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- EXCELLENT STUDENTS -->
+                <Border Grid.Column="2"
+                        Background="White"
+                        CornerRadius="11"
+                        BorderBrush="#E7ECF3"
+                        BorderThickness="1"
+                        Padding="20"
+                        Margin="12,0,0,0">
+
+                    <StackPanel>
+
+                        <TextBlock Text="EXCELLENT STUDENTS"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#8290A5"/>
+
+                        <TextBlock x:Name="ExcellentStudentsText"
+                                   Text="0"
+                                   FontSize="29"
+                                   FontWeight="Bold"
+                                   Foreground="#3478F6"
+                                   Margin="0,12,0,0"/>
+
+                        <TextBlock Text="Average mark of 80 or higher"
+                                   FontSize="11"
+                                   Foreground="#9AA6B7"
+                                   Margin="0,4,0,0"/>
+
+                    </StackPanel>
+                </Border>
+
+            </Grid>
+
+            <!-- MAIN CONTENT -->
+            <Grid Grid.Row="2"
+                  Margin="34,24,34,30">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="320"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- ADD STUDENT CARD -->
+                <Border Grid.Column="0"
+                        Background="White"
+                        CornerRadius="11"
+                        BorderBrush="#E7ECF3"
+                        BorderThickness="1"
+                        Padding="22"
+                        Margin="0,0,14,0">
+
+                    <StackPanel>
+
+                        <TextBlock Text="Add New Student"
+                                   FontSize="17"
+                                   FontWeight="Bold"
+                                   Foreground="#26344A"/>
+
+                        <TextBlock Text="Enter student information below."
+                                   FontSize="11"
+                                   Foreground="#8290A5"
+                                   Margin="0,6,0,24"/>
+
+                        <!-- NAME -->
+                        <TextBlock Text="FULL NAME"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#64748B"
+                                   Margin="0,0,0,8"/>
+
+                        <TextBox x:Name="NameInput"
+                                 Style="{StaticResource InputStyle}"
+                                 Margin="0,0,0,19"/>
+
+                        <!-- AGE -->
+                        <TextBlock Text="AGE"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#64748B"
+                                   Margin="0,0,0,8"/>
+
+                        <TextBox x:Name="AgeInput"
+                                 Style="{StaticResource InputStyle}"
+                                 Margin="0,0,0,19"/>
+
+                        <!-- AVERAGE MARK -->
+                        <TextBlock Text="AVERAGE MARK"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#64748B"
+                                   Margin="0,0,0,8"/>
+
+                        <TextBox x:Name="MarkInput"
+                                 Style="{StaticResource InputStyle}"
+                                 Margin="0,0,0,25"/>
+
+                        <!-- ADD BUTTON -->
+                        <Button Content="+  Add Student"
+                                Style="{StaticResource PrimaryButton}"
+                                Height="44"
+                                HorizontalAlignment="Stretch"
+                                Click="AddStudent_Click"/>
+
+                        <Border Height="1"
+                                Background="#E7ECF3"
+                                Margin="0,25,0,18"/>
+
+                        <!-- DATA MANAGEMENT -->
+                        <TextBlock Text="DATA MANAGEMENT"
+                                   FontSize="10"
+                                   FontWeight="SemiBold"
+                                   Foreground="#8290A5"
+                                   Margin="0,0,0,12"/>
+
+                        <Button Content="Save Students"
+                                Style="{StaticResource SecondaryButton}"
+                                HorizontalAlignment="Stretch"
+                                Margin="0,0,0,10"
+                                Click="SaveToFile_Click"/>
+
+                        <Button Content="Load Students"
+                                Style="{StaticResource SecondaryButton}"
+                                HorizontalAlignment="Stretch"
+                                Click="LoadFromFile_Click"/>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- STUDENTS TABLE CARD -->
+                <Border Grid.Column="1"
+                        Background="White"
+                        CornerRadius="11"
+                        BorderBrush="#E7ECF3"
+                        BorderThickness="1"
+                        Padding="20">
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- TABLE HEADER -->
+                        <Grid Grid.Row="0"
+                              Margin="0,0,0,18">
+
+                            <StackPanel>
+
+                                <TextBlock Text="Students"
+                                           FontSize="17"
+                                           FontWeight="Bold"
+                                           Foreground="#26344A"/>
+
+                                <TextBlock Text="Overview of registered students"
+                                           FontSize="11"
+                                           Foreground="#8290A5"
+                                           Margin="0,5,0,0"/>
+
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- TABLE FILTERS -->
+                        <Grid Grid.Row="1"
+                              Margin="0,0,0,13">
+
+                            <StackPanel Orientation="Horizontal">
+
+                                <Button Content="All Students"
+                                        Style="{StaticResource PrimaryButton}"
+                                        Padding="13,8"
+                                        Margin="0,0,8,0"
+                                        Click="ShowAll_Click"/>
+
+                                <Button Content="Excellent (80+)"
+                                        Style="{StaticResource SecondaryButton}"
+                                        Padding="13,8"
+                                        Click="ShowExcellent_Click"/>
+
+                            </StackPanel>
+                        </Grid>
+
+                        <!-- STUDENTS DATAGRID -->
+                        <DataGrid x:Name="StudentsGrid"
+                                  Grid.Row="2"
+                                  Style="{StaticResource StudentsDataGrid}">
+
+                            <DataGrid.Columns>
+
+                                <DataGridTextColumn Header="STUDENT NAME"
+                                                    Binding="{Binding Name}"
+                                                    Width="2*"/>
+
+                                <DataGridTextColumn Header="AGE"
+                                                    Binding="{Binding Age}"
+                                                    Width="0.8*"/>
+
+                                <DataGridTextColumn Header="AVERAGE MARK"
+                                                    Binding="{Binding AverageMark, StringFormat={}{0:F2}}"
+                                                    Width="1.2*"/>
+
+                                <DataGridTextColumn Header="STATUS"
+                                                    Binding="{Binding Status}"
+                                                    Width="1*"/>
+
+                            </DataGrid.Columns>
+
+                        </DataGrid>
+
+                    </Grid>
+                </Border>
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
