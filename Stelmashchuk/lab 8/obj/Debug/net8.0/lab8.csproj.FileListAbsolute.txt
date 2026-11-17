@@ -1,0 +1,15 @@
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/bin/Debug/net8.0/lab8
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/bin/Debug/net8.0/lab8.deps.json
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/bin/Debug/net8.0/lab8.runtimeconfig.json
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/bin/Debug/net8.0/lab8.dll
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/bin/Debug/net8.0/lab8.pdb
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.AssemblyInfoInputs.cache
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.AssemblyInfo.cs
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.csproj.CoreCompileInputs.cache
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.sourcelink.json
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.dll
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/refint/lab8.dll
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.pdb
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/lab8.genruntimeconfig.cache
+/Users/pavlo/cs/csharp/Repository_KNIT43/Stelmashchuk/lab 8/obj/Debug/net8.0/ref/lab8.dll
