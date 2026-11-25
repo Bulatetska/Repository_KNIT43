@@ -1,6 +1,4 @@
-﻿// Хас, Мацюк
-
-using FantasyArena.Core;
+﻿using FantasyArena.Core;
 using FantasyArena.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,7 +16,11 @@ public class ArenaController : Controller
     [ValidateAntiForgeryToken]
     public IActionResult Index(ArenaViewModel model)
     {
-        string[] allowedTypes = { "Warrior", "Mage", "Archer" };
+        string[] allowedTypes =
+            { "Warrior", "Mage", "Archer" };
+
+        string[] allowedWeapons =
+            { "None", "Sword", "Staff", "Bow" };
 
         if (!allowedTypes.Contains(model.Hero1Type) ||
             !allowedTypes.Contains(model.Hero2Type))
@@ -26,11 +28,23 @@ public class ArenaController : Controller
             ModelState.AddModelError("", "Invalid hero type.");
         }
 
+        if (!allowedWeapons.Contains(model.Hero1Weapon) ||
+            !allowedWeapons.Contains(model.Hero2Weapon))
+        {
+            ModelState.AddModelError("", "Invalid weapon.");
+        }
+
         if (!ModelState.IsValid)
             return View(model);
 
-        IHero hero1 = CreateHero(model.Hero1Type, model.Hero1Name);
-        IHero hero2 = CreateHero(model.Hero2Type, model.Hero2Name);
+        Hero hero1 = CreateHero(
+            model.Hero1Type, model.Hero1Name);
+
+        Hero hero2 = CreateHero(
+            model.Hero2Type, model.Hero2Name);
+
+        EquipWeapon(hero1, model.Hero1Weapon);
+        EquipWeapon(hero2, model.Hero2Weapon);
 
         BattleArena arena = new();
 
@@ -39,7 +53,7 @@ public class ArenaController : Controller
         return View(model);
     }
 
-    private IHero CreateHero(string type, string name)
+    private Hero CreateHero(string type, string name)
     {
         return type switch
         {
@@ -48,5 +62,22 @@ public class ArenaController : Controller
             "Archer" => new Archer(name),
             _ => throw new ArgumentException("Unknown hero type")
         };
+    }
+
+    private void EquipWeapon(Hero hero, string weaponName)
+    {
+        Weapon? weapon = weaponName switch
+        {
+            "Sword" => new Weapon("Sword", 15),
+            "Staff" => new Weapon("Staff", 12),
+            "Bow" => new Weapon("Bow", 10),
+            _ => null
+        };
+
+        if (weapon != null)
+        {
+            hero.Inventory.AddWeapon(weapon);
+            hero.Inventory.EquipWeapon(weapon.Name);
+        }
     }
 }
