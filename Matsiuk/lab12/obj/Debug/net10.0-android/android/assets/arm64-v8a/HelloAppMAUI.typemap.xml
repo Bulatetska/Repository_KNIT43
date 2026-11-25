@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="HelloAppMAUI" mvid="6bc264f02b4f457d94a5b6f11c7c2099">
+  <java-to-managed>
+    <entry java-name="crc648b60dfe3ec5c3eb5/MainActivity" managed-name="HelloAppMAUI.MainActivity, HelloAppMAUI" managed-type-token-id="33554441" />
+    <entry java-name="crc648b60dfe3ec5c3eb5/MainApplication" managed-name="HelloAppMAUI.MainApplication, HelloAppMAUI" managed-type-token-id="33554442" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc648b60dfe3ec5c3eb5/MainActivity" managed-name="HelloAppMAUI.MainActivity, HelloAppMAUI" managed-type-token-id="33554441" />
+    <entry java-name="crc648b60dfe3ec5c3eb5/MainApplication" managed-name="HelloAppMAUI.MainApplication, HelloAppMAUI" managed-type-token-id="33554442" />
+  </managed-to-java>
+</api>
