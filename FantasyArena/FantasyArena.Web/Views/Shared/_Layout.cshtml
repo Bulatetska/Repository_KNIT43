@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="arena-header">
+        <a asp-controller="Arena" asp-action="Index">
+            FANTASY ARENA
+        </a>
+        <span>Glory through combat</span>
+    </header>
+
+    <main class="container arena-main">
+        @RenderBody()
+    </main>
+
+    <footer class="arena-footer">
+        Fantasy Arena &bull; MK-INDZ
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

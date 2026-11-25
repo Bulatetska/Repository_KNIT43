@@ -1,0 +1,86 @@
+﻿@model FantasyArena.Web.Models.ArenaViewModel
+
+@{
+    ViewData["Title"] = "Fantasy Arena";
+}
+
+@*
+    Хас, Мацюк.
+    Інтерфейс арени, вибір персонажів і спорядження,
+    відображення результатів поєдинку.
+*@
+
+<h1 class="text-center mb-4">Fantasy Arena</h1>
+
+<form asp-controller="Arena" asp-action="Index" method="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="combatant-card">
+            <h2>First combatant</h2>
+
+            <label asp-for="Hero1Name">Name</label>
+            <input asp-for="Hero1Name" class="form-control mb-3" />
+
+            <label asp-for="Hero1Type">Class</label>
+            <select asp-for="Hero1Type" class="form-select">
+                <option value="Warrior">Warrior</option>
+                <option value="Mage">Mage</option>
+                <option value="Archer">Archer</option>
+            </select>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="combatant-card">
+            <h2>Second combatant</h2>
+
+            <label asp-for="Hero2Name">Name</label>
+            <input asp-for="Hero2Name" class="form-control mb-3" />
+
+            <label asp-for="Hero2Type">Class</label>
+            <select asp-for="Hero2Type" class="form-select">
+                <option value="Warrior">Warrior</option>
+                <option value="Mage">Mage</option>
+                <option value="Archer">Archer</option>
+            </select>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+        <button type="submit" class="btn btn-danger btn-lg">
+            Start duel
+        </button>
+    </div>
+
+</form>
+
+@if (Model.Result != null)
+{
+    <hr />
+
+    <h2>Battle result</h2>
+
+    <div class="winner-banner">
+        <span>VICTOR OF THE ARENA</span>
+        <h2 class="mt-2">@Model.Result.Winner</h2>
+    </div>
+
+    <p>Rounds: @Model.Result.Rounds</p>
+    <p>@Model.Hero1Name HP: @Model.Result.Hero1Health</p>
+    <p>@Model.Hero2Name HP: @Model.Result.Hero2Health</p>
+
+    <h3>Battle log</h3>
+
+    <ul class="list-group battle-log">
+        @foreach (string log in Model.Result.Logs)
+        {
+            <li class="list-group-item">@log</li>
+        }
+    </ul>
+}
