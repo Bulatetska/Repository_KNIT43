@@ -1,0 +1,155 @@
+/* Хас. */
+:root {
+    --background: #101014;
+    --panel: #1c1c23;
+    --gold: #d4b477;
+    --border: #514533;
+    --text: #e8e2d9;
+    --muted: #99949c;
+    --red: #842b35;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient( ellipse at top, #29232a, var(--background) 65% );
+    color: var(--text);
+    font-family: Georgia, serif;
+}
+
+.arena-header {
+    padding: 24px;
+    text-align: center;
+    background: #141318;
+    border-bottom: 1px solid var(--border);
+}
+
+    .arena-header a {
+        display: block;
+        color: var(--gold);
+        font-size: 28px;
+        letter-spacing: 5px;
+        text-decoration: none;
+    }
+
+    .arena-header span {
+        color: var(--muted);
+        font-size: 13px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+.arena-main {
+    max-width: 1000px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex: 1;
+}
+
+h1, h2, h3 {
+    color: var(--gold);
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+form {
+    padding: 28px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+    form h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+label {
+    color: var(--gold);
+    margin-bottom: 8px;
+}
+
+.form-control,
+.form-select {
+    background-color: #121217;
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 12px;
+    color-scheme: dark;
+}
+
+    .form-control:focus,
+    .form-select:focus {
+        background-color: #17171d;
+        color: var(--text);
+        border-color: var(--gold);
+        box-shadow: 0 0 0 3px #d4b47722;
+    }
+
+.btn-danger {
+    background: var(--red);
+    border: 1px solid var(--gold);
+    padding: 14px 48px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+    .btn-danger:hover {
+        background: #a33945;
+        border-color: var(--gold);
+        box-shadow: 0 0 20px #842b3555;
+    }
+
+hr {
+    border-color: var(--gold);
+    margin: 40px 0;
+}
+
+.list-group-item {
+    background: var(--panel);
+    color: var(--text);
+    border-color: var(--border);
+    padding: 14px 18px;
+}
+
+.arena-footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    border-top: 1px solid var(--border);
+    font-size: 14px;
+}
+
+.combatant-card {
+    background: #15151b;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px;
+    height: 100%;
+}
+
+.winner-banner {
+    padding: 24px;
+    margin: 24px 0;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    background: #d4b4770d;
+    text-align: center;
+}
+
+.battle-log {
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+@media (max-width: 767px) {
+    .combatant-card {
+        height: auto;
+        margin-bottom: 16px;
+    }
+}

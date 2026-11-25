@@ -1,4 +1,5 @@
-﻿namespace FantasyArena.Core;
+﻿// Хас, Мацюк
+namespace FantasyArena.Core;
 
 public abstract class Hero : IHero
 {

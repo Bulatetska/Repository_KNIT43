@@ -1,4 +1,6 @@
-﻿using FantasyArena.Core;
+﻿// Хас
+
+using FantasyArena.Core;
 
 IHero hero1 = new Warrior("Daemon");
 IHero hero2 = new Mage("Aemond");

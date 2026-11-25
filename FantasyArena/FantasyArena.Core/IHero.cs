@@ -1,4 +1,5 @@
-﻿namespace FantasyArena.Core;
+﻿// Хас 
+namespace FantasyArena.Core;
 
 public interface IHero
 {

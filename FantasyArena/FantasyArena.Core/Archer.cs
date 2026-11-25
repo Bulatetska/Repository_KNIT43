@@ -1,4 +1,6 @@
-﻿namespace FantasyArena.Core;
+﻿// Хас, Мацюк
+
+namespace FantasyArena.Core;
 
 public class Archer : Hero
 {
