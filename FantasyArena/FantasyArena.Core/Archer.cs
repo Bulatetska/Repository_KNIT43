@@ -1,6 +1,4 @@
-﻿// Хас, Мацюк
-
-namespace FantasyArena.Core;
+﻿namespace FantasyArena.Core;
 
 public class Archer : Hero
 {
@@ -13,9 +11,10 @@ public class Archer : Hero
     {
         bool criticalHit = Random.Shared.Next(100) < 25;
 
-        int damage = criticalHit
-            ? AttackPower * 2
-            : AttackPower;
+        int damage = GetAttackDamage();
+
+        if (criticalHit)
+            damage *= 2;
 
         return target.TakeDamage(damage);
     }
