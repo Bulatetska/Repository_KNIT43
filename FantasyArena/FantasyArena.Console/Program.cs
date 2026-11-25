@@ -1,37 +1,23 @@
-﻿using FantasyArena.Core;
+﻿// Хас
 
-IHero warrior = new Warrior("Daemon");
-IHero mage = new Mage("Aemond");
-IHero archer = new Archer("Daeron");
+using FantasyArena.Core;
 
-IHero[] heroes = { warrior, mage, archer };
+IHero hero1 = new Warrior("Daemon");
+IHero hero2 = new Mage("Aemond");
 
-System.Console.WriteLine("=== FANTASY ARENA ===");
+BattleArena arena = new();
 
-foreach (IHero hero in heroes)
+BattleResult result = arena.StartDuel(hero1, hero2);
+
+System.Console.WriteLine("=== FANTASY ARENA ===\n");
+
+foreach (string log in result.Logs)
 {
-    System.Console.WriteLine(
-        $"{hero.Name} ({hero.GetType().Name}): " +
-        $"HP: {hero.Health}, " +
-        $"Attack: {hero.AttackPower}, " +
-        $"Defense: {hero.Defense}");
+    System.Console.WriteLine(log);
 }
 
-System.Console.WriteLine("\n=== ATTACK TEST ===");
-
-int damage = warrior.Attack(mage);
-
-System.Console.WriteLine(
-    $"{warrior.Name} deals {damage} damage to {mage.Name}");
-
-damage = mage.Attack(warrior);
-
-System.Console.WriteLine(
-    $"{mage.Name} deals {damage} damage to {warrior.Name}");
-
-System.Console.WriteLine("\n=== HEALTH AFTER ATTACKS ===");
-
-foreach (IHero hero in heroes)
-{
-    System.Console.WriteLine($"{hero.Name}: {hero.Health} HP");
-}
+System.Console.WriteLine("\n=== BATTLE RESULT ===");
+System.Console.WriteLine($"Winner: {result.Winner}");
+System.Console.WriteLine($"Rounds: {result.Rounds}");
+System.Console.WriteLine($"Daemon HP: {result.Hero1Health}");
+System.Console.WriteLine($"Aemond HP: {result.Hero2Health}");
