@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FantasyArena.Console/FantasyArena.Console.csproj" />
+  <Project Path="FantasyArena.Core/FantasyArena.Core.csproj" />
+</Solution>
