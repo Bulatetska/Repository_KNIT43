@@ -1,6 +1,4 @@
-﻿// Хас, Мацюк
-
-namespace FantasyArena.Core;
+﻿namespace FantasyArena.Core;
 
 public class Warrior : Hero
 {
@@ -11,6 +9,6 @@ public class Warrior : Hero
 
     public override int Attack(IHero target)
     {
-        return target.TakeDamage(AttackPower);
+        return target.TakeDamage(GetAttackDamage());
     }
 }
