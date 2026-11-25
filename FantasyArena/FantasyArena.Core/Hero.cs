@@ -1,5 +1,4 @@
-﻿// Хас, Мацюк
-namespace FantasyArena.Core;
+﻿namespace FantasyArena.Core;
 
 public abstract class Hero : IHero
 {
@@ -8,6 +7,8 @@ public abstract class Hero : IHero
     public int MaxHealth { get; }
     public int AttackPower { get; }
     public int Defense { get; }
+
+    public Inventory Inventory { get; } = new();
 
     public bool IsAlive => Health > 0;
 
@@ -19,6 +20,12 @@ public abstract class Hero : IHero
         MaxHealth = health;
         AttackPower = attackPower;
         Defense = defense;
+    }
+
+    protected int GetAttackDamage()
+    {
+        return Inventory.EquippedWeapon?
+            .CalculateDamage(AttackPower) ?? AttackPower;
     }
 
     public abstract int Attack(IHero target);
