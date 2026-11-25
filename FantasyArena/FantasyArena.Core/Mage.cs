@@ -1,6 +1,4 @@
-﻿// Хас, Мацюк
-
-namespace FantasyArena.Core;
+﻿namespace FantasyArena.Core;
 
 public class Mage : Hero
 {
@@ -11,8 +9,8 @@ public class Mage : Hero
 
     public override int Attack(IHero target)
     {
-        int magicDamage = AttackPower
-            + target.Defense / 2;
+        int magicDamage =
+            GetAttackDamage() + target.Defense / 2;
 
         return target.TakeDamage(magicDamage);
     }
